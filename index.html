@@ -1,0 +1,15 @@
+---
+layout: default
+heading: Human Induced Pluripotent Stem Cells Initiative
+jumbotron: HipSci is at www.hipsci.org
+---
+
+<div class="home">
+
+  <div class="jumbotron">
+    <h1>{{ page.heading}}</h1>
+    <p>{{ page.jumbotron | markdownify }}</p>
+  </div>
+  {% capture index %}{% include index.md %}{% endcapture %}  
+  {{ index | markdownify }}
+</div>
