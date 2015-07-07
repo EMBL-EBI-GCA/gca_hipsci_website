@@ -1,0 +1,53 @@
+---
+---
+
+$background-color: #B3D4FC;
+$background-color-bottom: #FBFDFD;
+$background-color-top: #FAFAFA;
+$banner-color-bottom: #E8F5FA;
+$banner-color-top: #DBE6EA;
+$page-color: #FFF;
+$border: 1px solid #CCC;
+
+body {
+    background-color: $background-color;
+    background: linear-gradient(to bottom, $background-color-bottom 0%, $background-color-top 35%) repeat scroll 0% 0% transparent;
+    padding: 16px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+div.container {
+    background-color: $page-color;
+    border: $border;
+    padding: 4px;
+}
+
+header {
+    background: linear-gradient(to bottom, $banner-color-bottom 0%, $banner-color-top 100%) repeat scroll 0% 0% transparent;
+    border: $border;
+    padding: 16px;
+    margin-bottom: 16px;
+
+    a.logo {
+        display: float;
+    }
+
+    h3 {
+        color: #6D6E71;
+        font-weight: normal;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    @media (min-width: 768px) {
+        div.slogan {
+            margin-top: 19px;
+        }
+    }
+}
+
+div.wrapper {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: justify;
+}
