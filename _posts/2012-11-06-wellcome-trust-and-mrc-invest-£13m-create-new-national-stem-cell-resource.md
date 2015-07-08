@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Wellcome Trust and MRC invest £13m to create a new national stem cell resource
+redirect_from:
+    - /wellcome-trust-and-mrc-invest-£13m-create-new-national-stem-cell-resource/index.html
 ---
 
 The Wellcome Trust and Medical Research Council (MRC) today announced a £12.75

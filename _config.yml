@@ -10,6 +10,8 @@ url: "http://www.hipsci.org" # the base hostname & protocol for your site
 permalink: pretty
 gems:
     - jekyll-redirect-from
+collections:
+    - participants
 
 # Build settings
 markdown: kramdown

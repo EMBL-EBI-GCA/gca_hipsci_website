@@ -1,6 +1,8 @@
 ---
 layout: page
 title: HipSci Rare Disease -- Expressions of Interest
+redirect_from:
+    - /hipsci-rare-disease-expressions-interest/index.html
 ---
 
 We are looking to hear from clinicians (or scientist with access to relevant
