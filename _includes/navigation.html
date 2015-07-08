@@ -1,3 +1,5 @@
+<div class="navigation">
+<h3>Navigation</h3>
 <ul class="nav nav-pills nav-stacked">
     {% assign sortedpages = site.pages | sort: 'order' %}
     {% for curpage in sortedpages %}
@@ -11,3 +13,4 @@
       {% endif %}
     {% endfor %}
 </ul>
+</div>
