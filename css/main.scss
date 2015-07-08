@@ -8,6 +8,9 @@ $banner-color-bottom: #E8F5FA;
 $banner-color-top: #DBE6EA;
 $page-color: #FFF;
 $border: 1px solid #CCC;
+$nav-color: #E9F0F3;
+$nav-active-color: #458FC8;
+$heading-font-color: #6D6E71;
 
 body {
     background-color: $background-color;
@@ -33,7 +36,7 @@ header {
     }
 
     h3 {
-        color: #6D6E71;
+        color: $heading-font-color;
         font-weight: normal;
         font-size: 20px;
         margin-top: 20px;
@@ -50,4 +53,16 @@ div.wrapper {
     padding-top: 16px;
     padding-bottom: 16px;
     text-align: justify;
+}
+
+.nav-pills {
+    li.inactive {
+        background-color: $nav-color;
+        a {
+            color: $heading-font-color;
+        }
+    }
+    li.active {
+            background-color: $nav-active-color;
+    }
 }

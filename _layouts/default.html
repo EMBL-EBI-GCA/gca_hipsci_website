@@ -9,8 +9,21 @@
     {% include header.html %}
 
     <div class="row">
-        <div class="col-md-6 col-xs-10 col-md-offset-3 col-xs-offset-1">
+        <div class="col-md-6 col-xs-10 col-md-offset-2 col-xs-offset-1">
         {{ content }}
+        </div>
+
+        <div class="col-md-3 col-xs-10 col-md-offset-1 col-xs-offset-1">
+    <div class="row">
+        <div class="col-md-12 col-xs-5">
+        <h3>Navigation</h3>
+        {% include navigation.html %}
+        </div>
+        <div class="col-md-12 col-md-offset-0 col-xs-5 col-xs-offset-2">
+        <h3>Links</h3>
+        {% include links.html %}
+        </div>
+        </div>
         </div>
     </div>
 

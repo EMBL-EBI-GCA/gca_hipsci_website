@@ -1,0 +1,13 @@
+<ul class="nav nav-pills nav-stacked">
+    {% assign sortedpages = site.pages | sort: 'order' %}
+    {% for curpage in sortedpages %}
+      {% if curpage.title %}
+        {% if page.title == curpage.title %}
+          {% assign active =  "active" %}
+        {% else %}
+          {% assign active = "inactive" %}
+        {% endif %}
+        <li class="{{active}}"> <a href="{{ curpage.url | prepend: site.baseurl }}">{{ curpage.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+</ul>
