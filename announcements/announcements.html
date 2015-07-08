@@ -1,0 +1,11 @@
+---
+layout: page
+title: All Announcements
+order: 4
+---
+
+{% for post in site.posts %}
+    <h4 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</a></h4>
+    <p>{{post.date | date: '%B %d, %Y'}}</p>
+    {{ post.content | markdownify }}
+{% endfor %}

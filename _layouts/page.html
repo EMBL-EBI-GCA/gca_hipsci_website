@@ -3,11 +3,10 @@ layout: default
 ---
 <div class="wrapper">
 
-  <h2 class="post-title">{{ page.title }}</h2>
+  <h2 class="post-title">{{ page.title | markdownify | remove: '<p>' | remove: '</p>' }}</h2>
 
   <article class="post-content">
-    {% capture mdcontent %}{{ content }}{% endcapture %}  
-    {{ mdcontent | markdownify }}
+    {{ content }}
   </article>
 
 </div>

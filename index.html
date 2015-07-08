@@ -8,3 +8,12 @@ order: 1
       {% capture index %}{% include index.md %}{% endcapture %}  
       {{ index | markdownify }}
 </div>
+
+<div class="wrapper">
+  <h2 class="post-title">Recent Announcements</h2>
+    {% for post in site.posts %}
+        <h4 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</a></h4>
+        <p>{{post.date | date: '%B %d, %Y'}}</p>
+        {{ post.content | markdownify }}
+    {% endfor %}
+</div>

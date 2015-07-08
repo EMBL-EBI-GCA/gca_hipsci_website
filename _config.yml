@@ -3,7 +3,7 @@ title: HipSci
 email: hipsci-dcc@ebi.ac.uk
 description: > # this means to ignore newlines until "baseurl:"
   HipSci brings  together diverse constituents in genomics, proteomics, cell biology and clinical genetics to create a UK national iPS cell resource and use it to carry out cellular genetic studies.
-baseurl: "/gca_hipsci_website/" # the subpath of your site, e.g. /blog/
+baseurl: "/gca_hipsci_website" # the subpath of your site, e.g. /blog/
 url: "http://www.hipsci.org" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 #github_username:  jekyll
