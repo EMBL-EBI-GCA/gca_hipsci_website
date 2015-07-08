@@ -8,6 +8,8 @@ url: "http://www.hipsci.org" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 #github_username:  jekyll
 permalink: pretty
+gems:
+    - jekyll-redirect-from
 
 # Build settings
 markdown: kramdown

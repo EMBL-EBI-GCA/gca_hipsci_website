@@ -3,7 +3,7 @@
 <ul class="nav nav-pills nav-stacked">
     {% assign sortedpages = site.pages | sort: 'order' %}
     {% for curpage in sortedpages %}
-      {% if curpage.title %}
+      {% if curpage.title and curpage.order %}
         {% if page.title == curpage.title %}
           {% assign active =  "active" %}
         {% else %}
