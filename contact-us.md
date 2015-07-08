@@ -1,3 +1,8 @@
+---
+layout: mdpage
+title: Contact us
+order: 3
+---
 
 ####General Contact
 

@@ -1,3 +1,9 @@
+---
+layout: mdpage
+title: Project Wiki
+order: 7
+---
+
 The Hipsci project has a confluence wiki hosted by the EBI.
 
 [HipSci Confluence](http://www.ebi.ac.uk/seqdb/confluence/display/HIPSCI/Home)
