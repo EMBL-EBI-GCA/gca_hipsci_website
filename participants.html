@@ -5,6 +5,7 @@ order: 5
 ---
 
 <div class="wrapper participant">
+  <h2 class="post-title">{{ page.title }}</h2>
 {% assign sortedparticipants = site.participants | sort: 'order' %}
 {% for participant in sortedparticipants %}
 <div class="row">
