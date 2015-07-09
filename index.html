@@ -11,9 +11,11 @@ order: 1
 
 <div class="wrapper">
   <h2 class="post-title">Recent Announcements</h2>
-    {% for post in site.posts %}
+    {% for post in site.categories.announcements | limit: 10 %}
+        <div class="announcements">
         <h4 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | markdownify | remove: '<p>' | remove: '</p>'}}</a></h4>
         <p>{{post.date | date: '%B %d, %Y'}}</p>
         {{ post.content | markdownify }}
+        </div>
     {% endfor %}
 </div>

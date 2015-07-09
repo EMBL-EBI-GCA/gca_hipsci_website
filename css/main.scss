@@ -50,13 +50,14 @@ header {
 }
 
 div.wrapper {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     p {
         text-align: justify;
     }
     h1,h2,h3 {
         margin-bottom: 30px;
+        margin-top: 30px;
     }
 }
 
@@ -86,7 +87,7 @@ div.wrapper {
     }
 }
 
-div.announcement {
+div.announcements {
     padding-top: 5px;
     margin-bottom: 30px;
 }

@@ -56,5 +56,5 @@ or industry.
 
 The Expression of Interest should be submitted to [hipsci‐proposal@ebi.ac.uk](mailto:hipsci-proposal@ebi.ac.uk)
 before 3rd July 2015.
-[Expression of Interest PDF]({{ "/documents/hipsci_rare_disease_expression_20150428.pdf" | prepend: site.baseurl }})
+[Expression of Interest PDF]({{site.baseurl}}/documents/hipsci_rare_disease_expression_20150428.pdf)
 

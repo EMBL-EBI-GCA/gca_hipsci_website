@@ -7,7 +7,7 @@ baseurl: "/gca_hipsci_website" # the subpath of your site, e.g. /blog/
 url: "http://www.hipsci.org" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 #github_username:  jekyll
-permalink: pretty
+permalink: /:categories/:title/
 gems:
     - jekyll-redirect-from
 collections:

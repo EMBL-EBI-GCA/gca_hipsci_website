@@ -1,8 +1,6 @@
 ---
 layout: mdpage
 title: "iPS cells for Rare disease cases: call for proposals"
-redirect_from:
-    - /ips-cells-rare-disease-cases-call-proposals/index.html
 ---
 
 
@@ -38,5 +36,5 @@ their samples.
 
 If you wish to submit a proposal or have any questions please email
 [hipsci-proposal@ebi.ac.uk](mailto:hipsci-proposal@ebi.ac.uk)
-[HipSci Rare Disease Call for Proposals PDF]({{ "/documents/HipSci_Rare_call_for_proposals_March2014.pdf" | prepend: site.baseurl }})
+[HipSci Rare Disease Call for Proposals PDF]({{site.baseurl}}/documents/HipSci_Rare_call_for_proposals_March2014.pdf)
 
