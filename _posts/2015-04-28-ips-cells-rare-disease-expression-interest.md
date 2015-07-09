@@ -12,7 +12,7 @@ studies on them. The project collaborators aim to generate up to 800 iPS cell
 lines, on which they will conduct extensive genetic analysis, and characterise
 how the cells respond to specific external stimuli.
 
-The resulting cell collection and data-­‐set will be the UK’s most
+The resulting cell collection and data‐set will be the UK’s most
 comprehensive resource for investigating how genetic variation impacts on cell
 behaviour and how diseases linked to a specific genetic defect can result in a
 broad spectrum of clinical abnormalities. The project is led by King’s College
