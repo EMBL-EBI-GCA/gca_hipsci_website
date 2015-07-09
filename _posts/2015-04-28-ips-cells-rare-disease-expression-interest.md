@@ -41,7 +41,7 @@ related phenotypes where you would be able to provide us with patient material
 Please include the following information in your expression of interest:
 
 * Name
-* Affiliation [Proposers must be UK-­‐based principal investigators or equivalent.]
+* Affiliation [Proposers must be UK­‐based principal investigators or equivalent.]
 * Disease
 * Justification for making iPSC for this disease
 * Number of samples you would be able to provide
