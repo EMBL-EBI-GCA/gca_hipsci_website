@@ -12,7 +12,7 @@ studies on them. The project collaborators aim to generate up to 800 iPS cell
 lines, on which they will conduct extensive genetic analysis, and characterise
 how the cells respond to specific external stimuli.
 
-The resulting cell collection and data-­‐set will be the UK’s most
+The resulting cell collection and data‐set will be the UK’s most
 comprehensive resource for investigating how genetic variation impacts on cell
 behaviour and how diseases linked to a specific genetic defect can result in a
 broad spectrum of clinical abnormalities. The project is led by King’s College
@@ -41,7 +41,7 @@ related phenotypes where you would be able to provide us with patient material
 Please include the following information in your expression of interest:
 
 * Name
-* Affiliation [Proposers must be UK-­‐based principal investigators or equivalent.]
+* Affiliation [Proposers must be UK­‐based principal investigators or equivalent.]
 * Disease
 * Justification for making iPSC for this disease
 * Number of samples you would be able to provide
@@ -56,5 +56,5 @@ or industry.
 
 The Expression of Interest should be submitted to [hipsci‐proposal@ebi.ac.uk](mailto:hipsci-proposal@ebi.ac.uk)
 before 3rd July 2015.
-[Expression of Interest PDF]({{ "/documents/hipsci_rare_disease_expression_20150428.pdf" | prepend: site.baseurl }})
+[Expression of Interest PDF]({{site.baseurl}}/documents/hipsci_rare_disease_expression_20150428.pdf)
 

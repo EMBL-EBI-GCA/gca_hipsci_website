@@ -13,7 +13,7 @@ Open-access data are available on the HipSci ftp site:
 [ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/](ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/).
 
 Managed-access genomic data are available from the EGA archive. For access to
-these data, users must read the Data Access Agreement document ([pdf]({{ "/documents/HipSci_Normals_DAA_v3.2_form.pdf" | prepend: site.baseurl}}), [doc]({{ "/documents/HipSci_Normals_DAA_v3.2_form.doc" | prepend: site.baseurl}})) and
+these data, users must read the Data Access Agreement document ([pdf]({{site.baseurl}}/documents/HipSci_Normals_DAA_v3.2_form.pdf), [doc]({{site.baseurl}}/documents/HipSci_Normals_DAA_v3.2_form.doc)) and
 register for access via WTSI's [Electronic Data Access Mechanism](https://www.sanger.ac.uk/legal/DAA/MasterController).
 
 HipSci cell lines and donors are registered in BioSamples in a [HipSci group](http://www.ebi.ac.uk/biosamples/group/SAMEG120702).
@@ -50,4 +50,4 @@ ebi#hipsci
 When you have setup your personal end point you should be able to start a
 transfer using their web front end.
 
-![Screen shot of HipSci globus file transfer]({{ "/img/globus_screen_shot.png" | prepend: site.baseurl}})
+![Screen shot of HipSci globus file transfer]({{site.baseurl}}/img/globus_screen_shot.png)
