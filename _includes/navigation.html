@@ -14,7 +14,6 @@
         <li class="{{active}}"> <a href="{{ curpage.url | prepend: site.baseurl }}">{{ curpage.title }}</a></li>
       {% endif %}
     {% endfor %}
-
     {% assign navposts = site.posts | where: 'order', $i %}
     {% for curpage in navposts %}
       {% if curpage.title %}
