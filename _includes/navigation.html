@@ -2,29 +2,20 @@
 <h3>Navigation</h3>
 <ul class="nav nav-pills nav-stacked">
 
-{% for i in (1..100) %}
-    {% assign navpages = site.pages | where: 'order', $i %}
-    {% for curpage in navpages %}
-      {% if curpage.title %}
+{% for i in (1..100) %}{% assign navpages = site.pages | where: 'order', $i %}{% for curpage in navpages %}{% if curpage.title %}
         {% if page.title == curpage.title %}
           {% assign active =  "active" %}
         {% else %}
           {% assign active = "inactive" %}
         {% endif %}
         <li class="{{active}}"> <a href="{{ curpage.url | prepend: site.baseurl }}">{{ curpage.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-    {% assign navposts = site.posts | where: 'order', $i %}
-    {% for curpage in navposts %}
-      {% if curpage.title %}
+      {% endif %}{% endfor %}{% assign navposts = site.posts | where: 'order', $i %}{% for curpage in navposts %}{% if curpage.title %}
         {% if page.title == curpage.title %}
           {% assign active =  "active" %}
         {% else %}
           {% assign active = "inactive" %}
         {% endif %}
         <li class="{{active}}"> <a href="{{ curpage.url | prepend: site.baseurl }}">{{ curpage.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-{% endfor %}
+{% endif %}{% endfor %}{% endfor %}
 </ul>
 </div>
