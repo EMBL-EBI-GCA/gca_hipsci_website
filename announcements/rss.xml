@@ -9,7 +9,7 @@ layout: null
     <language>en</language>
     <link>{{'/announcements' | prepend: site.baseurl | prepend: site.url }}/</link>
     <atom:link href="{{ "/announcements/rss.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <atom:link href="http://pubsubhubbub.appspot.com" rel="hub"/>
+    <atom:link href="https://pubsubhubbub.appspot.com" rel="hub"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
