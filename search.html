@@ -5,11 +5,10 @@ permalink: /search/
 ---
 
 {% raw %}
-<div ng-app="searchResults" ng-controller="SearchCtrl">
+<div ng-app="searchResults" ng-controller="SearchCtrl as SearchCtrl">
 <div class="wrapper">
-  <h2 class="post-title" ng-bind="searchPhrase"></h2>
-  <div class="announcements" ng-repeat"hit in hits">
-  <p>here</p>
+  <h2 class="post-title" ng-bind="SearchCtrol.searchPhrase"></h2>
+  <div ng-repeat"hit in SearchCtrl.hits" class="announcements">
         <h4 class="post-title"><a ng-href="hit._source.url" ng-bind="hit._source.title"></a></h4>
         <p ng-repeat="highlight in hit.highlight.content" ng-include="highlight"></p>
   </div>

@@ -6,14 +6,15 @@ var dependencies = [
 ];
 
 var app = angular.module('searchResults', dependencies);
-app.controller('SearchCtrl', ['$scope', '$location', '$http', function($scope, $location, $http) {
-    $scope.searchPhrase = $location.search().q;
-    $scope.hits = [];
-    if ($scope.searchPhrase) {
+app.controller('SearchCtrl', ['$location', '$http', function($location, $http) {
+    var controller = this
+    controller.searchPhrase = $location.search().q;
+    controller.hits = [];
+    if (controller.searchPhrase) {
         var postBody = {
             query: {
                 match_phrase: {
-                    content: $scope.searchPhrase
+                    content: controller.searchPhrase
                 }
             },
             highlight: {
@@ -24,8 +25,7 @@ app.controller('SearchCtrl', ['$scope', '$location', '$http', function($scope, $
         }
         $http.post('/lines/api/sitemap/_search', postBody).then(
             function(response) {
-                $scope.hits = response.data.hits.hits;
-                console.log($scope.hits);
+                controller.hits = response.data.hits.hits;
             }
         );
     }
