@@ -7,7 +7,7 @@ var dependencies = [
 
 var app = angular.module('searchResults', dependencies);
 app.controller('SearchCtrl', ['$scope', '$routeParams', '$http', function($scope, $routeParams, $http) {
-    console.log('here');
+    console.log($routeParams);
     $scope.searchPhrase = $routeParams.q;
     $scope.hits = [];
     if ($scope.searchPhrase) {
