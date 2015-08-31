@@ -22,7 +22,7 @@ app.controller('SearchCtrl', ['$scope', '$location', '$http', function($scope, $
                 }
             }
         }
-        $http.post('/lines/api/sitemap/_search', {query}).then(
+        $http.post('/lines/api/sitemap/_search', postBody).then(
             function(response) {
                 $scope.hits = response.data.hits.hits;
             }
