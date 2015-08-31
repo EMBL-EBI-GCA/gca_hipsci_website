@@ -13,7 +13,7 @@ app.controller('SearchCtrl', ['$scope', '$routeParams', '$http', function($scope
         var postBody = {
             query: {
                 match_phrase: {
-                    content: $scope.searchPhrase;
+                    content: $scope.searchPhrase
                 }
             },
             highlight: {
