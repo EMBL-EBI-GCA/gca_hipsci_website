@@ -2,7 +2,6 @@
 <div class="navigation">
 <h3>Navigation</h3>
 <ul class="nav nav-pills nav-stacked">
-{% capture navigation %}
 {% for i in (1..100) %}{% assign navpages = site.pages | where: 'order', $i %}{% for curpage in navpages %}{% if curpage.title %}
         {% if page.title == curpage.title %}
           {% assign active =  "active" %}
@@ -18,7 +17,6 @@
         {% endif %}
         <li class="{{active}}"> <a href="{{ curpage.url | prepend: site.baseurl }}">{{ curpage.title }}</a></li>
 {% endif %}{% endfor %}{% endfor %}
-{% endcapture %}{% assign navigation = nil %}
 </ul>
 </div>
 </nav>
