@@ -1,0 +1,22 @@
+---
+layout: default
+title: Search
+permalink: /search/
+---
+
+{% raw %}
+<div ng-app="searchResults" ng-controller="SearchCtrl">
+<div class="wrapper">
+  <h2 class="post-title" ng-bind="searchPhrase"></h2>
+  <div class="announcements" ng-repeat"hit in hits">
+        <h4 class="post-title"><a ng-href="hit._source.url" ng-bind="hit._source.title"></a></h4>
+        <p ng-repeat="highlight in hit.highlight.content" ng-include="highlight"></p>
+  </div>
+</div>
+</div>
+{% endraw %}
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular-route.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular-resource.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular-sanitize.min.js"></script>
+<script src="{{ "/js/search_results.js" | prepend: site.baseurl }}"></script>
