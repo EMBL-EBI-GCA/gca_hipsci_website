@@ -6,9 +6,8 @@ var dependencies = [
 ];
 
 var app = angular.module('searchResults', dependencies);
-app.controller('SearchCtrl', ['$scope', '$routeParams', '$http', function($scope, $routeParams, $http) {
-    console.log($routeParams);
-    $scope.searchPhrase = $routeParams.q;
+app.controller('SearchCtrl', ['$scope', '$location', '$http', function($scope, $location, $http) {
+    $scope.searchPhrase = $location.search().q;
     $scope.hits = [];
     if ($scope.searchPhrase) {
         var postBody = {
