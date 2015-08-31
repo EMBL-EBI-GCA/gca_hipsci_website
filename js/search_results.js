@@ -22,8 +22,9 @@ app.controller('SearchCtrl', ['$location', '$http', function($location, $http) {
             },
             highlight: {
                 fields: {
-                    content: {index_options: "offsets"}
-                }
+                    content: {}
+                },
+                pre_tags: ['<em><strong>'], post_tags: ['</strong></em>']
             }
         }
         $http.post('/lines/api/sitemap/_search', postBody).then(
