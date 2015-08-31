@@ -1,7 +1,7 @@
+<nav>
 <div class="navigation">
 <h3>Navigation</h3>
 <ul class="nav nav-pills nav-stacked">
-
 {% for i in (1..100) %}{% assign navpages = site.pages | where: 'order', $i %}{% for curpage in navpages %}{% if curpage.title %}
         {% if page.title == curpage.title %}
           {% assign active =  "active" %}
@@ -19,3 +19,4 @@
 {% endif %}{% endfor %}{% endfor %}
 </ul>
 </div>
+</nav>

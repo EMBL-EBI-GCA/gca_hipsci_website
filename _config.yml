@@ -5,12 +5,14 @@ description: > # this means to ignore newlines until "baseurl:"
   HipSci brings  together diverse constituents in genomics, proteomics, cell biology and clinical genetics to create a UK national iPS cell resource and use it to carry out cellular genetic studies.
 baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://www.hipsci.org" # the base hostname & protocol for your site
-url: "http://hipsci.github.io" # the base hostname & protocol for your site
+#url: "http://hipsci.github.io" # the base hostname & protocol for your site
+url: "http://test.hipsci.org" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 #github_username:  jekyll
 permalink: /:categories/:title
 gems:
     - jekyll-redirect-from
+    - jekyll-sitemap
 collections:
     - participants
 
