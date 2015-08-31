@@ -14,6 +14,7 @@ app.controller('SearchCtrl', ['$location', '$http', function($location, $http) {
     controller.hits = [];
     if (controller.searchPhrase) {
         var postBody = {
+            _source: ['url', 'title'],
             query: {
                 match_phrase: {
                     content: controller.searchPhrase
@@ -21,7 +22,7 @@ app.controller('SearchCtrl', ['$location', '$http', function($location, $http) {
             },
             highlight: {
                 fields: {
-                    content: {}
+                    content: {index_options: "offsets"}
                 }
             }
         }

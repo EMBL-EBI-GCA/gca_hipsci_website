@@ -6,7 +6,7 @@ permalink: /search/
 
 <div ng-app="searchResults" ng-controller="SearchCtrl as SearchCtrl">
 <div class="wrapper">
-  <h2 class="post-title" ng-bind="SearchCtrl.searchPhrase"></h2>
+  <h2 class="post-title">Search results: <span ng-bind="SearchCtrl.searchPhrase"></span></h2>
   <div ng-repeat="hit in SearchCtrl.hits" class="announcements">
         <h4 class="post-title"><a ng-href="hit._source.url" ng-bind="hit._source.title"></a></h4>
         <p ng-repeat="highlight in hit.highlight.content" ng-bind-html="highlight"></p>
