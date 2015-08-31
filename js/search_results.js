@@ -39,8 +39,9 @@ app.controller('SearchCtrl', ['$location', '$http', function($location, $http) {
                 }
             }
         }
-        $http.post('/lines/api/sitemap/_search', postBody).success(
+        $http.post('/lines/api/sitemap/_search', postBody).then(
             function(response) {
+                console.log(response);
                 controller.hits = response.data.hits.hits;
             }
         );
