@@ -7,20 +7,6 @@ var dependencies = [
 
 var app = angular.module('searchResults', dependencies);
 
-var template = '<h2 class="post-title" ng-bind="SearchCtrol.searchPhrase"></h2>'
- +' <div ng-repeat="hit in SearchCtrl.hits" class="announcements">'
-       +' <h4 class="post-title"><a ng-href="hit._source.url" ng-bind="hit._source.title"></a></h4>'
-      +' <p ng-repeat="highlight in hit.highlight.content" ng-include="highlight"></p>'
- +' </div>';
-
-app.config(['$routeProvider', function($routeProvider) {
-    $routeProvider.when('/', {
-        template: template,
-        controller: 'SearchCtrl',
-        controllerAs: 'SearchCtrl'
-    }).otherwise({redirectTo: '/'});
-}]);
-
 
 app.controller('SearchCtrl', ['$location', '$http', function($location, $http) {
     var controller = this
@@ -41,7 +27,6 @@ app.controller('SearchCtrl', ['$location', '$http', function($location, $http) {
         }
         $http.post('/lines/api/sitemap/_search', postBody).then(
             function(response) {
-                console.log(response);
                 controller.hits = response.data.hits.hits;
             }
         );
