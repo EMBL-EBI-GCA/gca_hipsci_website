@@ -31,14 +31,14 @@ app.controller('SearchCtrl', ['$location', '$http', '$scope', function($location
             $http.post('/lines/api/sitemap/_search', postBody).then(
                 function(response) {
                     controller.hits = response.data.hits.hits;
+                    for (var i=0; i<controller.hits.length; i++) {
+                        controller.hits[i]._source.title = decodeURIComponent(escape(string));
+                    }
                 }
             );
         }
     };
 
-    controller.decode_utf8 = function(string) {
-        return decodeURIComponent(escape(string));
-    };
     $scope.$on('$locationChangeStart', search);
     search();
 }]);
