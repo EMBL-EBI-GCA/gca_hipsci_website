@@ -36,6 +36,7 @@ app.controller('SearchCtrl', ['$location', '$http', '$scope', function($location
                         var highlights = controller.hits[i].highlight.content;
                         for (var j=0; j<highlights.length; j++) {
                             highlights[j] = decodeURIComponent(escape(highlights[j]));
+                            console.log(highlights[j]);
                         }
                     }
                 }
