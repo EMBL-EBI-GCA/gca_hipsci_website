@@ -32,7 +32,7 @@ app.controller('SearchCtrl', ['$location', '$http', '$scope', function($location
                 function(response) {
                     controller.hits = response.data.hits.hits;
                     for (var i=0; i<controller.hits.length; i++) {
-                        controller.hits[i]._source.title = decodeURIComponent(escape(string));
+                        controller.hits[i]._source.title = decodeURIComponent(escape(controller.hits[i]._source.title));
                     }
                 }
             );
