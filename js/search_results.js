@@ -42,6 +42,9 @@ app.controller('SearchCtrl', ['$location', '$http', '$scope', function($location
                 }
             );
         }
+        else {
+            controller.hits = [];
+        }
     };
 
     $scope.$on('$locationChangeStart', search);
