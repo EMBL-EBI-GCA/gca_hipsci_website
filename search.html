@@ -10,7 +10,7 @@ permalink: /search/
   <h2 class="post-title">Search results: <span ng-bind="SearchCtrl.searchPhrase"></span></h2>
   <div ng-repeat="hit in SearchCtrl.hits" class="announcements">
         <h4 class="post-title"><a ng-href="{{hit._source.url}}" ng-bind="hit._source.title"></a></h4>
-        <p ng-repeat="highlight in hit.highlight.content" ng-bind-html="highlight"></p>
+        <p ng-bind-html="hit.highlight.content.join('&#133')"></p>
   </div>
 </div>
 </div>
