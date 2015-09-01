@@ -1,6 +1,6 @@
 ---
 layout: page
-title: HipSci Rare Disease &#8211 Expressions of Interest
+title: HipSci Rare Disease – Expressions of Interest
 redirect_from:
     - /hipsci-rare-disease-expressions-interest/index.html
 ---
