@@ -1,7 +1,10 @@
 <script type="text/javascript">
-var base = {{ site.baseurl }};
 {% raw %}
-function goTo() {location.href = base+'/search/#?q='+document.getElementById('search_id').value;}
+function goTo() {
+{% endraw %}
+    location.href = '{{ site.baseurl }}/search/#?q='+document.getElementById('search_id').value;
+{% raw %}
+}
 {% endraw %}
 </script>
 <input type='text' id='search_id'>
