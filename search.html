@@ -4,15 +4,17 @@ title: Search
 permalink: /search/
 ---
 
+{% raw %}
 <div ng-app="searchResults" ng-controller="SearchCtrl as SearchCtrl">
 <div class="wrapper">
   <h2 class="post-title">Search results: <span ng-bind="SearchCtrl.searchPhrase"></span></h2>
   <div ng-repeat="hit in SearchCtrl.hits" class="announcements">
-        <h4 class="post-title"><a ng-href="hit._source.url" ng-bind="hit._source.title"></a></h4>
+        <h4 class="post-title"><a ng-href="{{hit._source.url}}" ng-bind="hit._source.title"></a></h4>
         <p ng-repeat="highlight in hit.highlight.content" ng-bind-html="highlight"></p>
   </div>
 </div>
 </div>
+{% endraw %}
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular-route.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular-resource.min.js"></script>
