@@ -35,6 +35,10 @@ app.controller('SearchCtrl', ['$location', '$http', '$scope', function($location
             );
         }
     };
+
+    controller.decode_utf8 = function(string) {
+        return decodeURIComponent(escape(string));
+    };
     $scope.$on('$locationChangeStart', search);
     search();
 }]);
