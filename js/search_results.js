@@ -31,14 +31,6 @@ app.controller('SearchCtrl', ['$location', '$http', '$scope', function($location
             $http.post('/lines/api/sitemap/_search', postBody).then(
                 function(response) {
                     controller.hits = response.data.hits.hits;
-                    for (var i=0; i<controller.hits.length; i++) {
-                        controller.hits[i]._source.title = decodeURIComponent(escape(controller.hits[i]._source.title));
-                        var highlights = controller.hits[i].highlight.content;
-                        for (var j=0; j<highlights.length; j++) {
-                            highlights[j] = decodeURIComponent(escape(highlights[j]));
-                            console.log(highlights[j]);
-                        }
-                    }
                 }
             );
         }
