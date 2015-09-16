@@ -76,7 +76,7 @@ app.directive('lineHits', function() {
   '<div>'
 + '<h3><span ng-bind="SearchCtrl.lineHits.total"></span> matching cell line<span ng-if="SearchCtrl.lineHits.total > 1">s</span></h3>'
 + '<div ng-repeat="hit in SearchCtrl.lineHits.hits">'
-+ '<h4><a ng-href="/lines/#/lines/{{hit._source.name}}" ng-bind="hit._source.name"></a></h4>'
++ '<h5><a ng-href="/lines/#/lines/{{hit._source.name}}" ng-bind="hit._source.name"></a></h5>'
 + '</div>'
 + '<a class="btn btn-default btn-block" role="button" ng-href="/lines/#/lines?q={{SearchCtrl.searchPhrase}}">View in the cell line browser</a>'
 + '</div>'
