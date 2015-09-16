@@ -44,7 +44,7 @@ app.controller('SearchCtrl', ['$location', '$http', '$scope', function($location
                 }
             }
         }
-        $http.post('/lines/api/cellLines/_search', postBody).then(
+        $http.post('/lines/api/cellLine/_search', postBody).then(
             function(response) {
                 controller.lineHits = response.data.hits;
             }
