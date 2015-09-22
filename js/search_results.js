@@ -27,15 +27,16 @@ app.controller('SearchCtrl', ['$location', '$http', '$scope', function($location
                 pre_tags: ['<em><strong>'], post_tags: ['</strong></em>']
             }
         }
-        $http.post('/lines/api/sitemap/_search', postBody).then(
+        $http.post('http://test.hipsci.org/lines/api/sitemap/_search', postBody).then(
             function(response) {
-                controller.siteHits = response.data.hits;
+                controller.siteHits = response.data.hits.hits;
             }
         );
     }
 
     var linesSearch = function(q) {
         var postBody = {
+            _source: ['name'],
             query: {
                 multi_match: {
                     query: q,
@@ -44,9 +45,9 @@ app.controller('SearchCtrl', ['$location', '$http', '$scope', function($location
                 }
             }
         }
-        $http.post('/lines/api/cellLine/_search', postBody).then(
+        $http.post('http://test.hipsci.org/lines/api/cellLine/_search', postBody).then(
             function(response) {
-                controller.lineHits = response.data.hits;
+                controller.lineHits = response.data.hits.hits;
             }
         );
     }
@@ -66,19 +67,3 @@ app.controller('SearchCtrl', ['$location', '$http', '$scope', function($location
     $scope.$on('$locationChangeStart', search);
     search();
 }]);
-
-
-app.directive('lineHits', function() {
-    return {
-        restrict: 'E',
-        scope: 'false',
-        template: 
-  '<div>'
-+ '<h3><span ng-bind="SearchCtrl.lineHits.total"></span> matching cell line<span ng-if="SearchCtrl.lineHits.total > 1">s</span></h3>'
-+ '<div ng-repeat="hit in SearchCtrl.lineHits.hits">'
-+ '<h5><a ng-href="/lines/#/lines/{{hit._source.name}}" ng-bind="hit._source.name"></a></h5>'
-+ '</div>'
-+ '<a class="btn btn-default btn-block" role="button" ng-href="/lines/#/lines?q={{SearchCtrl.searchPhrase}}">View in the cell line browser</a>'
-+ '</div>'
-    };
-});
