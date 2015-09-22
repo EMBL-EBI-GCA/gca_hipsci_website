@@ -27,7 +27,7 @@ app.controller('SearchCtrl', ['$location', '$http', '$scope', function($location
                 pre_tags: ['<em><strong>'], post_tags: ['</strong></em>']
             }
         }
-        $http.post('http://test.hipsci.org/lines/api/sitemap/_search', postBody).then(
+        $http.post('/lines/api/sitemap/_search', postBody).then(
             function(response) {
                 controller.siteHits = response.data.hits;
             }
@@ -44,7 +44,7 @@ app.controller('SearchCtrl', ['$location', '$http', '$scope', function($location
                 }
             }
         }
-        $http.post('http://test.hipsci.org/lines/api/cellLine/_search', postBody).then(
+        $http.post('/lines/api/cellLine/_search', postBody).then(
             function(response) {
                 controller.lineHits = response.data.hits;
             }
