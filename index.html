@@ -5,9 +5,11 @@ order: 1
 permalink: /
 ---
 
+{% assign about = site.tags.about.first %}
+
 <div class="wrapper">
-      {% capture index %}{% include index.md %}{% endcapture %}  
-      {{ index | markdownify }}
+    <h2 class="post-title">{{ about.title }}</h2>
+    {{ about.content | markdownify }}
 </div>
 
 <div class="wrapper">

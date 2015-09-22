@@ -2,6 +2,9 @@
 layout: mdpage
 title: Data Navigation
 order: 4
+category: data
+redirect_from:
+    - /data-navigation
 ---
 
 The [Lines and Data](http://www.hipsci.org/lines/) page gives an overview of
