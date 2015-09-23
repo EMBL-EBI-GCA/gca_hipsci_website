@@ -2,7 +2,6 @@
 layout: mdpage
 title: Data Navigation
 order: 4
-category: data
 redirect_from:
     - /data-navigation
 ---

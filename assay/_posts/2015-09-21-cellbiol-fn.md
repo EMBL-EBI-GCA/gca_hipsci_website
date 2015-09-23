@@ -1,7 +1,6 @@
 ---
 layout: mdpage
 title: Cellular phenotyping
-category: assay
 ---
 
 High content imaging of cells is performed on HipSci iPS cell lines selected for banking after passing QC.
