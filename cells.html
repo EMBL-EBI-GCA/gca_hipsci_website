@@ -1,0 +1,20 @@
+---
+layout: page
+title: HipSci cell lines
+permalink: /cells/
+tags:
+    - cells
+---
+<p><em>This is a placeholder page. I plan to replace it with links to the relevant pages + images etc.</em></p>
+
+<ul>
+{% assign posts = site.tags['cells'] | sort: 'priority' %}
+{% for post in posts reversed %}
+<li><a href="{{post.url}}">{{post.title}}</a></li>
+{% endfor %}
+<h3>Disease cohorts</h3>
+{% assign posts = site.tags['disease'] | sort: 'priority' %}
+{% for post in posts reversed %}
+<li><a href="{{post.url}}">{{post.title}}</a></li>
+{% endfor %}
+</ul>

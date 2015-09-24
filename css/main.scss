@@ -29,24 +29,85 @@ header {
     background: linear-gradient(to bottom, $banner-color-bottom 0%, $banner-color-top 100%) repeat scroll 0% 0% transparent;
     border: $border;
     padding: 16px;
+    padding-bottom: 0px;
     margin-bottom: 16px;
 
-    a.logo {
-        display: float;
+    div.nav {
+        min-height: 50px;
+    }
+
+    div.logo {
+        @media (max-width: 767px) {
+            img {
+                height: 40px;
+            }
+            min-height: 78px;
+        }
+        @media (min-width: 768px) {
+            img {
+                height: 54px;
+            }
+            min-height: 68px;
+        }
     }
 
     h3 {
         color: $heading-font-color;
         font-weight: normal;
-        font-size: 20px;
-        margin-top: 20px;
+        margin: 0px;
     }
 
-    @media (min-width: 768px) {
-        div.slogan {
-            margin-top: 19px;
+    ul.nav-pills {
+        margin-top: 0px;
+        position: absolute;
+        bottom: 0;
+
+        @media (max-width: 767px) {
+            li {
+                display: table-cell;
+                width: 1%;
+
+                a {
+                    border-radius: 4px 4px 0 0;
+                    margin-bottom: 0;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                }
+            }
+        }
+
+        li.active {
+            a {
+                background-image: linear-gradient(to bottom, #E8F5FA, #F9F9F9 100%);
+                color: black;
+                outline: none;
+            }
+            a:hover {
+                color: black;
+            }
+        }
+
+        li {
+            a:focus {
+                background-color: transparent;
+            }
+            a:hover {
+                background-image: linear-gradient(to bottom, #E8F5FA, #F9F9F9 100%);
+            }
+        }
+
+        a {
+            color: #6D6E71;
         }
     }
+
+    div.links {
+        a {
+            color: #6D6E71;
+            font-size: 90%;
+        }
+    }
+
 }
 
 div.wrapper {
@@ -61,7 +122,8 @@ div.wrapper {
     }
 }
 
-.nav-pills {
+
+.nav-pills.nav-stacked {
     li.inactive {
         background-color: $nav-color;
         a {

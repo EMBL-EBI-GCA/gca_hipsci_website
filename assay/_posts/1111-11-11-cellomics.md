@@ -1,6 +1,8 @@
 ---
 layout: mdpage
 title: Cellomics
+tags:
+    - assay
 ---
 
 HipSci uses cellomics to assay all iPS cell lines and the

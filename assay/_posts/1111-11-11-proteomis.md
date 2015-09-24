@@ -1,6 +1,8 @@
 ---
 layout: mdpage
 title: Proteomic mass spectrometry
+tags:
+    - assay
 ---
 
 Proteomic mass spectrometry is performed on HipSci iPS cell lines selected for banking after passing QC.

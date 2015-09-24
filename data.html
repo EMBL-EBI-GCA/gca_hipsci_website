@@ -1,0 +1,20 @@
+---
+layout: page
+title: HipSci's data
+permalink: /data/
+tags:
+    - data
+---
+<p><em>This is a placeholder page. I plan to replace it with links to the relevant pages + images etc.</em></p>
+
+<ul>
+{% assign posts = site.tags['data'] | sort: 'priority' %}
+{% for post in posts reversed %}
+<li><a href="{{post.url}}">{{post.title}}</a></li>
+{% endfor %}
+<h3>Assays</h3>
+{% assign posts = site.tags['assay'] | sort: 'priority' %}
+{% for post in posts reversed %}
+<li><a href="{{post.url}}">{{post.title}}</a></li>
+{% endfor %}
+</ul>

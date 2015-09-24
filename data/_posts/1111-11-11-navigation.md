@@ -4,6 +4,9 @@ title: Data Navigation
 order: 4
 redirect_from:
     - /data-navigation
+tags:
+    - data
+nav: true
 ---
 
 The [Lines and Data](http://www.hipsci.org/lines/) page gives an overview of

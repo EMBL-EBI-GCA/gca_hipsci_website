@@ -1,0 +1,16 @@
+---
+layout: page
+title: HipSci site directory
+permalink: /directory/
+---
+
+{% assign sorttags = "project cells data assay disease" | split: ' ' %}
+{% for tag in sorttags %}
+    <h3>{% cycle 'About the project', 'Cells', 'Data', 'Assays', 'Disease cohorts' %}</h3>
+    <ul>
+    {% assign posts = site.tags[tag] | sort: 'priority' %}
+    {% for post in posts reversed %}
+    <li><a href="{{post.url}}">{{post.title}}</a></li>
+    {% endfor %}
+    </ul>
+{% endfor %}

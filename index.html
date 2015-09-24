@@ -3,9 +3,11 @@ layout: default
 title: Home
 order: 1
 permalink: /
+tags:
+    - home
 ---
 
-{% assign about = site.tags.about.first %}
+{% assign about = site.tags.about | first %}
 
 <div class="wrapper">
     <h2 class="post-title">{{ about.title }}</h2>

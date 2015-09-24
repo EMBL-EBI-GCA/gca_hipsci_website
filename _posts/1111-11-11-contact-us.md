@@ -2,6 +2,9 @@
 layout: mdpage
 title: Contact us
 order: 8
+priority: 50
+tags: 
+    - project
 ---
 
 ####General Contact

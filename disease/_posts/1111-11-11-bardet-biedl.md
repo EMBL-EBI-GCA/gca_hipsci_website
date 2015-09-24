@@ -1,6 +1,8 @@
 ---
 layout: mdpage
 title: Bardet-Biedl syndrome
+tags: 
+    - disease
 ---
 
 HipSci has generated iPS cell lines from donors diagnosed with Bardet-biedl
