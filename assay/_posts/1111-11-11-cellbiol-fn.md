@@ -5,7 +5,18 @@ tags:
     - assay
 ---
 
-High content imaging of cells is performed on HipSci iPS cell lines selected for banking after passing QC.
+The cell phenotyping project at KCL aims to discover how genetic variation
+contributes to variation in cell behaviour. We thus measure how cells respond
+to specific extrinsic stimuli that represent key components of the stem cell
+microenvironment (niche) in vivo (Lane et al, 2014, Nature Biotech, in press).
+
+Quantitative assays have been developed for undifferentiated iPSCs, dissociated
+enzymatically and plated in 96 well plates, for the following cell responses:
+cell-extracellular matrix (ECM) adhesion (Figure 2), cell-cell adhesion,
+proliferation, apoptosis and maintenance of pluripotency. We have developed
+techniques for altering two environmental stimuli: ECM composition and
+growth factor availability. Each condition is assayed in triplicate wells and
+each cell line is assayed in triplicate experiments
 
 ###Assay procedure
 

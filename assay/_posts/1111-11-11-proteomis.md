@@ -5,7 +5,19 @@ tags:
     - assay
 ---
 
-Proteomic mass spectrometry is performed on HipSci iPS cell lines selected for banking after passing QC.
+The proteomics project at Dundee
+has developed and validated efficient protocols for working with
+protein samples extracted from frozen iPSC lines. This reduced time and cell
+culture costs by minimizing the number of cells needed and avoiding having to
+amplify the cells.
+
+We have developed a
+proteomics quantification strategy for HipSci, enabling quantitative proteome
+comparisons between lines using a relative quantification approach.
+
+To assess data quality, we have carried out comparisons between technical and 
+biological replicates (proteome abundance) and the corresponding
+mRNA levels across multiple HipSci lines.
 
 ###Assay procedure
 
