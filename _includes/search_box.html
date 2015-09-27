@@ -3,7 +3,10 @@
 {% raw %}
 function goTo() {
 {% endraw %}
-    location.href = '{{ site.baseurl }}/search/#?q='+document.getElementById('search_id').value;
+    q=document.getElementById('search_id').value;
+    if (q.length >0) {
+        location.href = '{{ site.baseurl }}/search/#?q='+q;
+    }
 {% raw %}
 }
 {% endraw %}
