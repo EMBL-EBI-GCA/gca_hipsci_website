@@ -10,7 +10,7 @@ tags:
 {% assign about = site.tags.about | first %}
 
 <div class="wrapper">
-    <h2 class="post-title">{{ about.title }}</h2>
+    <h1 class="post-title">{{ about.title }}</h1>
     {{ about.content | markdownify }}
 </div>
 
@@ -18,7 +18,7 @@ tags:
   <h2 class="post-title">Recent Announcements</h2>
     {% for post in site.categories.announcements | limit: 10 %}
         <div class="announcements">
-        <h4 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+        <h3 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
         <p>{{post.date | date: '%B %d, %Y'}}</p>
         {{ post.content | markdownify }}
         </div>
