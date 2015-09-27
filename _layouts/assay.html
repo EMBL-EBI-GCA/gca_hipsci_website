@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body role="document">
+    <div class="container">
+
+    {% include header.html %}
+
+    <div class="row">
+      <div class="col-md-6 col-xs-10 col-md-offset-2 col-xs-offset-1">
+      <div class="wrapper">
+        <h2 class="post-title">{{ page.title }}</h2>
+        <article class="post-content assay">
+        {{ content | markdownify }}
+        </article>
+        </div>
+      </div>
+
+        <div class="col-md-3 col-xs-10 col-md-offset-1 col-xs-offset-1">
+        {% include browser_button.html text=page.browser_text link=page.browser_link %}
+        <div class="row">
+        <div class="col-md-12 col-xs-5 navigation">
+        {% include assay_navigation.html %}
+        </div>
+        </div>
+        {% include search_box.html %}
+        </div>
+
+    </div>
+
+    {% include footer.html %}
+    </div>
+
+  </body>
+
+</html>

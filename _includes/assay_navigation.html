@@ -1,0 +1,16 @@
+<nav>
+<div class="navigation">
+<h3>Assays</h3>
+<ul class="nav nav-pills nav-stacked">
+{% assign assays = site.tags.assay | sort: 'priority' %}
+{% for assay in assays reversed %}
+    {% if assay.title == page.title %}
+      {% assign active =  "active" %}
+    {% else %}
+      {% assign active = "inactive" %}
+    {% endif %}
+    <li class="{{active}}"> <a href="{{ assay.url | prepend: site.baseurl }}">{{ assay.title }}</a></li>
+{% endfor %}
+</ul>
+</div>
+</nav>
