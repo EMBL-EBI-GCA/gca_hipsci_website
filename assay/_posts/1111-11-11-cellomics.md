@@ -1,5 +1,5 @@
 ---
-layout: mdpage
+layout: assay
 title: Cellomics
 tags:
     - assay
