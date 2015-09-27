@@ -1,3 +1,4 @@
+<div class="search-box">
 <script type="text/javascript">
 {% raw %}
 function goTo() {
@@ -7,5 +8,6 @@ function goTo() {
 }
 {% endraw %}
 </script>
-<input type='text' id='search_id' onKeydown='javascript: if (event.keyCode==13) goTo();'>
+<input type='text' placeholder="Search this site" id='search_id' onKeydown='javascript: if (event.keyCode==13) goTo();'>
 <input type='button' value='Search' onClick='javascript:goTo();' class="btn btn-default">
+</div>
