@@ -1,8 +1,10 @@
 ---
-layout: mdpage
+layout: disease
 title: Bardet-Biedl syndrome
 tags: 
     - disease
+browser_text: Cell lines from <i>Bardet-Biedl syndrome</i> donors
+browser_link: /lines?Disease%20Status[]=Bardet-Biedl%20syndrome
 ---
 
 HipSci has generated iPS cell lines from donors diagnosed with Bardet-biedl
@@ -39,7 +41,3 @@ syndrome. University College London contributed the tissue samples to the HipSci
 > retinal dystrophy, together with moderate intellectual deficit (when
 > present), behavioral anomalies, hypomimia and obesity will affect the
 > social life of these patients.
-
-{% include browser_button.html text="Cell lines with Bardet-Biedl syndrome" link="/lines?Disease%20Status[]=Bardet-Biedl%20syndrome" %}
-
-{% include browser_button.html text="Donors with Bardet-Biedl syndrome" link="/donors?Disease%20Status[]=Bardet-Biedl%20syndrome" %}

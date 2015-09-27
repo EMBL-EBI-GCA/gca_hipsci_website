@@ -1,0 +1,16 @@
+<nav>
+<div class="navigation">
+<h3>Disease cohorts</h3>
+<ul class="nav nav-pills nav-stacked">
+{% assign diseases = site.tags.disease | sort: 'priority' %}
+{% for disease in diseases reversed %}
+    {% if disease.title == page.title %}
+      {% assign active =  "active" %}
+    {% else %}
+      {% assign active = "inactive" %}
+    {% endif %}
+    <li class="{{active}}"> <a href="{{ disease.url | prepend: site.baseurl }}">{{ disease.title }}</a></li>
+{% endfor %}
+</ul>
+</div>
+</nav>

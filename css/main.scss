@@ -154,7 +154,7 @@ div.announcements {
 
 div.start-browser {
     max-width: 300px;
-    margin: 20px auto;
+    margin: 20px 10px 20px 0px;
     background: linear-gradient(to bottom, $banner-color-bottom 0%, $banner-color-top 100%) repeat scroll 0% 0% transparent;
     padding: 20px 10px;
     border: $border;
@@ -163,9 +163,14 @@ div.start-browser {
         margin-top: 0px;
         margin-bottom: 15px;
     }
+
+    a.btn {
+        white-space: normal;
+    }
 }
 
 div.search-box {
+    margin: 20px 10px;
     #search_id {
         height: 25px;
     }
