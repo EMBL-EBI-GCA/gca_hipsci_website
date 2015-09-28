@@ -6,7 +6,7 @@ permalink: /directory/
 
 {% assign sorttags = "project cells data assay disease publication" | split: ' ' %}
 {% for tag in sorttags %}
-    <h3>{% cycle 'About the project', 'Cell lines', 'Data', 'Assays', 'Disease cohorts' 'Publications' %}</h3>
+    <h3>{% cycle 'About the project', 'Cell lines', 'Data', 'Assays', 'Disease cohorts', 'Publications' %}</h3>
     <ul>
     {% assign posts = site.tags[tag] | sort: 'priority' %}
     {% for post in posts reversed %}
