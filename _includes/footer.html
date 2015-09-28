@@ -1,6 +1,30 @@
-<footer class="footer">
+<footer>
+<div class="row">
 
-<hr>
+<div class="col-md-2 col-md-offset-2 col-sm-3 col-xs-4 col-sm-offset-0 col-xs-offset-1">
+<p>HipSci is funded by the <a href="http://www.wellcome.ac.uk/" target="_blank">Wellcome Trust</a>
+and <a href="http://www.mrc.ac.uk/index.htm" target="_blank">MRC</a></p>
+</div>
+
+<div class="col-md-2 col-sm-3 col-xs-4 col-sm-offset-0 col-xs-offset-2">
+<p><a href="{% post_url 1111-11-11-funding %}">Participants</a></p>
+<p><a href="{% post_url 1111-11-11-announcements %}">Announcements</a></p>
+<p><a href="{% post_url 1111-11-11-project-wiki %}">Project wiki</a></p>
+</div>
+
+<div class="col-md-2 col-sm-3 col-xs-4 col-sm-offset-0 col-xs-offset-1">
+<p>Contact us</p>
+<p><a href="mailto:hipsci@ebi.ac.uk">hipsci@ebi.ac.uk</a></p>
+</div>
+
+<div class="col-md-2 col-sm-3 col-sm-offset-0 col-xs-4 col-xs-offset-2">
+<p><a href="http://www.twitter.com/hipsci">HipSci on Twitter</a></p>
+<p><a href="{{'/announcements/rss.xml' | prepend: site.baseurl}}">RSS Feed</a></p>
+</div>
+
+</div>
+
+
   <p class="text-center">
     Site maintained by <a href="http://www.ebi.ac.uk/">EMBL-EBI</a>
     |
@@ -14,4 +38,5 @@
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   
+</div>
 </footer>
