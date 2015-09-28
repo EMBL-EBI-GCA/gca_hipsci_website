@@ -1,20 +1,28 @@
 ---
 layout: page
-title: HipSci's data
+title: Data
 permalink: /data/
 tags:
     - data
 ---
-<p><em>This is a placeholder page. I plan to replace it with links to the relevant pages + images etc.</em></p>
 
+<div class="row">
+<div class="col-md-5 col-sm-5">
+<h3>HipSci's data</h3>
 <ul>
 {% assign posts = site.tags['data'] | sort: 'priority' %}
 {% for post in posts reversed %}
 <li><a href="{{post.url}}">{{post.title}}</a></li>
 {% endfor %}
+</ul>
+</div>
+<div class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1">
 <h3>Assays</h3>
+<ul>
 {% assign posts = site.tags['assay'] | sort: 'priority' %}
 {% for post in posts reversed %}
 <li><a href="{{post.url}}">{{post.title}}</a></li>
 {% endfor %}
 </ul>
+</div>
+</div>
