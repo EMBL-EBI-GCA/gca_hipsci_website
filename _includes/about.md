@@ -1,11 +1,3 @@
----
-layout: mdpage
-title: What is HipSci?
-priority: 200
-tags: 
-    - project
-    - about
----
 
 *This text should be replaced by "a summary and clearer explanation of HipSci
 and what is being undertaken"* (from the oversight group feedback)

@@ -7,11 +7,11 @@ tags:
     - home
 ---
 
-{% assign about = site.tags.about | first %}
+{% capture about %}{% include about.md %}{% endcapture %}
 
 <div class="wrapper">
-    <h1 class="post-title">{{ about.title }}</h1>
-    {{ about.content | markdownify }}
+    <h1 class="post-title">What is HipSci?</h1>
+    {{ about | markdownify }}
 </div>
 
 <div class="wrapper">
