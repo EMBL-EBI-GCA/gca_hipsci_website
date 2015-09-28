@@ -1,0 +1,11 @@
+<nav>
+<div class="navigation">
+<h3>Announcements</h3>
+{% for announcement in site.categories.announcements %}
+    <div class="nav-item"
+    <p><a href="{{ announcement.url | prepend: site.baseurl }}">{{ announcement.title }}</a></p>
+    <p class="text-right">{{announcement.date | date: '%B %d, %Y'}}</p>
+    </div>
+{% endfor %}
+</div>
+</nav>

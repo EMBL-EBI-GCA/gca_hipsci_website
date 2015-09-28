@@ -1,4 +1,4 @@
 <div class="start-browser">
 <h3 class="text-center">{{include.text}}</h3>
-<a class="btn btn-primary btn-block" href="{{'/lines/#' | append: include.link | prepend: site.baseurl}}">View in the HipSci data browser</a>
+<a class="btn btn-primary btn-block" href="{{'/lines/#' | append: include.link | prepend: site.baseurl}}">{% if include.button_text %}{{ include.button_text}}{% else %}View in the HipSci data browser{% endif %}</a>
 </div>

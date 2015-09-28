@@ -13,14 +13,3 @@ tags:
     <h1 class="post-title">What is HipSci?</h1>
     {{ about | markdownify }}
 </div>
-
-<div class="wrapper">
-  <h2 class="post-title">Recent Announcements</h2>
-    {% for post in site.categories.announcements | limit: 10 %}
-        <div class="announcements">
-        <h3 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        <p>{{post.date | date: '%B %d, %Y'}}</p>
-        {{ post.content | markdownify }}
-        </div>
-    {% endfor %}
-</div>
