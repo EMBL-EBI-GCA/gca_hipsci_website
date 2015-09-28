@@ -1,5 +1,5 @@
 ---
-layout: mdpage
+layout: data
 title: Data Navigation
 order: 4
 redirect_from:
