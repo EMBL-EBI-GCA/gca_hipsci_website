@@ -78,10 +78,7 @@ app.directive('lineHits', function() {
 + '<div ng-repeat="hit in SearchCtrl.lineHits.hits">'
 + '<h4><a ng-href="/lines/#/lines/{{hit._source.name}}" ng-bind="hit._source.name"></a></h4>'
 + '</div>'
-+ '<div ng-if="SearchCtrl.lineHits.total > SearchCtrl.lineHits.hits.length">'
-+ '<h4>More results</h4>'
-+ '<a ng-href="/lines/#/lines?q={{SearchCtrl.searchPhrase}}">View search results in the cell line browser</a>'
-+ '</div>'
++ '<a ng-href="/lines/#/lines?q={{SearchCtrl.searchPhrase}}">Cell line search results in the lines and data browser</a>'
 + '</div>'
     };
 });
