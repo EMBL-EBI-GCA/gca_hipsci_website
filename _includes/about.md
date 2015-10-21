@@ -1,7 +1,4 @@
 
-*This text should be replaced by "a summary and clearer explanation of HipSci
-and what is being undertaken"* (from the oversight group feedback)
-
 HipSci brings  together diverse constituents in genomics, proteomics, cell
 biology and clinical genetics to create a UK national iPS cell resource and use
 it to carry out cellular genetic studies.
