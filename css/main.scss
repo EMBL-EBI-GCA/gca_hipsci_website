@@ -204,11 +204,3 @@ div.start-browser {
     margin-right: auto;
 }
 
-@media (min-width: 992px)  {
- div.margin-left-md {
-    margin-left: 40px;
-    @media (min-width: 1200px)  {
-          margin-left: 0px;
-    }
-  }
-}
