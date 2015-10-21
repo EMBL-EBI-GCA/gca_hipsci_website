@@ -9,29 +9,27 @@ tags:
 
 {% capture about %}{% include about.md %}{% endcapture %}
 
-<div class="row">
-  <div class="col-md-5 col-md-offset-0 col-lg-offset-1 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2"> 
+<div class="row inner-sheet">
+  <div class="col-md-5 col-md-offset-0 col-lg-offset-1 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 wrapper"> 
   <img src="img/ipsc_morphology1.png" class="img-responsive" alt="iPSC morphology">
   </div>
-  <div class="col-lg-5 col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+  <div class="col-lg-5 col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 wrapper">
     <h1 class="post-title">What is HipSci?</h1>
     {{ about | markdownify }}
   </div>
-  <div class="col-lg-3 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-6">
+  <div class="col-lg-3 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-6 wrapper">
   {% include announcements_panel.html %}
   </div>
-  <div class="col-lg-3 col-lg-offset-0 col-md-4 col-md-offset-2 col-sm-5 col-xs-6">
+  <div class="col-lg-3 col-lg-offset-0 col-md-4 col-md-offset-2 col-sm-5 col-xs-6 wrapper">
   {% include publications_panel.html %}
   </div>
-  <div class="col-lg-3 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-11 col-xs-offset-1">
+  <div class="col-lg-3 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-11 col-xs-offset-1 wrapper">
   <div class="row">
-  <div class="col-sm-6 col-lg-12 col-xs-6">
+  <div class="col-sm-6 col-lg-12 col-xs-6 wrapper">
   {% include browser_button.html text='Cell lines and data browser'  button_text='Start' link='/lines' %}
   </div>
-  <div class="col-sm-6 col-lg-12 col-xs-6">
-  <div class="pull-right">
+  <div class="col-sm-6 col-lg-12 col-xs-6 wrapper">
     {% include search_box.html %}
-  </div>
   </div>
   </div>
   </div>

@@ -23,6 +23,10 @@ div.container {
     background-color: $page-color;
     border: $border;
     padding: 4px;
+
+    div.inner-sheet {
+        padding: 11px;
+    }
 }
 
 header {
@@ -30,7 +34,6 @@ header {
     border: $border;
     padding: 16px;
     padding-bottom: 0px;
-    margin-bottom: 16px;
 
     div.nav {
         min-height: 50px;
@@ -118,8 +121,12 @@ div.footer {
 }
 
 div.wrapper {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    h1.post-title {
+        margin-top: 0px;
+    }
+
     p {
         text-align: justify;
     }
@@ -129,6 +136,11 @@ div.wrapper {
             margin: 8px 0px;
         }
     }
+}
+
+div.wrapper-top-only {
+    @extend .wrapper;
+    margin-bottom: 20px;
 }
 
 
@@ -146,7 +158,9 @@ div.wrapper {
 
 
 .navigation {
-    margin: 20px 0px;
+    h3.nav-title {
+        margin-top: 0px;
+    }
 
     div.nav-item {
         padding: 5px 5px 5px 0px;
@@ -170,7 +184,6 @@ div.announcements {
 
 div.start-browser {
     max-width: 300px;
-    margin: 20px 10px 20px 0px;
     background: linear-gradient(to bottom, $banner-color-bottom 0%, $banner-color-top 100%) repeat scroll 0% 0% transparent;
     padding: 20px 10px;
     border: $border;
@@ -185,9 +198,17 @@ div.start-browser {
     }
 }
 
-div.search-box {
-    margin: 20px 10px;
-    #search_id {
-        height: 25px;
+.center {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 992px)  {
+ div.margin-left-md {
+    margin-left: 40px;
+    @media (min-width: 1200px)  {
+          margin-left: 0px;
     }
+  }
 }

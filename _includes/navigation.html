@@ -1,6 +1,6 @@
 <nav>
 <div class="navigation">
-<h3>Navigation</h3>
+<h3 class="nav-title">Navigation</h3>
 <p><em>NB: This navigation list will probably get removed in the final version of website</em></p>
 <ul class="nav nav-pills nav-stacked">
 {% for i in (1..100) %}{% assign navpages = site.pages | where: 'order', $i %}{% for curpage in navpages %}{% if curpage.title %}

@@ -1,6 +1,6 @@
 <nav>
 <div class="navigation">
-<h3>Publications</h3>
+<h3 class="nav-title">Publications</h3>
 {% for publication in site.categories.publication %}
     <div class="nav-item"
     <p><a href="{{ publication.url | prepend: site.baseurl }}">{{ publication.title }}</a></p>
