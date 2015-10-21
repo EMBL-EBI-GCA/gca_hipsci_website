@@ -121,8 +121,8 @@ div.footer {
 }
 
 div.wrapper {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     h1.post-title {
         margin-top: 0px;
     }
@@ -136,11 +136,6 @@ div.wrapper {
             margin: 8px 0px;
         }
     }
-}
-
-div.wrapper-top-only {
-    @extend .wrapper;
-    margin-bottom: 20px;
 }
 
 
