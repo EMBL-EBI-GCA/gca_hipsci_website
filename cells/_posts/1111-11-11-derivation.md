@@ -2,6 +2,7 @@
 layout: mdpage
 title: Derivation pipeline
 nav_description: How does the HipSci project derive iPS cell lines?
+priority: 70
 tags:
     - cells
 ---
