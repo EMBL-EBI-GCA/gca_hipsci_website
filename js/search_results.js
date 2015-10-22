@@ -73,12 +73,12 @@ app.directive('lineHits', function() {
         restrict: 'E',
         scope: 'false',
         template: 
-  '<div class="wrapper">'
-+ '<h3><span ng-bind="SearchCtrl.lineHits.total"></span> matching cell line<span ng-if="SearchCtrl.lineHits.total > 1">s</span></h3>'
-+ '<div class="navigation"><div ng-repeat="hit in SearchCtrl.lineHits.hits" class="nav-item">'
-+ '<a ng-href="/lines/#/lines/{{hit._source.name}}"><h4 ng-bind="hit._source.name"></h4>'
-+ '</a></div>'
-+ '<div class="nav-item"><a ng-href="/lines/#/lines?q={{SearchCtrl.searchPhrase}}"><p>Cell line search results in the lines and data browser</p></a></div>'
-+ '</div></div>'
+  '<div class="row navigation">'
++ '<h3><span ng-bind="SearchCtrl.lineHits.total" class="nav-title"></span> matching cell line<span ng-if="SearchCtrl.lineHits.total > 1">s</span></h3>'
++ '<div ng-repeat="hit in SearchCtrl.lineHits.hits" class="col-md-4"><div class="nav-item">'
++ '<a ng-href="/lines/#/lines/{{hit._source.name}}"><p ng-bind="hit._source.name"></p>'
++ '</a></div></div>'
++ '<div class="col-md-12"><div class="nav-item"><a ng-href="/lines/#/lines?q={{SearchCtrl.searchPhrase}}"><p>Cell line search results in the lines and data browser</p></a></div></div>'
++ '</div>'
     };
 });
