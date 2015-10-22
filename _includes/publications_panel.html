@@ -2,9 +2,11 @@
 <div class="navigation">
 <h3 class="nav-title">Publications</h3>
 {% for publication in site.categories.publication %}
-    <div class="nav-item"
-    <p><a href="{{ publication.url | prepend: site.baseurl }}">{{ publication.title }}</a></p>
-    <p class="text-right">{{publication.pub_ref | markdownify}}</p>
+    <div class="nav-item">
+    <a href="{{ publication.url | prepend: site.baseurl }}">
+    {{ publication.title }}
+    <div class="black text-right">{{publication.pub_ref | markdownify}}</div>
+    </a>
     </div>
 {% endfor %}
 </div>

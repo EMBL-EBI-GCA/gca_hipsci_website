@@ -9,7 +9,7 @@ tags:
 ---
 
 {% for post in site.categories.announcements %}
-    <div class="announcements">
+    <div class="wrapper">
     <h3 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
     <p>{{post.date | date: '%B %d, %Y'}}</p>
     {{ post.content | markdownify }}

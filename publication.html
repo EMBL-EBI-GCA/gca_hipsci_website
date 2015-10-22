@@ -8,9 +8,11 @@ tags:
 
 {% assign posts = site.categories.publication | sort: 'date' %}
 {% for post in posts reversed %}
-###[{{post.title}}]({{post.url}})
+<div class="wrapper">
+<h3 class="post-title"><a href="{{post.url}}">{{post.title}}</a></h3>
 
-{{post.pub_authors}}
+{{post.pub_authors | markdownify}}
 
-{{post.pub_ref}}
+{{post.pub_ref | markdownify}}
+</div>
 {% endfor %}

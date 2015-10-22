@@ -127,7 +127,7 @@ div.footer {
 div.wrapper {
     padding-top: 20px;
     padding-bottom: 20px;
-    h1.post-title {
+    h1.post-title, h2.post-title, h3.post-title {
         margin-top: 0px;
     }
 
@@ -156,16 +156,28 @@ div.wrapper {
 }
 
 
-.navigation {
-    h3.nav-title {
+div.navigation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    h1.nav-title, h2.nav-title, h3.nav-title {
         margin-top: 0px;
+        margin-bottom: 5px;
     }
-
     div.nav-item {
-        padding: 5px 5px 5px 0px;
+        padding: 5px 15px;
+        margin: 0px -15px;
         p {
             margin: 5px 0px;
         }
+        .black {
+            color: black;
+        }
+        a:link, a:visited, a:hover, a:active {
+            text-decoration: none;
+        }
+    }
+    div.nav-item:hover, div.nav-item:active {
+        background-color: $banner-color-bottom;
     }
 }
 
