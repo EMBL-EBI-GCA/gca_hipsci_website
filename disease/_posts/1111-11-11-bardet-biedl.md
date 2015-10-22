@@ -1,6 +1,7 @@
 ---
 layout: disease
 title: Bardet-Biedl syndrome
+nav_description: A disease cohort contributed by University College London
 tags: 
     - disease
 browser_text: Cell lines from <i>Bardet-Biedl syndrome</i> donors
