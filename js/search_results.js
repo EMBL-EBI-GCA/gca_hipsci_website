@@ -73,7 +73,7 @@ app.directive('lineHits', function() {
         restrict: 'E',
         scope: 'false',
         template: 
-  '<div class="row navigation">'
+  '<div class="navigation">'
 + '<h3><span ng-bind="SearchCtrl.lineHits.total" class="nav-title"></span> matching cell line<span ng-if="SearchCtrl.lineHits.total > 1">s</span></h3>'
 + '<div ng-repeat="hit in SearchCtrl.lineHits.hits" class="col-md-4"><div class="nav-item">'
 + '<a ng-href="/lines/#/lines/{{hit._source.name}}"><p ng-bind="hit._source.name"></p>'
