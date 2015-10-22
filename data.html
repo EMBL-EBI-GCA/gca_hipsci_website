@@ -1,28 +1,54 @@
 ---
-layout: page
+layout: blank
 title: Data
 permalink: /data/
 tags:
     - data
 ---
 
-<div class="row">
-<div class="col-md-5 col-sm-5">
-<h3>HipSci's data</h3>
-<ul>
-{% assign posts = site.tags['data'] | sort: 'priority' %}
-{% for post in posts reversed %}
-<li><a href="{{post.url}}">{{post.title}}</a></li>
-{% endfor %}
-</ul>
+<div class="row inner-sheet">
+  <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12">
+    <div class="row navigation">
+    {% assign posts = site.tags['data'] | sort: 'priority' %}
+    {% for post in posts reversed %}
+    <div class="col-md-3 col-sm-4 col-xs-6">
+    <div class="nav-item">
+    <a href="{{ post.url }}">
+    <p>{{ post.title }}</p>
+    <div class="black ">{% if post.nav_description %}{{post.nav_description}}{% else %}{{post.excerpt}}{% endif %}</div>
+    </a>
+    </div>
+    </div>
+    {% endfor %}
+    <div class="col-md-6  col-sm-4 col-sm-offset-0 col-xs-8 col-xs-offset-2  wrapper">
+        {% include search_box.html %}
+    </div>
+    </div>
+  </div>
+
+  <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12">
+  <div class="row">
+    {% capture about %}{% include about.md %}{% endcapture %}
+    <div class="col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 wrapper"> 
+    <h1 class="post-title">HipSci's assay data</h1>
+    {{ about | markdownify }}
+    <div class="wrapper">
+    {% include browser_button.html text='Cell lines and data browser'  button_text='Start' link='/lines' %}
+    </div>
+    </div>
+    <div class="col-md-6 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 wrapper"> 
+      <img src="{{site.baseurl}}/img/mesoderm_red.png" class="img-responsive" alt="mesoderm differentiation">
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+  {% include tag_navigation.html tag='assay' header='Assay pages'%}
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+  {% include announcements_panel.html %}
+  </div>
+  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+  {% include publications_panel.html %}
+  </div>
+  </div>
 </div>
-<div class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1">
-<h3>Assays</h3>
-<ul>
-{% assign posts = site.tags['assay'] | sort: 'priority' %}
-{% for post in posts reversed %}
-<li><a href="{{post.url}}">{{post.title}}</a></li>
-{% endfor %}
-</ul>
-</div>
-</div>
+

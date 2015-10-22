@@ -1,6 +1,7 @@
 ---
 layout: data
 title: Data Navigation
+nav_description: Many different ways to explore and download HipSci's assay data
 order: 4
 redirect_from:
     - /data-navigation

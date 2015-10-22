@@ -1,7 +1,6 @@
 <nav>
 <div class="navigation">
-<h3>{{include.header}}</h3>
-<ul class="nav nav-pills nav-stacked">
+<h3 class="nav-title">{{include.header}}</h3>
 {% assign tagged_pages = site.tags[include.tag] | sort: 'priority' %}
 {% for tagged_page in tagged_pages reversed %}
     {% if tagged_page.title == page.title %}
@@ -9,8 +8,11 @@
     {% else %}
       {% assign active = "inactive" %}
     {% endif %}
-    <li class="{{active}}"> <a href="{{ tagged_page.url | prepend: site.baseurl }}">{{ tagged_page.title }}</a></li>
+    <div class="nav-item">
+    <a class="{{active}}" href="{{ tagged_page.url | prepend: site.baseurl }}">
+    {{ tagged_page.title }}
+    </a>
+    </div>
 {% endfor %}
-</ul>
 </div>
 </nav>
