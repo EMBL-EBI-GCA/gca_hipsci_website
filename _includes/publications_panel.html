@@ -2,7 +2,12 @@
 <div class="navigation">
 <h3 class="nav-title">Publications</h3>
 {% for publication in site.categories.publication %}
-    <div class="nav-item">
+    {% if publication.title == page.title %}
+      {% assign active =  "active" %}
+    {% else %}
+      {% assign active = "inactive" %}
+    {% endif %}
+    <div class="nav-item {{active}}">
     <a href="{{ publication.url | prepend: site.baseurl }}">
     {{ publication.title }}
     <div class="black text-right">{{publication.pub_ref | markdownify}}</div>

@@ -179,7 +179,7 @@ div.navigation {
             text-decoration: none;
         }
     }
-    div.nav-item:hover, div.nav-item:active {
+    div.nav-item:hover, div.nav-item:active , div.active {
         background-color: $banner-color-bottom;
     }
 }

@@ -2,7 +2,12 @@
 <div class="navigation">
 <h3 class="nav-title">Announcements</h3>
 {% for announcement in site.categories.announcements %}
-    <div class="nav-item">
+    {% if announcement.title == page.title %}
+      {% assign active =  "active" %}
+    {% else %}
+      {% assign active = "inactive" %}
+    {% endif %}
+    <div class="nav-item {{active}}">
     <a href="{{ announcement.url | prepend: site.baseurl }}">
     <p>{{ announcement.title }}</p>
     <div class="black text-right">{{announcement.date | date: '%B %d, %Y'}}</div>

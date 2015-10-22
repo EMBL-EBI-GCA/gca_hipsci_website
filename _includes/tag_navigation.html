@@ -1,6 +1,6 @@
 <nav>
 <div class="navigation">
-<h3 class="nav-title">{{include.header}}</h3>
+{% if include.header %}<h3 class="nav-title">{{include.header}}</h3>{% endif %}
 {% assign tagged_pages = site.tags[include.tag] | sort: 'priority' %}
 {% for tagged_page in tagged_pages reversed %}
     {% if tagged_page.title == page.title %}
@@ -8,8 +8,8 @@
     {% else %}
       {% assign active = "inactive" %}
     {% endif %}
-    <div class="nav-item">
-    <a class="{{active}}" href="{{ tagged_page.url | prepend: site.baseurl }}">
+    <div class="nav-item {{active}}">
+    <a href="{{ tagged_page.url | prepend: site.baseurl }}">
     {{ tagged_page.title }}
     {% if tagged_page.nav_description %}
     <div class="black ">{{tagged_page.nav_description}}</div>
