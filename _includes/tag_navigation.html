@@ -11,6 +11,9 @@
     <div class="nav-item">
     <a class="{{active}}" href="{{ tagged_page.url | prepend: site.baseurl }}">
     {{ tagged_page.title }}
+    {% if tagged_page.nav_description %}
+    <div class="black ">{{tagged_page.nav_description}}</div>
+    {% endif %}
     </a>
     </div>
 {% endfor %}
