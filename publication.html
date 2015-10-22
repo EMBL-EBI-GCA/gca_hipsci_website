@@ -7,12 +7,18 @@ tags:
 ---
 
 {% assign posts = site.categories.publication | sort: 'date' %}
+<div class="navigation">
 {% for post in posts reversed %}
-<div class="wrapper">
-<h3 class="post-title"><a href="{{post.url}}">{{post.title}}</a></h3>
+<div class="nav-item nav-item-xl">
+<a href="{{post.url}}">
 
-{{post.pub_authors | markdownify}}
+<h3 class="post-title">{{post.title}}</h3>
 
-{{post.pub_ref | markdownify}}
+<div class="black">{{post.pub_authors | markdownify}}</div>
+
+<div>{{post.pub_ref | markdownify}}</div>
+
+</a>
 </div>
 {% endfor %}
+</div>

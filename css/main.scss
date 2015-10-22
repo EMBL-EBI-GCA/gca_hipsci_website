@@ -85,7 +85,7 @@ header {
                 color: black;
                 outline: none;
             }
-            a:hover {
+            a:hover, a:focus {
                 color: black;
             }
         }
@@ -175,12 +175,21 @@ div.navigation {
         .black {
             color: black;
         }
-        a:link, a:visited, a:hover, a:active {
+        a:link, a:visited, a:hover, a:focus {
             text-decoration: none;
+            outline: none;
         }
+
     }
-    div.nav-item:hover, div.nav-item:active , div.active {
+    div.nav-item a:hover, div.nav-item a:focus , div.active {
         background-color: $banner-color-bottom;
+    }
+
+    div.nav-item-xl {
+        margin: 0px -30px;
+        a {
+            padding: 15px 30px;
+        }
     }
 }
 
