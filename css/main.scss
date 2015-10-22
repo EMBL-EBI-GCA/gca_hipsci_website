@@ -164,8 +164,11 @@ div.navigation {
         margin-bottom: 5px;
     }
     div.nav-item {
-        padding: 5px 15px;
         margin: 0px -15px;
+        a {
+            display: block;
+            padding: 5px 15px;
+        }
         p {
             margin: 5px 0px;
         }
