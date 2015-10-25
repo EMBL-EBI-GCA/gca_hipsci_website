@@ -1,0 +1,14 @@
+<nav>
+<ol class="breadcrumb">
+    <li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
+    {% if page.tags contains "project" %}<li><a href="{{ "/about" | prepend: site.baseurl }}">Project</a></li>{% endif %}
+    {% if page.tags contains "cells" or page.tags contains "disease" %}<li><a href="{{ "/cells" | prepend: site.baseurl }}">Cell lines</a></li>{% endif %}
+    {% if page.tags contains "data" or page.tags contains "assay" %}<li><a href="{{ "/data" | prepend: site.baseurl }}">Data</a></li>{% endif %}
+    {% if page.tags contains "publication" %}<li><a href="{{ "/publication" | prepend: site.baseurl }}">Publications</a></li>{% endif %}
+    {% if page.tags contains "disease" %}<li><a href="{% post_url 1111-11-11-disease %}">Disease cohorts</a></li>{% endif %}
+    {% if page.tags contains "assay" %}<li><a href="{% post_url 1111-11-11-assay %}">Assays</a></li>{% endif %}
+    {% if page.tags contains "publication" %}{% else %}
+    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {% endif %}
+</ol>
+</nav>
