@@ -75,7 +75,7 @@ app.directive('lineHits', function() {
         template: 
   '<div class="row">'
 + '<div class="col-md-12"><h3 class="nav-title"><span ng-bind="SearchCtrl.lineHits.total + (SearchCtrl.lineHits.total > 1 ? \' matching cell lines\' : \' matching cell line\')"></span> in the <a ng-href="/lines/#/lines?q={{SearchCtrl.searchPhrase}}">lines and data browser</a></h3></div>'
-+ '<div ng-repeat="hit in SearchCtrl.lineHits.hits" class="col-md-4 col-sm-4 col-xs-4"><div class="nav-item">'
++ '<div ng-repeat="hit in SearchCtrl.lineHits.hits" class="col-md-4 col-sm-4 col-xs-6"><div class="nav-item">'
 + '<a ng-href="/lines/#/lines/{{hit._source.name}}"><p ng-bind="hit._source.name"></p>'
 + '</a></div></div></div>'
     };
