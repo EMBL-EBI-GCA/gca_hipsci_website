@@ -1,7 +1,5 @@
 ---
 layout: blank
-title: Data
-permalink: /data/
 tags:
     - data
 ---
@@ -38,10 +36,9 @@ tags:
 
   <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12">
   <div class="row">
-    {% capture about %}{% include about.md %}{% endcapture %}
     <div class="col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 wrapper"> 
-    <h1 class="post-title">HipSci's assay data</h1>
-    {{ about | markdownify }}
+    <h1 class="post-title">{{ page.title }}</h1>
+    {{ content | markdownify }}
     </div>
     <div class="col-md-6 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 wrapper"> 
       <img src="{{site.baseurl}}/img/data.png" class="img-responsive center-block" alt="mesoderm differentiation">
