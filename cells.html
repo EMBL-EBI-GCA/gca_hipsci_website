@@ -33,7 +33,7 @@ tags:
     </div>
     {% endfor %}
     <div class="col-md-6 col-md-offset-3  col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2  wrapper">
-        {% include search_box.html %}
+        {% include components/search_box.html %}
     </div>
     </div>
   </div>
@@ -51,13 +51,13 @@ tags:
     </div>
   </div>
   <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-  {% include announcements_panel.html %}
+  {% include components/announcements_panel.html %}
   </div>
   <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-  {% include publications_panel.html %}
+  {% include components/publications_panel.html %}
   </div>
   <div class="col-lg-4 col-md-4 col-sm-6  col-xs-6 wrapper">
-  {% include browser_button.html text='Cell lines and data browser'  button_text='Start' link='/lines' %}
+  {% include components/browser_button.html text='Cell lines and data browser'  button_text='Start' link='/lines' %}
   </div>
   </div>
 </div>
