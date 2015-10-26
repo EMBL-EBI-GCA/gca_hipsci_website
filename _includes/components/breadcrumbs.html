@@ -2,7 +2,7 @@
 <ol class="breadcrumb">
     <li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
     {% if page.tags contains "project" %}<li><a href="{{ "/about" | prepend: site.baseurl }}">Project</a></li>{% endif %}
-    {% if page.tags contains "cells" or page.tags contains "disease" %}<li><a href="{{ "/cells" | prepend: site.baseurl }}">Cell lines</a></li>{% endif %}
+    {% if page.tags contains "cells" or page.tags contains "disease" %}<li><a href="{% post_url 1111-11-11-cells %}">Cell lines</a></li>{% endif %}
     {% if page.tags contains "data" or page.tags contains "assay" %}<li><a href="{% post_url 1111-11-11-data %}">Data</a></li>{% endif %}
     {% if page.tags contains "publication" %}<li><a href="{{ "/publication" | prepend: site.baseurl }}">Publications</a></li>{% endif %}
     {% if page.tags contains "disease" %}<li><a href="{% post_url 1111-11-11-disease %}">Disease cohorts</a></li>{% endif %}

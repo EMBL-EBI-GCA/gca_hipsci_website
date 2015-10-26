@@ -10,7 +10,7 @@
         <nav>
         <div class="col-md-6 col-sm-9 nav">
                 <ul class="nav nav-pills nav-justified">
-                    <li class="{% if page.tags contains "cells" or page.tags contains "disease" %}active{% else %}inactive{% endif %}"><a href="{{ "/cells" | prepend: site.baseurl }}">Cell lines</a></li>
+                    <li class="{% if page.tags contains "cells" or page.tags contains "disease" %}active{% else %}inactive{% endif %}"><a href="{% post_url 1111-11-11-cells %}">Cell lines</a></li>
                     <li class="{% if page.tags contains "data" or page.tags contains "assay" %}active{% else %}inactive{% endif %}"><a href="{% post_url 1111-11-11-data %}">Data</a></li>
                     <li class="{% if page.tags contains "project" %}active{% else %}inactive{% endif %}"><a href="{{ "/about" | prepend: site.baseurl }}">About</a></li>
                     <li class="{% if page.tags contains "publication" %}active{% else %}inactive{% endif %}"><a href="{{ "/publication" | prepend: site.baseurl }}">Publications</a></li>
