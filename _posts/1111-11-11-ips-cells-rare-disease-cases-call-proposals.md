@@ -2,7 +2,7 @@
 layout: mdpage
 title: "iPS cells for Rare disease cases: call for proposals"
 tags: 
-    - project
+    - other
 ---
 
 

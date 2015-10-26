@@ -4,10 +4,10 @@ title: HipSci site directory
 permalink: /directory/
 ---
 
-{% assign sorttags = "project cells data assay disease publication" | split: ' ' %}
+{% assign sorttags = "project cells data assay disease publication other" | split: ' ' %}
 <nav>
 {% for tag in sorttags %}
-    <h3>{% cycle 'About the project', 'Cell lines', 'Data', 'Assays', 'Disease cohorts', 'Publications' %}</h3>
+    <h3>{% cycle 'About the project', 'Cell lines', 'Data', 'Assays', 'Disease cohorts', 'Publications', 'Other pages'%}</h3>
     <ul>
     {% assign posts = site.tags[tag] | sort: 'priority' %}
     {% for post in posts reversed %}

@@ -4,7 +4,7 @@ title: "iPS cells for Rare disease cases: Expression of Interest"
 redirect_from:
     - /node/58/index.html
 tags:
-    - project
+    - other
 ---
 
 The Human Induced Pluripotent Stem Cell initiative (HipSci), funded by the
