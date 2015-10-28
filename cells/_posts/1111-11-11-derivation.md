@@ -15,9 +15,11 @@ Genetics and Phenotyping facility (CGaP) at the Sanger Institute, which opened
 in February 2013 with HipSci as its initial primary project.
 right).
 
-Three candidate lines per donor are picked
-after reprogramming, from which one, or in a limited number of cases two, are
-selected based on quality control (QC) assays.
+Two candidate lines per donor are picked
+after reprogramming, from which one is
+selected based on quality control (QC) assays. For cell lines derived during
+the earliest phases of the project, three lines per donor were picked as candidates,
+and in some cases two of these were selected for banking.
 
 HipSci is currently selecting
 10 lines per week for expansion, experimental assays and banking.
