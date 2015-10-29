@@ -45,6 +45,7 @@ header {
                 max-height: 40px;
             }
             min-height: 78px;
+            padding: 5px;
         }
         @media (min-width: 768px) {
             img {
@@ -58,6 +59,9 @@ header {
         color: $heading-font-color;
         font-weight: normal;
         margin: 0px;
+        @media (max-width: 767px) {
+            font-size: 14px;
+        }
     }
 
     ul.nav-pills {
@@ -75,6 +79,8 @@ header {
                     margin-bottom: 0;
                     padding-top: 5px;
                     padding-bottom: 5px;
+                    padding-left: 0px;
+                    padding-right: 0px;
                 }
             }
         }
