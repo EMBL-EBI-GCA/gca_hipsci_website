@@ -9,7 +9,7 @@ tags:
 
 Priyalakshmi Viswanathan, Terri Gaskell, Nathalie Moens,  Oliver J. Culley,  Darrick Hansen,  Mia K. R. Gervasio,  Yee J. Yeap,  and Davide Danovi
 
-[*Frontiers in Pharmacology* 2014; 5: 150](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4078252/)
+[*Frontiers in Pharmacology* 5, 150 (2014)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4078252/)
 
 ###Abstract
 
