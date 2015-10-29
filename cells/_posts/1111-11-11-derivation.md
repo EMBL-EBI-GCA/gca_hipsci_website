@@ -13,7 +13,6 @@ to derive, expand and bank iPSC lines on a production scale.
 iPSC lines are produced in the Cellular
 Genetics and Phenotyping facility (CGaP) at the Sanger Institute, which opened
 in February 2013 with HipSci as its initial primary project.
-right).
 
 Two candidate lines per donor are picked
 after reprogramming, from which one is
