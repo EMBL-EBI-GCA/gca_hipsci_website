@@ -9,7 +9,7 @@ tags:
 
 Ruth McKernan & Fiona M Watt
 
-[*Nature Biotechnology* 31, 875–877 (2013)](http://www.nature.com/nbt/journal/v31/n10/full/nbt.2710.html)
+[{{page.pub_ref}}](http://www.nature.com/nbt/journal/v31/n10/full/nbt.2710.html)
 
 ###Abstract
 
