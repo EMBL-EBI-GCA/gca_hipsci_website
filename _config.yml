@@ -12,7 +12,6 @@ url: "http://www.hipsci.org" # the base hostname & protocol for your site
 permalink: /:categories/:title
 gems:
     - jekyll-redirect-from
-    - jekyll-sitemap
 collections:
     - participants
 
