@@ -11,7 +11,7 @@ priority: 85
 nav: true
 ---
 
-The [Lines and Data](http://www.hipsci.org/lines/) page gives an overview of
+The [Lines and Data]({{site.baseurl}}/lines/) page gives an overview of
 HipSci cell lines and assay data that are publicly available. This page
 provides links to HipSci data on the project ftp site, in the EGA archive, and
 in the BioSamples archive.
