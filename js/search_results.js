@@ -12,6 +12,8 @@ app.controller('SearchCtrl', ['$location', '$http', '$scope', function($location
     controller.siteHits = [];
     controller.lineHits = [];
 
+    var searchEl = document.getElementById('search_id');
+
     var siteSearch = function(q) {
         var postBody = {
             _source: ['url', 'title'],
@@ -53,6 +55,7 @@ app.controller('SearchCtrl', ['$location', '$http', '$scope', function($location
 
     var search = function() {
         controller.searchPhrase = $location.search().q;
+        searchEl.value = controller.searchPhrase;
         if (controller.searchPhrase) {
             siteSearch(controller.searchPhrase)
             linesSearch(controller.searchPhrase)
