@@ -18,3 +18,5 @@ collections:
 # Build settings
 markdown: kramdown
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
+
+default_title_element: HipSci | Human Induced Pluripotent Stem Cell Initiative
