@@ -7,6 +7,7 @@ redirect_from:
     - /data-navigation
 tags:
     - data
+priority: 85
 nav: true
 ---
 
