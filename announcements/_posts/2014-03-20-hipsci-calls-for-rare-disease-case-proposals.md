@@ -17,5 +17,5 @@ samples to form larger groups with others who can contribute similar cases.
 If you wish to submit a proposal or have any questions please email
 [hipsci-proposal@ebi.ac.uk](mailto:hipsci-proposal@ebi.ac.uk)
 Full Details can be found on the [iPS cells for Rare
-disease cases: call for proposals page]({{site.baseurl}}{% post_url 1111-11-11-ips-cells-rare-disease-cases-call-proposals%})
-and in the [Proposal PDF]({{site.baseurl}}/documents/HipSci_Rare_call_for_proposals_March2014.pdf)
+disease cases: call for proposals page](/ips-cells-rare-disease-cases-call-proposals)
+and in the [Proposal PDF](/documents/HipSci_Rare_call_for_proposals_March2014.pdf)
