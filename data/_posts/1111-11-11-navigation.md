@@ -51,8 +51,7 @@ In order to access the data you need to sign up for an account with Globus via
 their signup page. You must also install the [Globus Connect Personal software](https://support.globus.org/entries/24044351)
 and setup a personal endpoint to download the data too.
 
-The HipSci end point is one of several EMBL-EBI hosted end points and is called
-ebi#hipsci
+HipSci data are available from the end point ebi#public, which is one of several end points hosted by EMBL-EBI.
 
 When you have setup your personal end point you should be able to start a
 transfer using their web front end.
