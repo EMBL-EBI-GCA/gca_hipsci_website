@@ -3,12 +3,12 @@
 
 [
 {% for page in site.pages %}{% if page.include_in_search %}  {
-    "url": {{page.url | jsonify}},
+    "url": {{ page.url | prepend: site.baseurl | prepend: site.url | jsonify}},
     "title": {{page.title | jsonify}},
     "content": {{ page.content | strip_html | jsonify | replace: '\n', ' '}}
   },{% endif %}{% endfor %}
 {% for page in site.posts %}{% if page.include_in_search %}  {
-    "url": {{page.url | jsonify}},
+    "url": {{ page.url | prepend: site.baseurl | prepend: site.url | jsonify}},
     "title": {{page.title | jsonify}},
     "content": {{ page.content | strip_html | jsonify | replace: '\n', ' '}}
   }{% if forloop.last %}{% else %},{% endif %}{% endif %}{% endfor %}
