@@ -1,15 +1,8 @@
 ---
 layout: blank
-title: Home
-permalink: /
-order: 1
 tags:
     - home
-redirect_from:
-    - /home/
 ---
-
-{% capture about %}{% include about.md %}{% endcapture %}
 
 <div class="row">
   <div class="col-md-5 col-md-offset-0 col-lg-offset-1 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 wrapper"> 
@@ -17,7 +10,7 @@ redirect_from:
   </div>
   <div class="col-lg-5 col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 wrapper">
     <h1 class="post-title">What is HipSci?</h1>
-    {{ about | markdownify }}
+    {{ content | markdownify }}
   </div>
   <div class="col-lg-3 col-lg-offset-1 col-md-4 col-md-offset-0 col-sm-6 col-xs-6">
   {% include components/announcements_panel.html %}

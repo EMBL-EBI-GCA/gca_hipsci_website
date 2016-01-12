@@ -1,3 +1,13 @@
+---
+layout: home
+title: Home
+permalink: /
+order: 1
+redirect_from:
+    - /home/
+include_in_search: true
+include_in_sitemap: true
+---
 
 HipSci brings  together diverse constituents in genomics, proteomics, cell
 biology and clinical genetics to create a UK national iPS cell resource and use

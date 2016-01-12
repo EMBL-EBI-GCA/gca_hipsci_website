@@ -13,7 +13,14 @@ permalink: /:categories/:title
 gems:
     - jekyll-redirect-from
 collections:
-    - participants
+    participants :
+        output: false
+defaults:
+    -
+        scope:
+            type: "posts"
+        values:
+            include_in_search: true
 
 # Build settings
 markdown: kramdown
