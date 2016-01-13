@@ -8,7 +8,7 @@
     {% if page.tags contains "disease" %}<li><a href="{% post_url 1111-11-11-disease %}">Disease cohorts</a></li>{% endif %}
     {% if page.tags contains "assay" %}<li><a href="{% post_url 1111-11-11-assay %}">Assays</a></li>{% endif %}
     {% if page.tags contains "publication" %}{% else %}
-    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {% unless page.is_mojo_template %}<li><a href="{{ page.url }}">{{ page.title }}</a></li>{% endunless %}
     {% endif %}
 </ol>
 </nav>

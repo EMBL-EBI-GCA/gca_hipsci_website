@@ -15,12 +15,20 @@ gems:
 collections:
     participants :
         output: false
+    mojo_templates :
+        output: true
+        permalink: /_mojo_templates/:path.html.ep
 defaults:
     -
         scope:
             type: "posts"
         values:
             include_in_search: true
+    -
+        scope:
+            type: mojo_templates
+        values:
+            is_mojo_template: true
 
 # Build settings
 markdown: kramdown
