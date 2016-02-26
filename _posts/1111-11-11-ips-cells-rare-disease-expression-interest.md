@@ -2,7 +2,7 @@
 layout: mdpage
 title: "iPS cells for Rare disease cases: Expression of Interest"
 redirect_from:
-    - /node/58/index.html
+    - /node/58/
 tags:
     - other
 ---

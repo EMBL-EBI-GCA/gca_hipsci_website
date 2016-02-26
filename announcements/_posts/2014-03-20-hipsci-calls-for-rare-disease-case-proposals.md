@@ -2,7 +2,7 @@
 layout: page
 title: HipSci calls for Rare Disease case proposals
 redirect_from:
-    - /hipsci-calls-rare-disease-case-proposals/index.html
+    - /hipsci-calls-rare-disease-case-proposals/
 ---
 
 We are seeking clinicians (or scientists with access to relevant patient cases)

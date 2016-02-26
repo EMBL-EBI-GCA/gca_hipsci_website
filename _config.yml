@@ -11,7 +11,6 @@ url: "http://www.hipsci.org" # the base hostname & protocol for your site
 #github_username:  jekyll
 permalink: /:categories/:title
 gems:
-    - jekyll-redirect-from
     - jekyll-last-modified-at
 collections:
     participants :
@@ -34,5 +33,6 @@ defaults:
 # Build settings
 markdown: kramdown
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
+include: ['_mojo_redirects']
 
 default_title_element: HipSci | Human Induced Pluripotent Stem Cell Initiative
