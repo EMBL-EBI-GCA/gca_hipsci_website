@@ -23,3 +23,5 @@ commercial researcher then check back here soon for further announcements.
 Cells lines in our [HipSci data browser]({{site.baseurl}}/lines) are marked
 with their current 'banking status'. You can filter to display only lines that
 are currently available from ECACC.
+
+If you require a large panel of different HipSci lines (20 plus) then contact ECACC (culturecollections@phe.gov.uk) for a special quotation.
