@@ -1,9 +1,11 @@
 ---
 layout: page
-title: HipSci Rare Disease – Expressions of Interest
+title: NOW CLOSED HipSci Rare Disease – Expressions of Interest
 redirect_from:
     - /hipsci-rare-disease-expressions-interest/
 ---
+
+**This call is now closed**
 
 We are looking to hear from clinicians (or scientist with access to relevant
 patient cases) working with patients with inherited genetic diseases, where a
