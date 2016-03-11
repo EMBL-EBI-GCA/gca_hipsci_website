@@ -6,7 +6,7 @@ tags:
 
 <div class="row">
   <nav>
-  <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12">
+  <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12-maxwidth">
     <div class="row navigation">
     {% assign posts = site.tags['cells'] | sort: 'priority' %}
     {% for post in posts reversed %}
@@ -34,13 +34,13 @@ tags:
   </div>
   </nav>
 
-  <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12">
+  <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12-maxwidth">
   <div class="row">
-    <div class="col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 wrapper"> 
+    <div class="col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-12 wrapper"> 
     <h1 class="post-title">{{ page.title }}</h1>
     {{ content | markdownify }}
     </div>
-    <div class="col-md-6 col-md-offset-0 col-sm-10 col-sm-offset-1 col-xs-8 col-xs-offset-2 wrapper"> 
+    <div class="col-md-6 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 wrapper"> 
       <img src="{{site.baseurl}}/img/mesoderm_red.png" class="img-responsive" alt="mesoderm differentiation">
     </div>
   </div>
@@ -50,7 +50,7 @@ tags:
   <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
   {% include components/publications_panel.html %}
   </div>
-  <div class="col-lg-4 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 wrapper">
+  <div class="col-lg-4 col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12 wrapper">
   {% include components/browser_button.html text='Cell lines and data browser'  button_text='Start' link='/lines' %}
   </div>
   </div>

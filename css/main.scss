@@ -154,6 +154,14 @@ div.wrapper {
     }
 }
 
+div.blue-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: linear-gradient(to bottom, $banner-color-bottom 0%, $banner-color-top 100%) repeat scroll 0% 0% transparent;
+    border: $border;
+}
+
 
 .nav-pills.nav-stacked {
     li.inactive {
@@ -248,4 +256,25 @@ ol.breadcrumb {
     background-color: inherit;
     padding: 0px;
     margin: 0px;
+}
+
+.xs-invisible {
+        @media (max-width: 767px) {
+            display: none;
+        }
+}
+.xs-visible {
+        @media (min-width: 768px) {
+            display: none;
+        }
+}
+
+@media (max-width: 767px) {
+div.col-xs-12-maxwidth {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    width: 100%;
+    max-width: 500px;
+}
 }
