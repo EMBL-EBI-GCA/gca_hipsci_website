@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Common genetic variation drives molecular heterogeneity in human iPSCs preprint available in BioRxiv
+title: Common genetic variation drives molecular heterogeneity in human iPSCs
 ---
 
 The first major analysis of the [HipSci cell line data](http://www.hipsci.org/lines/#/lines) is now availiable as a pre-print in [BioRxiv](http://biorxiv.org/)
