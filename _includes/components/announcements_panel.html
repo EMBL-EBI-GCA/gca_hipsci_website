@@ -1,7 +1,7 @@
 <nav>
 <div class="navigation">
 <h3 class="nav-title">Announcements</h3>
-{% for announcement in site.categories.announcements %}
+{% for announcement in site.categories.announcements limit:5 %}
     {% if announcement.title == page.title %}
       {% assign active =  "active" %}
     {% else %}
