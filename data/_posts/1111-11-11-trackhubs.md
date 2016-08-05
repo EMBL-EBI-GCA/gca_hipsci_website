@@ -13,9 +13,9 @@ HipSci data has been made available in a [Track Hub](http://genome.ucsc.edu/gold
 ##Accessing the Track Hubs
 The Track Hubs can be accessed directly using the following links:
 
-* [Ensembl](http://grch37.ensembl.org/TrackHub?url=http://ftp.hipsci.ebi.ac.uk/vol1/ftp/TrackHub//hipsci_hub/hub.txt;species=Homo_sapiens;name=hipsci_hub;registry=1)
+* [Ensembl](http://grch37.ensembl.org/TrackHub?url=http://ftp.hipsci.ebi.ac.uk/vol1/ftp/track_hub//hipsci_hub/hub.txt;species=Homo_sapiens;name=hipsci_hub;registry=1)
 
-* [UCSC](http://genome.ucsc.edu/cgi-bin/hgHubConnect?db=hg19&hubUrl=http://ftp.hipsci.ebi.ac.uk/vol1/ftp/TrackHub//hipsci_hub/hub.txt&hgHub_do_redirect=on&hgHubConnect.remakeTrackHub=on)
+* [UCSC](http://genome.ucsc.edu/cgi-bin/hgHubConnect?db=hg19&hubUrl=http://ftp.hipsci.ebi.ac.uk/vol1/ftp/track_hub//hipsci_hub/hub.txt&hgHub_do_redirect=on&hgHubConnect.remakeTrackHub=on)
 
 HipSci Track Hubs are also registered in the [Track Hub Registry](http://trackhubregistry.org/) to enable broad discovery and reuse.  From the [Track Hub Registry home page](http://trackhubregistry.org/) you can [search](http://trackhubregistry.org/search) for 'hipsci' to obtain information about the latest release of the HipSci Track Hub, this service also provides direct links to the UCSC and Ensembl genome browsers.
 
@@ -27,7 +27,7 @@ By default, only a few tracks are visible upon initial loading of the Track Hub,
 You can configure which cell lines and data types are available in the browser view by:
 
 
-###[Ensembl](http://grch37.ensembl.org/TrackHub?url=http://ftp.hipsci.ebi.ac.uk/vol1/ftp/TrackHub//hipsci_hub/hub.txt;species=Homo_sapiens;name=hipsci_hub;registry=1)
+###[Ensembl](http://grch37.ensembl.org/TrackHub?url=http://ftp.hipsci.ebi.ac.uk/vol1/ftp/track_hub//hipsci_hub/hub.txt;species=Homo_sapiens;name=hipsci_hub;registry=1)
   * In the menu on the left side of the page click 'configure this page'.  This will show all of the customisable tracks.  The hipsci_hub tracks are shown here.
   * Each HipSci track can be turned 'off', on as 'normal' or as 'coverage only'.
   * The menu on the left can be used to jump to a cell line of interest.  
@@ -37,7 +37,7 @@ You can configure which cell lines and data types are available in the browser v
 More information on customising Ensembl Track hub views is available from their [help page](http://grch37.ensembl.org/info/index.html).
 
 
-###[UCSC](http://genome.ucsc.edu/cgi-bin/hgHubConnect?db=hg19&hubUrl=http://ftp.hipsci.ebi.ac.uk/vol1/ftp/TrackHub//hipsci_hub/hub.txt&hgHub_do_redirect=on&hgHubConnect.remakeTrackHub=on)
+###[UCSC](http://genome.ucsc.edu/cgi-bin/hgHubConnect?db=hg19&hubUrl=http://ftp.hipsci.ebi.ac.uk/vol1/ftp/track_hub//hipsci_hub/hub.txt&hgHub_do_redirect=on&hgHubConnect.remakeTrackHub=on)
   * Scroll to the bottom of the page to see a series of drop down buttons for all of the tracks from the HipSci data.
   * Each of these can be changed to 'show' or 'hide' a particular track.
   * Any of the titles can be clicked on to find out more information about that track.  This gives greater customisation options for that track in terms of data density and display.
