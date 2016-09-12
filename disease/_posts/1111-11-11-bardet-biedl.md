@@ -13,7 +13,7 @@ syndrome. University College London contributed the tissue samples to the HipSci
 
 Bardet-Biedl syndrome (BBS) is a ciliopathy with multisystem involvement.
 It is an inherited genetic disorder, for which mutations in many different genes
-can be responsible. HipSci's BBS cell lines ceom from individuals in which the
+can be responsible. HipSci's BBS cell lines come from individuals in which the
 disease-causing mutation is not in the same gene across the cohort of individuals.
 
 This cohort is one of many genetic disease cohorts in the HipSci project. 
