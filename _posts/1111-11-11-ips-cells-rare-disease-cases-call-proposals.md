@@ -5,6 +5,7 @@ tags:
     - other
 ---
 
+This request finished in June 2014. The HipSci project has finished recruiting samples.
 
 The Human Induced Pluripotent Stem Cell initiative (HipSci), funded by the
 Wellcome Trust and the MRC, aims to generate iPS cells from healthy volunteers
