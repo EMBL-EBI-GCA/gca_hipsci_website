@@ -1,15 +1,16 @@
 ---
 ---
 
+{% assign searchable_html_pages = site.html_pages | where: 'exclude_from_search', false %}
 [
-{% for page in site.pages %}{% if page.include_in_search %}  {
+{% for page in site.posts %}  {
     "url": {{ page.url | prepend: site.baseurl | prepend: site.url | jsonify}},
     "title": {{page.title | jsonify}},
     "content": {{ page.content | strip_html | jsonify | replace: '\n', ' '}}
-  },{% endif %}{% endfor %}
-{% for page in site.posts %}{% if page.include_in_search %}  {
+  },{% endfor %}
+{% for page in searchable_html_pages %}  {
     "url": {{ page.url | prepend: site.baseurl | prepend: site.url | jsonify}},
     "title": {{page.title | jsonify}},
     "content": {{ page.content | strip_html | jsonify | replace: '\n', ' '}}
-  }{% if forloop.last %}{% else %},{% endif %}{% endif %}{% endfor %}
+  }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
 ]

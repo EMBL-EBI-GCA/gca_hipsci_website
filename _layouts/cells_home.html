@@ -7,30 +7,6 @@ tags:
 <div class="row">
   <nav>
   <div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12-maxwidth">
-    <div class="row navigation">
-    {% assign posts = site.tags['cells'] | sort: 'priority' %}
-    {% for post in posts reversed %}
-    <div class="col-md-3 col-sm-4 col-xs-6">
-    <div class="nav-item">
-    <a href="{{ post.url }}">
-    <p>{{ post.title }}</p>
-    <div class="black ">{% if post.nav_description %}{{post.nav_description}}{% else %}{{post.excerpt}}{% endif %}</div>
-    </a>
-    </div>
-    </div>
-    {% endfor %}
-    {% assign posts = site.tags['disease'] | sort: 'priority' %}
-    {% for post in posts reversed %}
-    <div class="col-md-3 col-sm-4 col-xs-6">
-    <div class="nav-item">
-    <a href="{{ post.url }}">
-    <p>{{ post.title }}</p>
-    <div class="black ">{% if post.nav_description %}{{post.nav_description}}{% else %}{{post.excerpt}}{% endif %}</div>
-    </a>
-    </div>
-    </div>
-    {% endfor %}
-    </div>
   </div>
   </nav>
 

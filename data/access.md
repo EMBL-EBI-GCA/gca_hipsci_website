@@ -2,8 +2,7 @@
 layout: data
 title: Open access and managed access data
 nav_description: Who can access HipSci's genomic assay data?
-tags:
-    - data
+permalink: /data/access/
 nav: true
 ---
 

@@ -3,8 +3,7 @@ layout: cells
 title: Derivation pipeline
 nav_description: How does the HipSci project derive iPS cell lines?
 priority: 70
-tags:
-    - cells
+permalink: /cells/derivation/
 ---
 
 Since initiation of the project, HipSci has developed from scratch a pipeline

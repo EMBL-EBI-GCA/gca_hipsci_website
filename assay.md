@@ -4,8 +4,6 @@ title: Assays
 nav_description: Genomic, proteomic, and phenomic assays on HipSci's cell lines
 permalink: /assay/
 priority: 80
-tags:
-    - data
 ---
 
 HipSci cell lines undergo thorough characterisation as part of the derivation
@@ -24,7 +22,7 @@ transcriptomics, proteomics, and high content cellular phenotyping techniques.
 </div>
 </nav>
 
-##How we use the assay data
+## How we use the assay data
 
 1. **Assessing pluripotency** -- Gene expression array data are used
 to validate pluripotency of derived IPSCs.  Furthermore, each IPSC line is differentiated

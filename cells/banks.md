@@ -3,8 +3,7 @@ layout: cells
 title: Cell banks
 nav_description: Where are HipSci cell lines stored and how are they distributed?
 priority: 60
-tags:
-    - cells
+permalink: /cells/banks/
 ---
 
 HipSci has established a banking arrangement with [ECACC](https://www.phe-culturecollections.org.uk/products/celllines/hipsci/index.jsp) for distribution of cell

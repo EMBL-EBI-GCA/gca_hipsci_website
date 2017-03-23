@@ -1,10 +1,8 @@
 ---
 layout: mdpage
 title: Project Wiki
-order: 7
 priority: 60
-tags: 
-    - project
+permalink: /project-wiki/
 ---
 
 The Hipsci project has a confluence wiki hosted by the EBI.

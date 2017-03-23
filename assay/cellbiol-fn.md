@@ -1,8 +1,7 @@
 ---
 layout: assay
 title: Cellular phenotyping
-tags:
-    - assay
+permalink: /assay/cellbiol-fn/
 browser_text: Cellular phenotyping data
 browser_link: /files?Assay[]=Cellular%20phenotyping
 ---

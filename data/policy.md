@@ -2,8 +2,7 @@
 layout: data
 title: Data reuse policy
 nav_description: Conditions for publishing research using HipSci data
-tags:
-    - data
+permalink: /data/policy/
 nav: true
 ---
 

@@ -2,11 +2,10 @@
 layout: home
 title: Home
 permalink: /
-order: 1
 redirect_from:
     - /home/
-include_in_search: true
-include_in_sitemap: true
+    - /ips-cells-rare-disease-cases-call-proposals/
+    - /ips-cells-rare-disease-expression-interest/
 ---
 
 HipSci brings  together diverse constituents in genomics, proteomics, cell

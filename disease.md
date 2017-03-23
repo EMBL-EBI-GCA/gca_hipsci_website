@@ -4,8 +4,6 @@ title: Disease cohorts
 nav_description: Which disease cohorts constitute HipSci's cell line catalogue?
 permalink: /disease/
 priority: 80
-tags:
-    - cells
 ---
 
 The HipSci project is generating IPS cell lines from cohorts of patients with
@@ -22,5 +20,3 @@ genetic variations affect the cellular
 phenotypes.
 
 Click on these links for more information on our disease cohorts
-
-{% include components/tag_navigation.html tag='disease'%}

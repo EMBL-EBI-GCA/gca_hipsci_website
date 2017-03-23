@@ -1,8 +1,7 @@
 ---
 layout: assay
 title: Proteomic mass spectrometry
-tags:
-    - assay
+permalink: /assay/proteomics/
 browser_text: Proteomics data files
 browser_link: /files?Assay[]=Proteomics
 ---

@@ -4,9 +4,6 @@ layout: blank
 
 <div class="row">
   <div class="col-lg-6 col-md-7 col-xs-12-maxwidth col-lg-offset-2 col-md-offset-1 col-sm-offset-1">
-    <div class="wrapper">
-      {% include components/breadcrumbs.html %}
-    </div>
 
     <div class="wrapper">
     <h1 class="post-title">{{ page.title }}</h1>
@@ -25,9 +22,6 @@ layout: blank
   {% else %}
   {% include components/browser_button.html text='Cell lines and data browser'  button_text='Start' link='/lines' %}
   {% endif %}
-  </div>
-  <div class="wrapper">
-  {% include components/tag_navigation.html tag='cells' header="HipSci's cell lines"%}
   </div>
   </div>
   </div>

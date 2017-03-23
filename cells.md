@@ -1,5 +1,6 @@
 ---
 layout: cells_home
+permalink: /cells/
 title: HipSci cell lines
 ---
 
@@ -18,4 +19,4 @@ phenotypes.
 Use the links at the top of this page to find out more about HipSci's cell lines,
 our derivation pipeline, and how to obtain a cell line.
 
-To start exploring HipSci's cell lines, take a look at the [cell lines and data browser]({% post_url 1111-11-11-lines %})
+To start exploring HipSci's cell lines, take a look at the [cell lines and data browser]({{ '/lines' | prepend: site.baseurl }})

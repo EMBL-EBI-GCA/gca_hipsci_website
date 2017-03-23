@@ -1,8 +1,7 @@
 ---
 layout: assay
 title: Methylation array
-tags:
-    - assay
+permalink: /assay/mtarray/
 browser_text: Methylation array files
 browser_link: /files?Assay[]=Methylation%20array
 ---
@@ -31,12 +30,12 @@ of the BeadChip.
 -- Tab-delimited text files with probe intensities for each probe. We distribute one single-sample
 text file for each cell line.
 
-For [managed access]({% post_url 1111-11-11-access %}#managed%}) cell lines, methylation array data
+For [managed access]({{ '/data/access' | prepend: site.baseurl }}#managed%}) cell lines, methylation array data
 files are archived in the [EGA](https://www.ebi.ac.uk/ega/). The
 [data browser]({{'/lines/#' | append: page.browser_link | prepend: site.baseurl}}) contains
 links to the relevant EGA dataset page, from where researchers can request access to the data.
 
-For [open access]({% post_url 1111-11-11-access %}#open) cell lines, methylation array data files
+For [open access]({{ '/data/access' | prepend: site.baseurl }}#open) cell lines, methylation array data files
 are archived in [ArrayExpress](https://www.ebi.ac.uk/arrayexpress/). Data are openly available
 to anybody, and the [data browser]({{'/lines/#' | append: page.browser_link | prepend: site.baseurl}})
 contains direct links to the files on the ArrayExpression files download page.

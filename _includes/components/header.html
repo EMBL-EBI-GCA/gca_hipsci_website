@@ -4,24 +4,24 @@
             <a href="{{ "/" | prepend: site.baseurl }}"><img src="{{ "/img/hipsci-logo.png" | prepend: site.baseurl }}" class="img-responsive"></a>
         </div>
         <div class="col-sm-7 col-xs-9 col-md-8 col-lg-9">
-            <h3>{{ site.data.hipsci.title_full }}</h3>
+            <h3>Human Induced Pluripotent Stem Cells Initiative</h3>
         </div>
         
         <nav>
         <div class="col-md-7 col-sm-9 nav">
                 <ul class="nav nav-pills nav-justified xs-invisible">
-                    <li class="{% if page.tags contains "cells" or page.tags contains "disease" %}active{% else %}inactive{% endif %}"><a href="{% post_url 1111-11-11-cells %}">Cell lines</a></li>
-                    <li class="{% if page.tags contains "data" or page.tags contains "assay" %}active{% else %}inactive{% endif %}"><a href="{% post_url 1111-11-11-data %}">Data</a></li>
-                    <li class="{% if page.tags contains "documents" %}active{% else %}inactive{% endif %}"><a href="{% post_url 1111-11-11-model-ethics-forms %}">Documents</a></li>
+                    <li class="{% if page.tags contains "cells" or page.tags contains "disease" %}active{% else %}inactive{% endif %}"><a href="{{ '/cells' | prepend: site.baseurl }}">Cell lines</a></li>
+                    <li class="{% if page.tags contains "data" or page.tags contains "assay" %}active{% else %}inactive{% endif %}"><a href="{{ '/data' | prepend: site.baseurl }}">Data</a></li>
+                    <li class="{% if page.tags contains "documents" %}active{% else %}inactive{% endif %}"><a href="{{ '/model-ethics-forms' | prepend: site.baseurl }}">Documents</a></li>
                     <li class="{% if page.tags contains "project" %}active{% else %}inactive{% endif %}"><a href="{{ "/about" | prepend: site.baseurl }}">About</a></li>
                     <li class="{% if page.tags contains "publication" %}active{% else %}inactive{% endif %}"><a href="{{ "/publication" | prepend: site.baseurl }}">Publications</a></li>
                 </ul>
                 <ul class="nav nav-pills nav-justified xs-visible">
-                    <li class="{% if page.tags contains "cells" or page.tags contains "disease" %}active{% else %}inactive{% endif %}"><a href="{% post_url 1111-11-11-cells %}">Cells</a></li>
-                    <li class="{% if page.tags contains "data" or page.tags contains "assay" %}active{% else %}inactive{% endif %}"><a href="{% post_url 1111-11-11-data %}">Data</a></li>
-                    <li class="{% if page.tags contains "documents" %}active{% else %}inactive{% endif %}"><a href="{% post_url 1111-11-11-model-ethics-forms %}">Docs</a></li>
+                    <li class="{% if page.tags contains "cells" or page.tags contains "disease" %}active{% else %}inactive{% endif %}"><a href="{{ '/cells' | prepend: site.baseurl }}">Cell lines</a></li>
+                    <li class="{% if page.tags contains "data" or page.tags contains "assay" %}active{% else %}inactive{% endif %}"><a href="{{ '/data' | prepend: site.baseurl }}">Data</a></li>
+                    <li class="{% if page.tags contains "documents" %}active{% else %}inactive{% endif %}"><a href="{{ '/model-ethics-forms' | prepend: site.baseurl }}">Documents</a></li>
                     <li class="{% if page.tags contains "project" %}active{% else %}inactive{% endif %}"><a href="{{ "/about" | prepend: site.baseurl }}">About</a></li>
-                    <li class="{% if page.tags contains "publication" %}active{% else %}inactive{% endif %}"><a href="{{ "/publication" | prepend: site.baseurl }}">Pub</a></li>
+                    <li class="{% if page.tags contains "publication" %}active{% else %}inactive{% endif %}"><a href="{{ "/publication" | prepend: site.baseurl }}">Publications</a></li>
                 </ul>
         </div>
         </nav>

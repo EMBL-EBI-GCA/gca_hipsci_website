@@ -14,18 +14,6 @@ tags:
     </div>
     </div>
 
-    {% assign posts = site.tags['project'] | sort: 'priority' %}
-    {% for post in posts reversed %}
-    <div class="col-md-3 col-sm-3 col-sm-offset-0 col-sm-pull-0 col-xs-5 col-xs-offset-1 col-xs-pull-1">
-    <div class="nav-item">
-    <a href="{{ post.url }}">
-    <p>{{ post.title }}</p>
-    <div class="black ">{% if post.nav_description %}{{post.nav_description}}{% endif %}</div>
-    </a>
-    </div>
-    </div>
-    {% endfor %}
-
     <div class="col-md-3 col-sm-3 col-sm-offset-0 col-sm-pull-0 col-xs-5 col-xs-offset-1 col-xs-pull-1">
     <div class="nav-item">
     <a href="http://www.twitter.com/hipsci"><p>HipSci on Twitter</p></a>
