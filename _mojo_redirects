@@ -1,5 +1,6 @@
 ---
 ---
+/documents/HipSci_Normals_DAA_v3.2_form.pdf	/documents/hipsci-daa.pdf
 {% for page in site.posts %}{% if page.redirect_from %}{% for redirect in page.redirect_from %}
 {{ redirect }}	{{ page.url }}
 {% endfor %}{% endif %}{% endfor %}
