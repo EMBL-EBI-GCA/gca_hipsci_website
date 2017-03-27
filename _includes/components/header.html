@@ -1,30 +1,141 @@
-<header class="header clearfix" role="banner">
+<header>
+  <div class="containerwide" id="topmenu">
+    <div class="container">
     <div class="row">
-        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-2 logo">
-            <a href="{{ "/" | prepend: site.baseurl }}"><img src="{{ "/img/hipsci-logo.png" | prepend: site.baseurl }}" class="img-responsive"></a>
-        </div>
-        <div class="col-sm-7 col-xs-9 col-md-8 col-lg-9">
-            <h3>Human Induced Pluripotent Stem Cells Initiative</h3>
-        </div>
+      <div class="two columns" id="logo">
+		  <a href="/" alt="HipSci"> <img src="/images/logo.png" at="HipSci" ></a>
+      </div>
+               
+                  
+                     
+                           <div class="three columns" id="search">
+   <form id="newsearch" method="get" onSubmit="submitSearch(); return false;">
+	<input type="text" class="newsinput" name="q" maxlength="120" id="search-input">
+	
+	<input type="image" name="submit" src="/images/icos.png" class="icosbutton">
+		</form>
+		</div>
+       
+       
+       
+        <div class="seven columns" id="menu">
         
-        <nav>
-        <div class="col-md-7 col-sm-9 nav">
-                <ul class="nav nav-pills nav-justified xs-invisible">
-                    <li class="{% if page.tags contains "cells" or page.tags contains "disease" %}active{% else %}inactive{% endif %}"><a href="{{ '/cells' | prepend: site.baseurl }}">Cell lines</a></li>
-                    <li class="{% if page.tags contains "data" or page.tags contains "assay" %}active{% else %}inactive{% endif %}"><a href="{{ '/data' | prepend: site.baseurl }}">Data</a></li>
-                    <li class="{% if page.tags contains "documents" %}active{% else %}inactive{% endif %}"><a href="{{ '/model-ethics-forms' | prepend: site.baseurl }}">Documents</a></li>
-                    <li class="{% if page.tags contains "project" %}active{% else %}inactive{% endif %}"><a href="{{ "/about" | prepend: site.baseurl }}">About</a></li>
-                    <li class="{% if page.tags contains "publication" %}active{% else %}inactive{% endif %}"><a href="{{ "/publication" | prepend: site.baseurl }}">Publications</a></li>
-                </ul>
-                <ul class="nav nav-pills nav-justified xs-visible">
-                    <li class="{% if page.tags contains "cells" or page.tags contains "disease" %}active{% else %}inactive{% endif %}"><a href="{{ '/cells' | prepend: site.baseurl }}">Cell lines</a></li>
-                    <li class="{% if page.tags contains "data" or page.tags contains "assay" %}active{% else %}inactive{% endif %}"><a href="{{ '/data' | prepend: site.baseurl }}">Data</a></li>
-                    <li class="{% if page.tags contains "documents" %}active{% else %}inactive{% endif %}"><a href="{{ '/model-ethics-forms' | prepend: site.baseurl }}">Documents</a></li>
-                    <li class="{% if page.tags contains "project" %}active{% else %}inactive{% endif %}"><a href="{{ "/about" | prepend: site.baseurl }}">About</a></li>
-                    <li class="{% if page.tags contains "publication" %}active{% else %}inactive{% endif %}"><a href="{{ "/publication" | prepend: site.baseurl }}">Publications</a></li>
-                </ul>
-        </div>
-        </nav>
-    </div>
+       <nav>
+      
 
+		   <label for="drop" class="toggle"> Menu</label>
+        <input type="checkbox" id="drop" />
+            <ul class="menu">
+                <label for="drop" class="toggle"> Close Menu</label>
+                <li>
+                    <!-- First Tier Drop Down -->
+                    <label for="drop-1" class="toggle">Home</label>
+                    <a href="/">Home</a>
+                    <input type="checkbox" id="drop-1"/>
+                    <ul>
+                         <li class="hide"><a href="/">Home</a></li>
+                        <li><a href="/#abouthomewide">About HipSci</a></li>
+                        <li><a href="/#news">News</a></li>
+                        <li><a href="/#homepipeline">HipSci Workflow </a></li>
+                    </ul> 
+
+                </li>
+               
+               
+               
+               
+               
+                <li>
+                    <!-- First Tier Drop Down -->
+                    <label for="drop-2" class="toggle">About Us</label>
+                    <a href="/about">About Us</a>
+                    <input type="checkbox" id="drop-2"/>
+                    <ul>
+                            <li class="hide"> <a href="/about">About Us</a></li>
+                        <li><a href="/about#teamtext">Investigators</a></li>
+                        <li><a href="/about#funders">Funders and partners</a></li>
+                        <li><a href="/about#news">News </a></li>
+                    </ul> 
+
+                </li>
+                
+                <li>
+                <!-- First Tier Drop Down -->
+                <label for="drop-3" class="toggle">Cell lines </label>
+                <a href="/cells">Cell lines </a>
+                <input type="checkbox" id="drop-3"/>
+                <ul>
+					    <li class="hide"><a href="/cells">Cell lines </a></li>
+                    <li>   <a href="/cells#isotype">Cohorts</a></li>
+                  
+                    <li>                       
+                    <!-- Second Tier Drop Down -->        
+                    <label for="drop-4" class="toggle">Using HipSci lines for your research > </label>
+                       <a href="/cells#celllinesusewide">Using HipSci lines for your research</a>         
+                    <input type="checkbox" id="drop-4"/>
+
+                    <ul>
+                      <li><a href="/cells#celllinesusewide">Purchase lines</a></li>
+                      <li><a href="/cells#vids">Navigating our cell line browser</a></li>
+                      <li><a href="/cells#vids">Culturing feeder free lines </a></li>
+                      <li><a href="/cells#cultfeed">Culturing feeder dependent lines</a></li>
+                      <li><a href="/cells#troubipsc">Trouble shooting iPSC culture</a></li>
+                     
+                    </ul>
+                    </li>
+                      <li><a href="/cells#faq">FAQs on cell lines</a></li>
+                </ul>
+                </li>
+                
+                 <li>
+                <!-- Second Tier Drop Down -->
+                <label for="drop-5" class="toggle">Data</label>
+                <a href="/data">Data </a>
+                <input type="checkbox" id="drop-5"/>
+                <ul>
+					    <li class="hide"> <a href="/data">Data </a></li>
+                    <li>   <a href="/data#isotype">Assays</a></li>
+                  
+                    <li>                       
+                    <!-- Second Tier Drop Down -->        
+                    <label for="drop-6" class="toggle">Using hipsci data for your research </label>
+                      <a href="/data#datausewide">Using hipsci data for your research</a>         
+                    <input type="checkbox" id="drop-6"/>
+
+                    <ul>
+                      <li> <a href="/data#datausewide">The data-an overview</a></li>
+                      <li> <a href="/data#applyvid">How to apply for managed access data</a></li>
+                      <li> <a href="/data#finddata">Finding and downloading data</a></li>
+                       
+                     
+                    </ul>
+                    </li>
+                     <li>   <a href="/data#faq">FAQs on data</a></li>
+                     
+                </ul>
+                </li>
+                
+              
+           
+                
+            </ul>
+        </nav>
+
+  
+	
+		
+
+
+		
+      </div>
+      
+  
+      
+      
+    </div>
+	  </div>
+  </div>
+ 
+
+  
 </header>
