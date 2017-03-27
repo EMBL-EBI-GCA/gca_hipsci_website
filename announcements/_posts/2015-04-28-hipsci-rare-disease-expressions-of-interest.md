@@ -20,9 +20,3 @@ remaining resources most efficiently.
 Please contact us if you have a group of (between 10 and 50) patients with
 related phenotypes where you would be able to provide us with patient material
 (either fibroblasts or a skin biopsy).
-
-Please see the HipSci Rare Disease [Expression of interest page](/ips-cells-rare-disease-expression-interest) for more
-information. The details can also be found in the [Expression of Interest PDF](/documents/hipsci_rare_disease_expression_20150428.pdf).
-The Expression of Interest should be submitted to [hipsci-proposal@ebi.ac.uk](mailto:hipsci-proposal@ebi.ac.uk)
-before 3rd July 2015.
-
