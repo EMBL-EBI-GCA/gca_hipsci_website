@@ -5,7 +5,7 @@ function goTo() {
 {% endraw %}
     q=document.getElementById('search_id').value;
     if (q.length >0) {
-        location.href = '{{ site.baseurl }}/search/#?q='+q;
+        location.href = '{{ site.baseurl }}/lines/#search?q='+q;
     }
 {% raw %}
 }

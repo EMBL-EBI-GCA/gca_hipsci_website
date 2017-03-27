@@ -2,6 +2,7 @@
 ---
 /documents/HipSci_Normals_DAA_v3.2_form.pdf	/documents/hipsci-daa.pdf
 /project-wiki	http://www.ebi.ac.uk/seqdb/confluence/display/HIPSCI/Home
+/search	/lines/#/search
 {% for page in site.posts %}{% if page.redirect_from %}{% for redirect in page.redirect_from %}
 {{ redirect }}	{{ page.url }}
 {% endfor %}{% endif %}{% endfor %}
