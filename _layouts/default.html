@@ -12,13 +12,6 @@ layout: blank
   <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 col-lg-offset-1 col-md-offset-0">
   <div class="row">
   <div class="col-md-10 col-md-offset-2 col-lg-12 col-lg-offset-0 col-sm-8 col-sm-offset-2 col-xs-12-maxwidth">
-  <div class="wrapper">
-  {% if page.browser_link %}
-  {% include components/browser_button.html text=page.browser_text link=page.browser_link %}
-  {% else %}
-  {% include components/browser_button.html text='Cell lines and data browser'  button_text='Start' link='/lines' %}
-  {% endif %}
-  </div>
   <div class="row">
   <div class="col-lg-12 col-md-12 col-sm-6 col-xs-6">
   {% include components/announcements_panel.html %}

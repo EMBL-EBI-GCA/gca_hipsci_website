@@ -2,8 +2,6 @@
 layout: assay
 title: Proteomic mass spectrometry
 permalink: /assay/proteomics/
-browser_text: Proteomics data files
-browser_link: /files?Assay[]=Proteomics
 ---
 
 The HipSci project includes mass spectrometry (MS)-based measurements of
@@ -28,9 +26,9 @@ different lineages.
 ##Getting the data
 
 Complete lists of proteomics data can be found under the
-[files]({{'/lines/#' | append: page.browser_link | prepend: site.baseurl}})
+[files]({{'/lines/#/files?Assay[]=Proteomics' | prepend: site.baseurl}})
 tab by selecting proteomics under the "assay" filter in the
-[cell lines and data browser]({{'/lines/#' | append: page.browser_link | prepend: site.baseurl}}).
+[cell lines and data browser]({{'/lines/#/files?Assay[]=Proteomics' | prepend: site.baseurl}}).
 
 * [Thermo raw mass spectrometry]({{'/lines/#/files?Assay[]=Proteomics&Description[]=Thermo%20raw%20mass%20spectrometry}})
 -- Binary files directly from the spectrometer. For each cell line, there are

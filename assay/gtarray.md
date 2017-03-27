@@ -2,8 +2,6 @@
 layout: assay
 title: Genotyping by array
 permalink: /assay/gtarray/
-browser_text: Genotyping array files
-browser_link: /files?Assay[]=Genotyping%20array
 ---
 
 HipSci assays for genotypes in all candidate iPS cell lines, typically two or three per donor, and in the somatic
@@ -21,7 +19,7 @@ using a HMM algorithm detected for the purpose
 ##Getting the data
 
 Complete lists of genotyping array data can be found under the files tab of
-the [cell lines and data browser]({{'/lines/#' | append: page.browser_link | prepend: site.baseurl}})
+the [cell lines and data browser]({{'/lines/#/files?Assay[]=Genotyping%20array' | prepend: site.baseurl}})
 or in the dataset indexes on the [FTP site](ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/archive_datasets/).
 
 * [Signal intensity data]({{'/lines/#/files?Assay[]=Genotyping%20array&Description[]=Array%20signal%20intensity%20data' | prepend: site.baseurl }})
@@ -37,12 +35,12 @@ genotypes imputed to the 1000genomes and UK10K reference panels.
 
 For [managed access]({{ '/data/access' | prepend: site.baseurl }}#managed%}) cell lines, genptyping array data
 files are archived in the [EGA](https://www.ebi.ac.uk/ega/). The
-[data browser]({{'/lines/#' | append: page.browser_link | prepend: site.baseurl}}) contains
+[data browser]({{'/lines/#/files?Assay[]=Genotyping%20array' | prepend: site.baseurl}}) contains
 links to the relevant EGA dataset page, from where researchers can request access to the data.
 
 For [open access]({{ '/data/access' | prepend: site.baseurl }}#open) cell lines, the signal intensity data files
 are archived in [ArrayExpress](https://www.ebi.ac.uk/arrayexpress/) and the variant call files
 are archived in [EVA](http://www.ebi.ac.uk/eva/)
 Data are openly available
-to anybody, and the [data browser]({{'/lines/#' | append: page.browser_link | prepend: site.baseurl}})
+to anybody, and the [data browser]({{'/lines/#/files?Assay[]=Genotyping%20array' | prepend: site.baseurl}})
 contains direct links to the files on the ArrayExpression files download page and the EVA ftp site.

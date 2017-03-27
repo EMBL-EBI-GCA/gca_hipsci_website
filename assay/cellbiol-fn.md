@@ -2,8 +2,6 @@
 layout: assay
 title: Cellular phenotyping
 permalink: /assay/cellbiol-fn/
-browser_text: Cellular phenotyping data
-browser_link: /files?Assay[]=Cellular%20phenotyping
 ---
 
 The cellular phenotyping project at KCL is evaluating how iPSCs respond to chemical,
@@ -29,4 +27,4 @@ The results of the cellular phenotyping experiments are distributed as pdf files
 on the HipSci [FTP site](ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/).
 
 Complete lists of cellular phenotyping data can be found under the files tab of
-the [cell lines and data browser]({{'/lines/#' | append: page.browser_link | prepend: site.baseurl}}).
+the [cell lines and data browser]({{'/lines/#/files?Assay[]=Cellular%20phenotyping' | prepend: site.baseurl}}).

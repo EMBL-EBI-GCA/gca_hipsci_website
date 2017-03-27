@@ -2,8 +2,6 @@
 layout: assay
 title: Exome sequencing
 permalink: /assay/exomeseq/
-browser_text: Exome sequencing files
-browser_link: /files?Assay[]=Exome-seq
 ---
 
 Exome sequencing is performed on all HipSci iPS cell lines that are selected for banking
@@ -35,7 +33,7 @@ The following filters are applied to called variants:
 ##Getting the data
 
 Complete lists of exome-seq data can be found under the files tab of
-the [cell lines and data browser]({{'/lines/#' | append: page.browser_link | prepend: site.baseurl}})
+the [cell lines and data browser]({{'/lines/#/files?Assay[]=Exome-seq' | prepend: site.baseurl}})
 or in the dataset indexes on the [FTP site](ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/archive_datasets/).
 
 * [Raw sequencing reads]({{'/lines/#/files?Assay[]=Exome-seq&Description[]=Raw%20sequencing%20reads' | prepend: site.baseurl }})
@@ -54,12 +52,12 @@ genotypes imputed to the 1000genomes and UK10K reference panels.
 
 For [managed access]({{ '/data/access' | prepend: site.baseurl }}#managed%}) cell lines, exome-seq
 files are archived in the [EGA](https://www.ebi.ac.uk/ega/). The
-[data browser]({{'/lines/#' | append: page.browser_link | prepend: site.baseurl}}) contains
+[data browser]({{'/lines/#/files?Assay[]=Exome-seq' | prepend: site.baseurl}}) contains
 links to the relevant EGA dataset page, from where researchers can request access to the data.
 
 For [open access]({{ '/data/access' | prepend: site.baseurl }}#open) cell lines, exome-seq files
 are archived in [ENA](http://www.ebi.ac.uk/ena/data/view/ERP006946). Data are openly available
-to anybody, and the [data browser]({{'/lines/#' | append: page.browser_link | prepend: site.baseurl}})
+to anybody, and the [data browser]({{'/lines/#/files?Assay[]=Exome-seq' | prepend: site.baseurl}})
 contains direct links to the files on the ENA FTP server.
 
 ##Resources

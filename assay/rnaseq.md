@@ -2,8 +2,6 @@
 layout: assay
 title: RNA sequencing
 permalink: /assay/rnaseq/
-browser_text: RNA sequencing files
-browser_link: /files?Assay[]=RNA-seq
 ---
 
 RNA sequencing is performed on all HipSci iPS cell lines that are selected for banking
@@ -21,7 +19,7 @@ version 19 of the Gencode gene annotation to enable splice-aware alignments.
 ##Getting the data
 
 Complete lists of exome-seq data can be found under the files tab of
-the [cell lines and data browser]({{'/lines/#' | append: page.browser_link | prepend: site.baseurl}})
+the [cell lines and data browser]({{'/lines/#/files?Assay[]=RNA-seq' | prepend: site.baseurl}})
 or in the dataset indexes on the [FTP site](ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/archive_datasets/).
 
 * [Raw sequencing reads]({{'/lines/#/files?Assay[]=RNA-seq&Description[]=Raw%20sequencing%20reads' | prepend: site.baseurl }})
@@ -32,12 +30,12 @@ can have multiple associated cram files; each corresponds to a single lane of se
 
 For [managed access]({{ '/data/access' | prepend: site.baseurl }}#managed%}) cell lines, RNA-seq
 files are archived in the [EGA](https://www.ebi.ac.uk/ega/). The
-[data browser]({{'/lines/#' | append: page.browser_link | prepend: site.baseurl}}) contains
+[data browser]({{'/lines/#/files?Assay[]=RNA-seq' | prepend: site.baseurl}}) contains
 links to the relevant EGA dataset page, from where researchers can request access to the data.
 
 For [open access]({{ '/data/access' | prepend: site.baseurl }}#open) cell lines, RNA-seq files
 are archived in [ENA](http://www.ebi.ac.uk/ena/data/view/ERP007111). Data are openly available
-to anybody, and the [data browser]({{'/lines/#' | append: page.browser_link | prepend: site.baseurl}})
+to anybody, and the [data browser]({{'/lines/#/files?Assay[]=RNA-seq' | prepend: site.baseurl}})
 contains direct links to the files on the ENA FTP server.
 
 
