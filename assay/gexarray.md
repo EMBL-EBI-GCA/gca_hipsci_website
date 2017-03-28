@@ -1,5 +1,5 @@
 ---
-layout: assay
+layout: default
 title: Expression array
 permalink: /assay/gexarray/
 ---

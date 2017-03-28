@@ -1,5 +1,5 @@
 ---
-layout: data
+layout: default
 title: HipSci Track Hubs
 nav_description: Visualising HipSci data in UCSC and Ensembl genome browsers
 redirect_from:

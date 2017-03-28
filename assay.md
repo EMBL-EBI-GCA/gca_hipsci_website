@@ -1,5 +1,5 @@
 ---
-layout: data
+layout: default
 title: Assays
 nav_description: Genomic, proteomic, and phenomic assays on HipSci's cell lines
 permalink: /assay/

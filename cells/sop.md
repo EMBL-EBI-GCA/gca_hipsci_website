@@ -1,5 +1,5 @@
 ---
-layout: cells
+layout: default
 title: IPS preparation Standard Operating Procedures
 nav_description: Full documentation of HipSci's derivation pipeline
 priority: 50

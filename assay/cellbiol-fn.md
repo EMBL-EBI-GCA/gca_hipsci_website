@@ -1,5 +1,5 @@
 ---
-layout: assay
+layout: default
 title: Cellular phenotyping
 permalink: /assay/cellbiol-fn/
 ---

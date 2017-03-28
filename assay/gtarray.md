@@ -1,5 +1,5 @@
 ---
-layout: assay
+layout: default
 title: Genotyping by array
 permalink: /assay/gtarray/
 ---

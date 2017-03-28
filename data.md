@@ -1,5 +1,5 @@
 ---
-layout: data_home
+layout: blank
 permalink: /data/
 title: HipSci's rich data
 ---

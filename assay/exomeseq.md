@@ -1,5 +1,5 @@
 ---
-layout: assay
+layout: default
 title: Exome sequencing
 permalink: /assay/exomeseq/
 ---

@@ -1,5 +1,5 @@
 ---
-layout: assay
+layout: default
 title: Methylation array
 permalink: /assay/mtarray/
 ---

@@ -1,5 +1,5 @@
 ---
-layout: assay
+layout: default
 title: RNA sequencing
 permalink: /assay/rnaseq/
 ---

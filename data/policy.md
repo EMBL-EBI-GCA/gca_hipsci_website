@@ -1,5 +1,5 @@
 ---
-layout: data
+layout: default
 title: Data reuse policy
 nav_description: Conditions for publishing research using HipSci data
 permalink: /data/policy/

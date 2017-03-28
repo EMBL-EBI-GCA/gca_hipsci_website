@@ -1,5 +1,5 @@
 ---
-layout: assay
+layout: default
 title: Proteomic mass spectrometry
 permalink: /assay/proteomics/
 ---

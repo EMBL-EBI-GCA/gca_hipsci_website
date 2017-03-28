@@ -1,5 +1,5 @@
 ---
-layout: cells
+layout: default
 title: Disease cohorts
 nav_description: Which disease cohorts constitute HipSci's cell line catalogue?
 permalink: /disease/

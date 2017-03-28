@@ -1,5 +1,5 @@
 ---
-layout: data
+layout: default
 title: Open access and managed access data
 nav_description: Who can access HipSci's genomic assay data?
 permalink: /data/access/

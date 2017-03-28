@@ -1,5 +1,5 @@
 ---
-layout: cells_home
+layout: blank
 permalink: /cells/
 title: HipSci cell lines
 ---

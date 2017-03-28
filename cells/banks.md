@@ -1,5 +1,5 @@
 ---
-layout: cells
+layout: default
 title: Cell banks
 nav_description: Where are HipSci cell lines stored and how are they distributed?
 priority: 60
