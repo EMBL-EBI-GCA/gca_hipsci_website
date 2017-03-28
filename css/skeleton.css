@@ -1073,7 +1073,7 @@ float:left;
 width:75%;
 	}
 	#datapage1 {
-	background-image:url("../images/datapage.jpg") ;
+	background-image:url("/img/datapage.jpg") ;
 	background-repeat: no-repeat;
 	background-position:center;
 	background-size: cover;
@@ -1097,7 +1097,7 @@ width:75%;
 	.arrowdh a{ 
 			width:67px;
 		height:64px;
-		background-image:url("../images/arrowdhw.png") ;
+		background-image:url("/img/arrowdhw.png") ;
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: cover;
@@ -1111,7 +1111,7 @@ width:75%;
 	}
 		.arrowdh a:hover{ 
 			
-		background-image:url("../images/arrowdhp.png") ;
+		background-image:url("/img/arrowdhp.png") ;
 	
 	}
 	
@@ -1129,7 +1129,7 @@ width:75%;
 			box-sizing:border-box;
 }
 #home1 {
-	background-image:url("../images/home1.jpg") ;
+	background-image:url("/img/home1.jpg") ;
 	background-repeat: no-repeat;
 	background-position:center;
 	background-size: cover;
@@ -1180,7 +1180,7 @@ input[type="button"] {
 }
 	
 #abouthomewide {
-	background-image:url("../images/abouthomewide.jpg") ;
+	background-image:url("/img/abouthomewide.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -1217,7 +1217,7 @@ input[type="mc"] {
   padding: 6px 10px;
 }
 	#aboutpage1 {
-	background-image:url("../images/aboutpage.jpg") ;
+	background-image:url("/img/aboutpage.jpg") ;
 	background-repeat: no-repeat;
 	background-position:center;
 	background-size: cover;
@@ -1272,7 +1272,7 @@ a.team{
 }
 	
 #funders{
-		background-image:url("../images/funders.jpg") ;
+		background-image:url("/img/funders.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -1384,7 +1384,7 @@ clear:both;
 	clear:both;
 }
 #homepipeline {
-		background-image:url("../images/pipelinebg.jpg") ;
+		background-image:url("/img/pipelinebg.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -1452,7 +1452,7 @@ text-align:center;
 }
 	
 	#celllinesusewide {
-		background-image:url("../images/celllinesuse.jpg") ;
+		background-image:url("/img/celllinesuse.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -1522,7 +1522,7 @@ margin-top:100px;
 
 }
 	#celllinepage1 {
-	background-image:url("../images/celllinepage.jpg") ;
+	background-image:url("/img/celllinepage.jpg") ;
 	background-repeat: no-repeat;
 	background-position:center;
 	background-size: cover;
@@ -1549,7 +1549,7 @@ margin-top:100px;
 }
 	
 #datausewide {
-		background-image:url("../images/datause.jpg") ;
+		background-image:url("/img/datause.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -1576,7 +1576,7 @@ background:none;
 	text-align:center;
 }
 	#homepipeline {
-		background-image:url("../images/pipelinebg.jpg") ;
+		background-image:url("/img/pipelinebg.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -1811,7 +1811,7 @@ background:#000;
 	
 	
 #funders{
-		background-image:url("../images/funders.jpg") ;
+		background-image:url("/img/funders.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -1854,7 +1854,7 @@ max-width:200px;
 	width:100%;
 } 
 	#celllinepage1 {
-  background-image: url("../images/celllinepage.jpg");
+  background-image: url("/img/celllinepage.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1864,7 +1864,7 @@ max-width:200px;
 }
 	
 	#celllinesusewide {
-  background-image: url("../images/celllinesuse.jpg");
+  background-image: url("/img/celllinesuse.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1925,7 +1925,7 @@ max-width:200px;
 	
 	
 	#homepipeline {
-		background-image:url("../images/pipelinebg.jpg") ;
+		background-image:url("/img/pipelinebg.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -1945,7 +1945,7 @@ max-width:200px;
 
 	
 #funders{
-		background-image:url("../images/funders.jpg") ;
+		background-image:url("/img/funders.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -2163,7 +2163,7 @@ width:75%;
   text-align: center;
 }
 	#celllinesusewide {
-  background-image: url("../images/celllinesuse.jpg");
+  background-image: url("/img/celllinesuse.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2187,7 +2187,7 @@ width:75%;
   width: 100%;
 }
 	#celllinepage1 {
-  background-image: url("../images/celllinepage.jpg");
+  background-image: url("/img/celllinepage.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2284,7 +2284,7 @@ clear:both;
 	text-align:center;
 }
 	#homepipeline {
-		background-image:url("../images/pipelinebg.jpg") ;
+		background-image:url("/img/pipelinebg.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -2483,7 +2483,7 @@ clear:both;
 }
 
 #home1 {
-	background-image:url("../images/home1.jpg") ;
+	background-image:url("/img/home1.jpg") ;
 	background-repeat: no-repeat;
 	background-position:center;
 	background-size: cover;
@@ -2549,7 +2549,7 @@ clear:both;
 	clear:both;
 }
 #abouthomewide {
-	background-image:url("../images/abouthomewide.jpg") ;
+	background-image:url("/img/abouthomewide.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -2571,7 +2571,7 @@ ul.about {
 
 
 #homepipeline {
-		background-image:url("../images/pipelinebg.jpg") ;
+		background-image:url("/img/pipelinebg.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -2631,7 +2631,7 @@ clear:both;
 }
 
 #celllinepage1 {
-	background-image:url("../images/celllinepage.jpg") ;
+	background-image:url("/img/celllinepage.jpg") ;
 	background-repeat: no-repeat;
 	background-position:center;
 	background-size: cover;
@@ -2654,7 +2654,7 @@ color:#4b4b4b;
 	
 	
 #celllinesusewide {
-		background-image:url("../images/celllinesuse.jpg") ;
+		background-image:url("/img/celllinesuse.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -2787,7 +2787,7 @@ color:#fff;
 }
 
 #datausewide {
-		background-image:url("../images/datause.jpg") ;
+		background-image:url("/img/datause.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -2818,7 +2818,7 @@ background:none;
 	margin:auto;
 }
 #aboutpage1 {
-	background-image:url("../images/aboutpage2.jpg") ;
+	background-image:url("/img/aboutpage2.jpg") ;
 	background-repeat: no-repeat;
 	background-position:center;
 	background-size: cover;
@@ -2861,7 +2861,7 @@ a.team{
 
 }
 #funders{
-		background-image:url("../images/funders.jpg") ;
+		background-image:url("/img/funders.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -2919,7 +2919,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	text-decoration:none;
 }
 body.news {
-background-image:url("../images/newsbg.jpg") ;
+background-image:url("/img/newsbg.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;

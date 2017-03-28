@@ -160,7 +160,7 @@ html,
 
 .seq .seq-next {
   right: 20px;
-  background: url("../images/bt-next.png") no-repeat;
+  background: url("../img/bt-next.png") no-repeat;
 
 }
 
@@ -173,7 +173,7 @@ html,
 
 .seq .seq-prev {
   left: 20px;
-  background: url("../images/bt-prev.png") no-repeat;
+  background: url("../img/bt-prev.png") no-repeat;
 }
 
 .seq .seq-prev:focus,
