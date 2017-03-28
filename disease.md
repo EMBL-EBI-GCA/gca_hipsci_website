@@ -1,9 +1,7 @@
 ---
 layout: default
 title: Disease cohorts
-nav_description: Which disease cohorts constitute HipSci's cell line catalogue?
 permalink: /disease/
-priority: 80
 ---
 
 The HipSci project is generating IPS cell lines from cohorts of patients with

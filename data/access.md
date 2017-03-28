@@ -1,9 +1,7 @@
 ---
 layout: default
 title: Open access and managed access data
-nav_description: Who can access HipSci's genomic assay data?
 permalink: /data/access/
-nav: true
 ---
 
 This page describes the classification of any HipSci data as:

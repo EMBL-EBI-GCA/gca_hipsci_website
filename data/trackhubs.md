@@ -1,11 +1,9 @@
 ---
 layout: default
 title: HipSci Track Hubs
-nav_description: Visualising HipSci data in UCSC and Ensembl genome browsers
 redirect_from:
     - /trackhubs/
 permalink: /data/trackhubs/
-nav: true
 ---
 HipSci data has been made available in a [Track Hub](http://genome.ucsc.edu/goldenPath/help/hgTrackHubHelp.html) for visualisation within the UCSC and Ensembl genome browsers.  This allows users to place HipSci data in the context of external resources and annotations built in to these browsers.  This page describes how to attach the HipSci Track Hubs to the UCSC and Ensembl genome browsers and then how to configure and customise them.
 

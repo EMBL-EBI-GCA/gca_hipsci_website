@@ -1,12 +1,9 @@
 ---
 layout: default
 title: Data Navigation
-nav_description: Many different ways to explore and download HipSci's assay data
 redirect_from:
     - /data-navigation/
 permalink: /data/navigation/
-priority: 85
-nav: true
 ---
 
 The [Lines and Data]({{site.baseurl}}/lines/) page gives an overview of

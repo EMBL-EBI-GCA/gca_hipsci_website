@@ -1,9 +1,7 @@
 ---
 layout: default
 title: Assays
-nav_description: Genomic, proteomic, and phenomic assays on HipSci's cell lines
 permalink: /assay/
-priority: 80
 ---
 
 HipSci cell lines undergo thorough characterisation as part of the derivation
