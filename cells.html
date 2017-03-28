@@ -6,57 +6,9 @@ title: HipSci cell lines
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script>
-  // init Isotope
-$('.grid').isotope({
-  // set itemSelector so .grid-sizer is not used in layout
-  itemSelector: '.grid-item',
-  percentPosition: true,
-  masonry: {
-    // use element for option
-    columnWidth: '.grid-sizer'
-  }
-});
-
-// filter functions
-var filterFns = {
-  // show if number is greater than 50
-  numberGreaterThan50: function() {
-    var number = $(this).find('.number').text();
-    return parseInt( number, 10 ) > 50;
-  },
-  // show if name ends with -ium
-  ium: function() {
-    var name = $(this).find('.name').text();
-    return name.match( /ium$/ );
-  }
-};
-
-// bind filter button click
-$('#filters').on( 'click', 'button', function() {
-  var filterValue = $( this ).attr('data-filter');
-  // use filterFn if matches value
-  filterValue = filterFns[ filterValue ] || filterValue;
-  $grid.isotope({ filter: filterValue });
-});
-
-// bind sort button click
-$('#sorts').on( 'click', 'button', function() {
-  var sortByValue = $(this).attr('data-sort-by');
-  $grid.isotope({ sortBy: sortByValue });
-});
-
-// change is-checked class on buttons
-$('.button-group').each( function( i, buttonGroup ) {
-  var $buttonGroup = $( buttonGroup );
-  $buttonGroup.on( 'click', 'button', function() {
-    $buttonGroup.find('.is-checked').removeClass('is-checked');
-    $( this ).addClass('is-checked');
-  });
-});
-	</script>
   
   
+ {% include components/isotope_scripts.html %}
  {% include components/header.html %}
   <div class="containerwide" >
 
@@ -231,13 +183,13 @@ $('.button-group').each( function( i, buttonGroup ) {
 	<div class="row" id="cellvids">
 	
       <div class="six columns" id="cellusetext">
-		  <a href="/cellvids/1.html" data-featherlight="ajax"> <img src="images/vidholder3.jpg" alt="HipSci News"> </a>    <h5>Navigating our cell line browser</h5>
+		  <a href="/cellvids/1.html" data-featherlight="ajax"> <img src="/images/vidholder3.jpg" alt="HipSci News"> </a>    <h5>Navigating our cell line browser</h5>
 		  <p>Using our cell line browser to find a line of interest</p> 
 		 <a href="/instructions/navigating-our-cell-line-browser.pdf"><div class="button">Download Instructions</div></a>
     </div>
     
     <div class="six columns" id="cellusetext">
-		<a href="/cellvids/2.html" data-featherlight="ajax">    <img src="images/vidholder3.jpg" alt="HipSci News">  </a>
+		<a href="/cellvids/2.html" data-featherlight="ajax">    <img src="/images/vidholder3.jpg" alt="HipSci News">  </a>
 		  <h5>Culturing feeder-free lines</h5>
 		  <p>How to grow our feeder free lines in your lab</p> 
 		<a href="/instructions/feeder-free-culture-protocol.pdf"><div class="button">Download Instructions</div></a>
@@ -245,7 +197,7 @@ $('.button-group').each( function( i, buttonGroup ) {
     </div
 		<div class="row" id="cellvids"><div id="cultfeed"></div>
    <div class="six columns"  id="cellusetext">
-		<a href="/cellvids/1.html" data-featherlight="ajax">   <img src="images/vidholder3.jpg" alt="HipSci News">  </a>
+		<a href="/cellvids/1.html" data-featherlight="ajax">   <img src="/images/vidholder3.jpg" alt="HipSci News">  </a>
 		  <h5>Culturing feeder-dependent lines
 </h5>
 		  <p>How to grow our feeder dependent lines in your lab</p> 
@@ -253,7 +205,7 @@ $('.button-group').each( function( i, buttonGroup ) {
     </div>
     
    	    <div class="six columns"  id="cellusetext"><div id="troubipsc"></div>
-			 <a href="cellvids/1.html" data-featherlight="ajax">    <img src="images/vidholder3.jpg" alt="HipSci News">   </a>
+			 <a href="cellvids/1.html" data-featherlight="ajax">    <img src="/images/vidholder3.jpg" alt="HipSci News">   </a>
 		  <h5>Troubleshooting iPSC culture</h5>
 		  <p>What to do when things go wrong</p>  
 		  <a href="/instructions/ipsc-culture-trouble-shooting-guide.pdf"><div class="button">Download Instructions</div></a>
