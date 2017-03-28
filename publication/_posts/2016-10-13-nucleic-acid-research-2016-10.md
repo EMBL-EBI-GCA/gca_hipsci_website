@@ -1,5 +1,5 @@
 ---
-layout: mdpage
+layout: page
 title: "The human-induced pluripotent stem cell initiative—data resources for cellular genetics"
 pub_ref: "*Nucleic Acid Research* 31, doi: 10.1093/nar/gkw928"
 pub_authors: Ian Streeter, Peter W. Harrison, Adam Faulconbridge, The HipSci Consortium, Paul Flicek, Helen Parkinson and Laura Clarke

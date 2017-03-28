@@ -1,5 +1,5 @@
 ---
-layout: mdpage
+layout: page
 title: What is the point of large-scale collections of human induced pluripotent stem cells?
 pub_ref: "*Nature Biotechnology* 31, 875–877 (2013)"
 pub_authors: Ruth McKernan & Fiona M Watt

@@ -1,5 +1,5 @@
 ---
-layout: mdpage
+layout: page
 title: "Human pluripotent stem cells on artificial microenvironments: a high content perspective"
 pub_ref: "*Frontiers in Pharmacology* 5, 150 (2014)"
 pub_authors: Priyalakshmi Viswanathan, Terri Gaskell, Nathalie Moens,  Oliver J. Culley,  Darrick Hansen,  Mia K. R. Gervasio,  Yee J. Yeap,  and Davide Danovi

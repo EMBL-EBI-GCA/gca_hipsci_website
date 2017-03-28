@@ -1,5 +1,5 @@
 ---
-layout: mdpage
+layout: page
 title: A Novel Automated High-Content Analysis Workflow Capturing Cell Population Dynamics from Induced Pluripotent Stem Cell Live Imaging Data
 pub_ref: "*J Biomol Screen* 1087057116652064 (2016)"
 pub_authors: Maximilian Kerz, Amos Folarin, Ruta Meleckyte, Fiona M. Watt, Richard J. Dobson, Davide Danovi

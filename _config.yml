@@ -13,8 +13,6 @@ permalink: /:categories/:title/
 gems:
     - jekyll-last-modified-at
 collections:
-    participants :
-        output: false
     mojo_templates :
         output: true
         permalink: /_mojo_templates/:path.html.ep

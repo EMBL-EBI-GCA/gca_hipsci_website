@@ -1,5 +1,5 @@
 ---
-layout: mdpage
+layout: page
 title: "Page not found"
 ---
 
