@@ -3182,3 +3182,6 @@ width:75%;
 .featherlight title.featherlight-inner {
   display: none;
 }
+#news.container.featherlight-inner {
+  padding: 0;
+}
