@@ -1,0 +1,37 @@
+---
+layout: page
+title: Panels
+permalink: /cells/panels/
+---
+
+<p>For new users of our iPSC resource, we have composed two panels of lines from the HipSci iPSC collection that we would recommend. These lines have been selected based on their high pluritest scores, low CNV’s, comprehensively characterised assay data, and their ability to differentiate.</p>
+
+<div class="row">
+  <div class="six columns panel-table">
+    <h4>Feeder-free panel</h4>
+    <table class="u-full-width"><tbody>
+      {% for line in site.data.panel.ff %}
+      <tr>
+        <td><a href="/lines/#/lines/{{line.name}}">{{line.name}}</a></td>
+        <td><a class="button button-primary" target="_blank" href="http://www.phe-culturecollections.org.uk/products/celllines/ipsc/detail.jsp?refId={{line.catalog}}&collection=ecacc_ipsc">Purchase</a></td>
+      </tr>
+      {% endfor %}
+      <tr>
+    </tbody></table>
+  </div>
+  <div class="six columns panel-table">
+    <h4>Feeder-free panel</h4>
+    <table class="u-full-width"><tbody>
+      {% for line in site.data.panel.ff %}
+      <tr>
+        <td><a href="/lines/#/lines/{{line.name}}">{{line.name}}</a></td>
+        <td><a class="button button-primary" target="_blank" href="http://www.phe-culturecollections.org.uk/products/celllines/ipsc/detail.jsp?refId={{line.catalog}}&collection=ecacc_ipsc">Purchase</a></td>
+      </tr>
+      {% endfor %}
+      <tr>
+    </tbody></table>
+  </div>
+</div>
+
+
+<p>These lines are available to order as individual lines, but will also be available to order as a panel pack in the near future.</p>

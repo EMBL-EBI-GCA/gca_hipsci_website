@@ -1,0 +1,18 @@
+ff:
+  - name: "HPSI0214i-wibj_2"
+    catalog: 77650057
+  - name: "HPSI0214i-kucg_2"
+    catalog: 77650065
+  - name: "HPSI0314i-hoik_1"
+    catalog: 77650129
+  - name: "HPSI0314i-sojd_3"
+    catalog: 77650126
+fd:
+  - name: "HPSI0613i-zisa_3"
+    catalog: 77650017
+  - name: "HPSI0813i-voas_2"
+    catalog: 77650254
+  - name: "HPSI0513i-cuau_2"
+    catalog: 77650222
+  - name: "HPSI0713i-kaks_3"
+    catalog: 77650234
