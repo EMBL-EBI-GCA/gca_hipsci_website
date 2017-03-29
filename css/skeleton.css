@@ -1179,7 +1179,7 @@ input[type="button"] {
 		color:#4b4b4b;
 }
 	
-#abouthomewide {
+#about-hipsci {
 	background-image:url("/img/abouthomewide.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1200,7 +1200,7 @@ padding:20px 0px;
 	#news {
 		padding:20px;
 	}
-	#homepipeline h1 {
+	#workflow h1 {
 		padding:20px;
 		text-align:center;
 		color:#fff;
@@ -1237,7 +1237,7 @@ clear:both;
 	text-transform:uppercase;
 
 }
-	#teamtext {
+	#investigators {
 	padding:50px;
 	text-align:center;
 	color:#4b4b4b;
@@ -1383,7 +1383,7 @@ clear:both;
 	margin:auto;
 	clear:both;
 }
-#homepipeline {
+#workflow {
 		background-image:url("/img/pipelinebg.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1397,7 +1397,7 @@ clear:both;
 
 	
 }
-#homepipeline h1 {
+#workflow h1 {
 	color:#fff;
 	text-align:center;
 	padding-top:100px;
@@ -1416,7 +1416,7 @@ li.red {
 	list-style-type:square;
 	color:#FF7A7C;
 }
-#homepipeline ul li {
+#workflow ul li {
 	list-style-type:square;
 }
 
@@ -1575,7 +1575,7 @@ background:none;
 	margin:50px auto;
 	text-align:center;
 }
-	#homepipeline {
+	#workflow {
 		background-image:url("/img/pipelinebg.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1924,7 +1924,7 @@ max-width:200px;
 }
 	
 	
-	#homepipeline {
+	#workflow {
 		background-image:url("/img/pipelinebg.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1938,7 +1938,7 @@ max-width:200px;
 
 	
 }
-	#homepipeline ul li {
+	#workflow ul li {
 		line-height:22px;
 	}
 	
@@ -2059,7 +2059,7 @@ color:#4b4b4b;
 
 
 
-#homepipeline h1 {
+#workflow h1 {
 	color:#fff;
 	text-align:center;
 	padding:50px 0px;
@@ -2080,7 +2080,7 @@ li.red {
 	color:#FF7A7C;
 	
 }
-#homepipeline ul li {
+#workflow ul li {
 	list-style-type:square;
 }
 	
@@ -2212,7 +2212,7 @@ width:75%;
 		.one-half.column {
   width:75%;
 }
-#teamtext {
+#investigators {
 	padding:75px 0px;
 	text-align:center;
 	color:#4b4b4b;
@@ -2283,7 +2283,7 @@ clear:both;
 	margin:auto;
 	text-align:center;
 }
-	#homepipeline {
+	#workflow {
 		background-image:url("/img/pipelinebg.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -2297,7 +2297,7 @@ clear:both;
 
 	
 }
-#homepipeline h1 {
+#workflow h1 {
 	color:#fff;
 	text-align:center;
 	padding-top:100px;
@@ -2316,7 +2316,7 @@ li.red {
 	list-style-type:square;
 	color:#FF7A7C;
 }
-#homepipeline ul li {
+#workflow ul li {
 	list-style-type:square;
 }
 
@@ -2548,7 +2548,7 @@ clear:both;
 	margin;auto;
 	clear:both;
 }
-#abouthomewide {
+#about-hipsci {
 	background-image:url("/img/abouthomewide.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -2570,7 +2570,7 @@ ul.about {
 }
 
 
-#homepipeline {
+#workflow {
 		background-image:url("/img/pipelinebg.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -2584,13 +2584,13 @@ ul.about {
 
 	
 }
-#homepipeline h1 {
+#workflow h1 {
 	color:#fff;
 	text-align:center;
 	padding-top:100px;
 }
 
-#homepipeline ul li {
+#workflow ul li {
 	list-style-type:square;
 }
 
@@ -2828,7 +2828,7 @@ background:none;
 
 	
 }
-#teamtext {
+#investigators {
 	padding:100px 0px;
 	text-align:center;
 	color:#4b4b4b;
