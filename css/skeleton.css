@@ -3176,3 +3176,9 @@ width:75%;
 
 	}
 
+
+.featherlight .featherlight-inner #topmenu,
+.featherlight .featherlight-inner #footer,
+.featherlight title.featherlight-inner {
+  display: none;
+}
