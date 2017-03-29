@@ -27,6 +27,11 @@ defaults:
             type: mojo_templates
         values:
             is_mojo_template: true
+    -
+      scope:
+        path: ""
+      values:
+        exclude_from_search: false
 
 # Build settings
 markdown: kramdown
