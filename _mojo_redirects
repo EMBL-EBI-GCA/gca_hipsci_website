@@ -10,8 +10,8 @@
 /data/navigation	/data#find-and-download
 /data-navigation	/data#find-and-download
 /participants /about#participants
-/publication	/#news
-/announcements	/#news
+/publication	/news-archive
+/announcements	/news-archive
 {% for page in site.posts %}{% if page.redirect_from %}{% for redirect in page.redirect_from %}
 {{ redirect }}	{{ page.url }}
 {% endfor %}{% endif %}{% endfor %}

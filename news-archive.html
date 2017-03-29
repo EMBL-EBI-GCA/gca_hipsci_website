@@ -1,0 +1,28 @@
+---
+layout: default
+title: News
+permalink: /news-archive/
+redirect_from:
+  - /publication/front-pharamcol-5-150/
+  - /publication/nature-biotechnology-31-875/
+  - /publication/methods-2015-11/
+  - /publication/biomolecular-screening-2016-06/
+  - /publication/biorxiv-2016-05/
+  - /publication/nucleic-acid-research-2016-10/
+  - /publication/
+---
+
+<h1>News</h1>
+<h3>Publication</h3>
+<ul>
+{% assign pubs = site.data.publications | sort: 'date'| reverse %}
+{% for pub in pubs %}
+  <li><a href="{{pub.url}}">{{pub.title}}</a></li>
+{% endfor %}
+</ul>
+    
+<h3>Announcements</h3>
+     
+<ul>
+  <li>The HipSci Science meeting: London, 9th February 2017</li>
+</ul>
