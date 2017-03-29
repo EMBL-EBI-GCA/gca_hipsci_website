@@ -1,6 +1,7 @@
 ---
 ---
 /assay	/data#assays
+/disease	/cells#cohorts
 /disease/diabetes/	/lines/#/cohorts/monogenic-diabetes
 /disease/bardet-biedl/	/lines/#/cohorts/bardet-biedl-syndrome
 /documents/HipSci_Normals_DAA_v3.2_form.pdf	/documents/hipsci-daa.pdf
