@@ -3185,3 +3185,6 @@ width:75%;
 #news.container.featherlight-inner {
   padding: 0;
 }
+iframe.cell-video {
+  margin: 50px auto;
+}
