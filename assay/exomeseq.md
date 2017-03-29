@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Exome sequencing
 permalink: /assay/exomeseq/
 ---
@@ -50,12 +50,12 @@ We distribute a single-sample vcf file for each cell line.
 from SHAPEIT and IMPUTE2. We distribute a single-sample vcf file for each cell line, containing
 genotypes imputed to the 1000genomes and UK10K reference panels.
 
-For [managed access]({{ '/data/access' | prepend: site.baseurl }}#managed%}) cell lines, exome-seq
+For [managed access](/data/faq/find-download-managed-access-files) cell lines, exome-seq
 files are archived in the [EGA](https://www.ebi.ac.uk/ega/). The
 [data browser]({{'/lines/#/files?Assay[]=Exome-seq' | prepend: site.baseurl}}) contains
 links to the relevant EGA dataset page, from where researchers can request access to the data.
 
-For [open access]({{ '/data/access' | prepend: site.baseurl }}#open) cell lines, exome-seq files
+For [open access](/data/faq/find-download-open-access-files) cell lines, exome-seq files
 are archived in [ENA](http://www.ebi.ac.uk/ena/data/view/ERP006946). Data are openly available
 to anybody, and the [data browser]({{'/lines/#/files?Assay[]=Exome-seq' | prepend: site.baseurl}})
 contains direct links to the files on the ENA FTP server.

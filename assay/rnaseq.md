@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: RNA sequencing
 permalink: /assay/rnaseq/
 ---
@@ -28,12 +28,12 @@ can have multiple associated cram files; each corresponds to a single lane of se
 * [Splice-aware STAR alignment]({{'/lines/#/files?Assay[]=Exome-seq&Description[]=Splice-aware%20STAR%20alignment' | prepend: site.baseurl }})
 -- Distributed in the bam file format.  We distribute one bam file per cell line.
 
-For [managed access]({{ '/data/access' | prepend: site.baseurl }}#managed%}) cell lines, RNA-seq
+For [managed access](/data/faq/find-download-managed-access-files) cell lines, RNA-seq
 files are archived in the [EGA](https://www.ebi.ac.uk/ega/). The
 [data browser]({{'/lines/#/files?Assay[]=RNA-seq' | prepend: site.baseurl}}) contains
 links to the relevant EGA dataset page, from where researchers can request access to the data.
 
-For [open access]({{ '/data/access' | prepend: site.baseurl }}#open) cell lines, RNA-seq files
+For [open access](/data/faq/find-download-open-access-files) cell lines, RNA-seq files
 are archived in [ENA](http://www.ebi.ac.uk/ena/data/view/ERP007111). Data are openly available
 to anybody, and the [data browser]({{'/lines/#/files?Assay[]=RNA-seq' | prepend: site.baseurl}})
 contains direct links to the files on the ENA FTP server.

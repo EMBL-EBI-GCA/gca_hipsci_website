@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Genotyping by array
 permalink: /assay/gtarray/
 ---
@@ -33,12 +33,12 @@ from SHAPEIT and IMPUTE2. We distribute a single-sample vcf file for each cell l
 genotypes imputed to the 1000genomes and UK10K reference panels.
 
 
-For [managed access]({{ '/data/access' | prepend: site.baseurl }}#managed%}) cell lines, genptyping array data
+For [managed access](/data/faq/find-download-managed-access-files) cell lines, genptyping array data
 files are archived in the [EGA](https://www.ebi.ac.uk/ega/). The
 [data browser]({{'/lines/#/files?Assay[]=Genotyping%20array' | prepend: site.baseurl}}) contains
 links to the relevant EGA dataset page, from where researchers can request access to the data.
 
-For [open access]({{ '/data/access' | prepend: site.baseurl }}#open) cell lines, the signal intensity data files
+For [open access](/data/faq/find-download-open-access-files) cell lines, the signal intensity data files
 are archived in [ArrayExpress](https://www.ebi.ac.uk/arrayexpress/) and the variant call files
 are archived in [EVA](http://www.ebi.ac.uk/eva/)
 Data are openly available

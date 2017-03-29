@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Proteomic mass spectrometry
 permalink: /assay/proteomics/
 ---

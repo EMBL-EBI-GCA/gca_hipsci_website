@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Expression array
 permalink: /assay/gexarray/
 ---
@@ -34,12 +34,12 @@ three text files:
     * quantile_sample_probe_profile -- signal intensity per-probe normalised by the quantile method
     * control_probe_profile -- signal intensities at control probes
 
-For [managed access]({{ '/data/access' | prepend: site.baseurl }}#managed%}) cell lines, expression array data
+For [managed access](/data/faq/find-download-managed-access-files) cell lines, expression array data
 files are archived in the [EGA](https://www.ebi.ac.uk/ega/). The
 [data browser]({{'/lines/#/files?Assay[]=Expression%20array' | prepend: site.baseurl}}) contains
 links to the relevant EGA dataset page, from where researchers can request access to the data.
 
-For [open access]({{ '/data/access' | prepend: site.baseurl }}#open) cell lines, expression array data files
+For [open access](/data/faq/find-download-open-access-files) cell lines, expression array data files
 are archived in [ArrayExpress](https://www.ebi.ac.uk/arrayexpress/). Data are openly available
 to anybody, and the [data browser]({{'/lines/#/files?Assay[]=Expression%20array' | prepend: site.baseurl}})
 contains direct links to the files on the ArrayExpression files download page.
