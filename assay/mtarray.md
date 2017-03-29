@@ -14,7 +14,7 @@ one cell line per donor. The
 assay uses the Illumina HumanMethylation450 BeadChip v1.0
 
 
-##Getting the data
+###Getting the data
 
 Complete lists of methylation array data can be found under the files tab of
 the [cell lines and data browser]({{'/lines/#/files?Assay[]=Genotyping%20array' | prepend: site.baseurl}})

@@ -23,7 +23,7 @@ other PTMs in the HipSci cell lines and the analysis of changes in the
 proteomic landscape that occur when the iPS cells are differentiated into
 different lineages.
 
-##Getting the data
+###Getting the data
 
 Complete lists of proteomics data can be found under the
 [files]({{'/lines/#/files?Assay[]=Proteomics' | prepend: site.baseurl}})

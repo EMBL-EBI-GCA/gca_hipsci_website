@@ -8,7 +8,7 @@ RNA sequencing is performed on all HipSci iPS cell lines that are selected for b
 after passing QC. Sequencing and primary analysis are performed at the
 Wellcome Trust Sanger Institue.
 
-##Primary analysis
+###Primary analysis
 
 HipSci's RNA-seq analysis pipeline is to 
 map sequence reads to the human GRCh37 reference using the
@@ -16,7 +16,7 @@ map sequence reads to the human GRCh37 reference using the
 version 19 of the Gencode gene annotation to enable splice-aware alignments.
 
 
-##Getting the data
+###Getting the data
 
 Complete lists of exome-seq data can be found under the files tab of
 the [cell lines and data browser]({{'/lines/#/files?Assay[]=RNA-seq' | prepend: site.baseurl}})
@@ -39,7 +39,7 @@ to anybody, and the [data browser]({{'/lines/#/files?Assay[]=RNA-seq' | prepend:
 contains direct links to the files on the ENA FTP server.
 
 
-##Resources
+###Resources
 
 HipSci's FTP site contains:
 

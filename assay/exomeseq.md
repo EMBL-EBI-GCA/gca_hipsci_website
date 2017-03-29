@@ -8,7 +8,7 @@ Exome sequencing is performed on all HipSci iPS cell lines that are selected for
 after passing QC. Sequencing and primary analysis are performed at the
 Wellcome Trust Sanger Institue.
 
-##Primary analysis
+###Primary analysis
 
 HipSci's exome-seq analysis pipeline comprises these steps:
 
@@ -30,7 +30,7 @@ The following filters are applied to called variants:
 * minimum quality for SNPs QUAL<=30
 * minimum quality for indels QUAL<=60
 
-##Getting the data
+###Getting the data
 
 Complete lists of exome-seq data can be found under the files tab of
 the [cell lines and data browser]({{'/lines/#/files?Assay[]=Exome-seq' | prepend: site.baseurl}})
@@ -60,7 +60,7 @@ are archived in [ENA](http://www.ebi.ac.uk/ena/data/view/ERP006946). Data are op
 to anybody, and the [data browser]({{'/lines/#/files?Assay[]=Exome-seq' | prepend: site.baseurl}})
 contains direct links to the files on the ENA FTP server.
 
-##Resources
+###Resources
 
 HipSci's FTP site contains:
 

@@ -19,7 +19,7 @@ A key part of HipSci's research is to assess the dependence of gene expression v
 IPSCs on various cell line variables and on technical variables. HipSci's extensive data set
 from the gene expression array allows for great statistical sensivity in assessing these correlations.
 
-##Getting the data
+###Getting the data
 
 Complete lists of expression array data can be found under the files tab of
 the [cell lines and data browser]({{'/lines/#/files?Assay[]=Expression%20array' | prepend: site.baseurl}})

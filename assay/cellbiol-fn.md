@@ -11,7 +11,7 @@ stimuli to analyse iPSC behaviour in different microenvironments.
 These data contribute to HipSci's research into the dependence of phenotypic variance
 on genetic and epigenetic variance.
 
-##Assay procedure
+### Assay procedure
 
 Undifferentiated iPSCs are enzymatically dissociated and
 seeded as single cells onto 96-well plates. They are coated with different ECM proteins
@@ -21,7 +21,7 @@ are stained and then imaged using an Operetta high content device.
 This method allows assessment of cell number,
 proliferation, cell morphology and intercellular adhesion properties.
 
-##Getting the data
+### Getting the data
 
 The results of the cellular phenotyping experiments are distributed as pdf files
 on the HipSci [FTP site](ftp://ftp.hipsci.ebi.ac.uk/vol1/ftp/data/cellbiol-fn/pdf/).

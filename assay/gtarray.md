@@ -16,7 +16,7 @@ Aneuploidy and subchromosomal aberrations are detected from genotyping arrays
 by detecting differences in copy number between the original fibroblasts and iPSCs
 using a HMM algorithm detected for the purpose
 
-##Getting the data
+###Getting the data
 
 Complete lists of genotyping array data can be found under the files tab of
 the [cell lines and data browser]({{'/lines/#/files?Assay[]=Genotyping%20array' | prepend: site.baseurl}})
