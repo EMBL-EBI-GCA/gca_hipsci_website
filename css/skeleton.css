@@ -60,7 +60,7 @@
 nav { 
 	margin:0;
 	padding: 0;
-	background-color: none;
+	background-color: transparent;
 }
 
 
@@ -88,7 +88,7 @@ nav ul li {
 	margin: 0px;
 	display:inline-block;
 	float: left;
-	background-color: none;
+	background-color: transparent;
 	}
 
 /* Styling the links */
@@ -149,7 +149,7 @@ li > a:only-child:after { content: ''; }
 
 .step1bul ul {
 	width:100%;
-	line-ieght:30px;
+	line-height:30px;
 	
 	
 }
@@ -344,9 +344,6 @@ li > a:only-child:after { content: ''; }
 }
 
 
-masonry: {
-  columnWidth: 50
-}
 /* fluid 5 columns */
 .grid-sizer,
 .grid-item { width: 15%; }
@@ -529,7 +526,7 @@ superscript {
   position: relative;
   width: 100%;
   max-width: 1200px;
-	clear;both;
+	clear:both;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
@@ -1248,6 +1245,7 @@ clear:both;
 }
 	#homeabout img {
 		max-width:100%;
+        }
 	#staffbig img {
 		max-width:100%;
   box-sizing: border-box; 
@@ -1887,7 +1885,7 @@ max-width:200px;
   margin: auto;
   text-align: center;
 }
-}
+
 /* Larger than phablet (also point when grid becomes active) -----------------*/
 @media (min-width: 550px) {
 .arrowdh {
@@ -2244,7 +2242,6 @@ width:75%;
 border-bottom:  1px solid #ccc;
 	text-align:left;
 	font-size:1em;
-	float:center;
 	padding:20px 0px;
 width:47%;
 
@@ -2545,7 +2542,7 @@ clear:both;
 
 #arc {
 	text-align:center;
-	margin;auto;
+	margin:auto;
 	clear:both;
 }
 #about-hipsci {
