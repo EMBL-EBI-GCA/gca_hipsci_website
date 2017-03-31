@@ -35,7 +35,7 @@ three text files:
     * control_probe_profile -- signal intensities at control probes
 
 For [managed access](/data/faq/find-download-managed-access-files) cell lines, expression array data
-files are archived in the [EGA](https://www.ebi.ac.uk/ega/). The
+files are archived in the [EGA](https://ega-archive.org/). The
 [data browser]({{'/lines/#/files?Assay[]=Expression%20array' | prepend: site.baseurl}}) contains
 links to the relevant EGA dataset page, from where researchers can request access to the data.
 

@@ -51,7 +51,7 @@ from SHAPEIT and IMPUTE2. We distribute a single-sample vcf file for each cell l
 genotypes imputed to the 1000genomes and UK10K reference panels.
 
 For [managed access](/data/faq/find-download-managed-access-files) cell lines, exome-seq
-files are archived in the [EGA](https://www.ebi.ac.uk/ega/). The
+files are archived in the [EGA](https://ega-archive.org/). The
 [data browser]({{'/lines/#/files?Assay[]=Exome-seq' | prepend: site.baseurl}}) contains
 links to the relevant EGA dataset page, from where researchers can request access to the data.
 

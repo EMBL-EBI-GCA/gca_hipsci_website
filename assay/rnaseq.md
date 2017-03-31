@@ -29,7 +29,7 @@ can have multiple associated cram files; each corresponds to a single lane of se
 -- Distributed in the bam file format.  We distribute one bam file per cell line.
 
 For [managed access](/data/faq/find-download-managed-access-files) cell lines, RNA-seq
-files are archived in the [EGA](https://www.ebi.ac.uk/ega/). The
+files are archived in the [EGA](https://ega-archive.org/). The
 [data browser]({{'/lines/#/files?Assay[]=RNA-seq' | prepend: site.baseurl}}) contains
 links to the relevant EGA dataset page, from where researchers can request access to the data.
 
