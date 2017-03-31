@@ -10,7 +10,7 @@
 
 **M (Managed access)** The consent agreement of some HipSci donors authorises release of individually unique data only for specific research use to bona fide researchers. Cell lines on this page are marked as 'Managed access' if the donor's individually unique data are bound by these restrictions.
 
-Managed access data are stored in the [EGA](https://www.ebi.ac.uk/ega/) archive. For access to these data, researchers must register and apply for access via WTSI's [Electronic Data Access Mechanism](https://www.sanger.ac.uk/legal/DAA/MasterController)
+Managed access data are stored in the [EGA](https://ega-archive.org/) archive. For access to these data, researchers must register and apply for access via WTSI's [Electronic Data Access Mechanism](https://www.sanger.ac.uk/legal/DAA/MasterController)
 
 **O (Open access):** The consent agreement of some HipSci donors authorises release of  individually unique data to all parties, with no requirement to satisfy any data access restrictions. Cell lines on this page are marked as 'Open access' if there are no restrictions on the donor's individually unique data.
 
