@@ -14,4 +14,4 @@ You can learn how to:
 * Differentiate between our open-access and managed-access data sets
 * Apply for access to the data, where necessary.
 
-<iframe width="100%" height="320" src="https://www.youtube.com/embed/kxxN_hYu3Go" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="310" style="max-width: 100%; margin: 0 auto; display: block;" src="https://www.youtube.com/embed/kxxN_hYu3Go" frameborder="0" allowfullscreen></iframe>
