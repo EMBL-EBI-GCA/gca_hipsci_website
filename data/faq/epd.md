@@ -4,7 +4,7 @@ title: How can I use the Encyclopedia of Proteome Dynamics (EPD) to view HipSci 
 permalink: /data/faq/epd/
 ---
 
-All the resulting HipSci raw MS data are available for download from the PRIDE repository. In addition, the corresponding processed MS data can be accessed via the Encyclopedia of Proteome Dynamics (EPD, which has a section dedicated to HipSci data. This is a rapidly developing resource and is regularly updated with new data, new interactive features and further integration of the proteome data with other HipSci data sets from both normal and disease cell lines.
+All the resulting HipSci raw MS data are available for download from the [PRIDE](http://www.ebi.ac.uk/pride) repository. In addition, the corresponding processed MS data can be accessed via the [Encyclopedia of Proteome Dynamics](https://www.peptracker.com/epd/) (EPD), which has a section dedicated to HipSci data. This is a rapidly developing resource and is regularly updated with new data, new interactive features and further integration of the proteome data with other HipSci data sets from both normal and disease cell lines.
 
 These data can be accessed as follows:
 

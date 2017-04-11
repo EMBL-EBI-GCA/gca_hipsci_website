@@ -6,7 +6,7 @@ permalink: /data/faq/find-download-managed-access-files/
 
 **Download managed-access data**
 
-HipSci’s managed access data is stored at the EGA. You must have completed a [Data Access Agreement](intsructions/HipSciDAAexample.pdf) via the [eDAM page](https://www.sanger.ac.uk/legal/DAA/MasterController) and been sent aproval for access to the data you applied for. If you have not done this step, please refer to our video or document titled "Applying for managed access data".
+HipSci’s managed access data is stored at the EGA. You must have completed a [Data Access Agreement](documents/hipsci-daa.pdf) via the [eDAM page](https://www.sanger.ac.uk/legal/DAA/MasterController) and been sent aproval for access to the data you applied for. If you have not done this step, please refer to our video or document titled "Applying for managed access data".
 
 Hipsci data is setup and structured in the following way within EGA. Understanding the structure will help you to hone in on the data you seek.
 
@@ -22,14 +22,17 @@ Each dataset contains files of multiple types. For example, a [exome-seq](/assay
 
 When new data is released for an assay, we create a new dataset to include all of the latest data files, including both the new and old data files. The new dataset therefore supercedes the old dataset, and we recommend researchers always download the newest dataset for a particular assay and disease cohort. This is why we include the release date in the dataset ID. As access is given at the cohort level, you will have access to the data in any new releases too.
 
-The HipSci website provides a [datasets table](/lines/#/datasets), which shows the most recent dataset IDs for each assay under each cohort.  Click on a dataset ID and you will be offered three options:
+The HipSci website provides a [EGA datasets](/lines/#/datasets) table, which shows the most recent dataset IDs for each assay under each cohort.  Click on a dataset ID and you will be offered three options:
 
 <img src="/img/datafaq10.png" class="faqimage">
 
-Option #3, "What is in the dataset" is helpful for users who have not yet applied for data access, but who want to know exactly which data files belong in a dataset.
+Option #1, Looking for data access if for anyone who has not yet applied for access to the data via [Electronic Data Access Management system (eDAM)](https://www.sanger.ac.uk/legal/DAA/MasterController).
 
-Follow option #2, "Want to download the data?", if your application for data has been successful, and you are now ready to download the data. The link will take you to the dataset on the EGA website.  Log in to the website using your institutional email address and password.
+Option #2, “Want to download the data?”, if your application for data has been successful, and you are now ready to download the data. The link will take you to the dataset on the EGA website.  Log in to the website using your institutional email address and password.
 
-The EGA dataset website page has a "Downloads" section.  If you have been granted access to the cohort, and if you are logged in correctly, then you will see two options: **"Download metadata"** - this option will give you information about the cell lines and files; this same information is also searchable in the HipSci cell lines browser.
+The EGA dataset website page has a “Downloads” section.  If you have been granted access to the cohort, and if you are logged in correctly, then you will see two options:
 
-**Download data files**- this is the button to click to start downloading the QC and characterization data files to your computer. We recommend users read the EGA's [download quick guide](https://ega-archive.org/downloader-quickguide) to learn about the EGA download client.
+* **Download metadata** - this option will give you information about the cell lines and files; this same information is also searchable in the HipSci cell lines browser.
+* **“Download data files** - this is the button to click to start downloading the QC and characterization data files to your computer. We recommend users read the EGA’s [download quick guide](https://ega-archive.org/downloader-quickguide) to learn about the EGA download client.
+
+Option #3, “What is in the dataset?” is helpful for users who have not yet applied for data access, but who want to know exactly which data files belong in a dataset.

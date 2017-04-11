@@ -12,10 +12,10 @@ redirect_from:
 
 Data are submitted to various open access data archives, depending on the data type:
 
-* ENA for sequencing data
-* EVA for genotype calls
-* ArrayExpress for gene expression data
-* PRIDE for proteomics mass spectrometry
+* [ENA (European Nucleotide Archive)](http://www.ebi.ac.uk/ena) for sequencing data
+* [EVA (European Variation Archive)](http://www.ebi.ac.uk/eva) for genotype calls
+* [ArrayExpress](http://www.ebi.ac.uk/arrayexpress) for gene expression data
+* [PRIDE (PRoteomics IDEntifications)](http://www.ebi.ac.uk/pride) for proteomics mass spectrometry
 
 The cell lines and data browser will guide you to the correct archive and download link for your chosen data.  Start at the files table and enter a search term, or use the table filters to discover available data.
 
@@ -33,7 +33,7 @@ You must be a registered user of the eDAM system before you can apply for HipSci
 
 **Step 2: Complete your registration as a user**
 
-Follow the link in the automatic email from step 1, and then log in to eDAM. On the "Welcome to eDAM" page, click the button to "continue".  Next, click the button to "Complete Registration".  You must complete all three pages of the registration form, and then click the button "submit form"
+Follow the link in the automatic email from step 1 to authenticate email, and then log in to eDAM. On the "Welcome to eDAM" page, click the button to "continue".  Next, click the button to "Complete Registration".  You must complete all three pages of the registration form, and then click the button "submit form"
 
 You are now a registered user in the eDAM system, but you have not yet applied for data access.  You must proceed to step 3 to start applying to HipSci data sets.
 
