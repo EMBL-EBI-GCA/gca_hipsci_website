@@ -4,7 +4,11 @@
       <h1>News</h1>
       <h3>Publication</h3>
       <ul>
-      {% assign pubs = site.data.publications | sort: 'date'| reverse %}
+      {% assign pubs = site.data.publications | where: "pinned", true | sort: 'date' | reverse %}
+      {% assign unpinned_pubs = site.data.publications | where: "pinned", not true | sort: 'date' | reverse %}
+      {% for pub in unpinned_pubs limit:3 %}
+        {% assign pubs = pubs | push: pub %}
+      {% endfor %}
       {% for pub in pubs limit:3 %}
         <li><a href="{{pub.url}}">{{pub.title}}</a></li>
       {% endfor %}
