@@ -3189,3 +3189,33 @@ div.panel-table {
   float: left;
   text-align: center;
 }
+
+div.participant-image > img {
+  width: 100%;
+  float: right;
+  max-width:350px;
+}
+div.participant-image {
+  float: left;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+div.participant-image:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+div.participant-content {
+  float: left;
+  margin-top: 50px;
+  max-width: 500px;
+}
+@media (max-width: 749px) {
+  div.participant-image, div.participant-content, div.participant-image > img {
+    float: none;
+  }
+  div.participant-content, div.participant-image > img {
+    margin: 0 auto;
+    display: block;
+  }
+}
