@@ -9,7 +9,7 @@ The HipSci project has worked closely with many clinicians across the UK to secu
 The cohorts in which patients have been recruited into are:
 
 * Healthy individuals
-* Bardet Biedl syndrome
+* Bardet-Biedl syndrome
 * Alport syndrome
 * Hereditary Cerebellar Ataxia
 * Congenital Hyperinsulinia
