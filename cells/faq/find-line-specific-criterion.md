@@ -15,7 +15,7 @@ The browser contains a wealth of information that you can use to identify lines 
 
 2.Viewing the full browser versus only 'selected lines'
 
-As soon as the browser is launched, you will see it only displays the lines that have been 'selected' (definitions of our terminology can be found <a href="/cells/faq/abbreviations-cell-browser" data-featherlight="ajax">here</a>).
+As soon as the browser is launched, you will see it only displays the lines that have been 'selected' for banking (definitions of our terminology can be found <a href="/cells/faq/abbreviations-cell-browser" data-featherlight="ajax">here</a>).
 
 If you are looking for information on lines that have not yet reached this stage, uncheck the box labelled "Display only lines that are selected for banking" on the top left hand side 
 
