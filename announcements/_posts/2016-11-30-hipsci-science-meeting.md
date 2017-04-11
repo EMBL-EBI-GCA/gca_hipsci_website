@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "The HipSci Science meeting: London, 9th February 2017"
+deprecated: true
 ---
 
 The HipSci team is hosting a one day science focussed meeting held at the Wellcome Trust in London, on the 9th of February 2017.

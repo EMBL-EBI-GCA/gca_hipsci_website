@@ -12,6 +12,7 @@
 /participants /about#participants
 /publication	/news-archive
 /announcements	/news-archive
+/announcements/importance-of-patient-involvement-in-stem-cell-research	http://www.raredisease.org.uk/news-events/news/the-importance-of-patient-involvement-in-stem-cell-research/
 {% for page in site.posts %}{% if page.redirect_from %}{% for redirect in page.redirect_from %}
 {{ redirect }}	{{ page.url }}
 {% endfor %}{% endif %}{% endfor %}
