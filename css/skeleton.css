@@ -1028,11 +1028,18 @@ li.red {
 		
 .faqimage {
 text-align:center;
+        display: block;
 	clear:both;
 	margin:auto;
 	box-sizing:border-box;
 	width:100%;
 	max-width:500px;
+}
+.faqimage-lg {
+  max-width: 800px;
+}
+.faqimage-sm {
+  max-width: 300px;
 }
 
 #topmenu {
