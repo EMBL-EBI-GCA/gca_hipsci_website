@@ -3179,6 +3179,12 @@ width:75%;
 .featherlight title.featherlight-inner {
   display: none;
 }
+@media (max-width: 1200px) {
+  .featherlight .featherlight-inner #newsbody {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 #news.container.featherlight-inner {
   padding: 0;
 }
@@ -3188,6 +3194,22 @@ iframe.cell-video {
 div.panel-table {
   float: left;
   text-align: center;
+}
+@media (max-width: 849px) {
+  div.panel-table.columns {
+    float: none;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+div.panel-table a.button {
+  display: block;
+  font-size: inherit;
+  line-height: 1.5;
+  white-space: normal;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 div.participant-image > img {
