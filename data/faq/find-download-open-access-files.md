@@ -24,4 +24,4 @@ You can also try downloading the files using your favourite web browser by first
 * In Safari, right-click on the link and select "Download linked file"
 * In Chrome, right-click on the link and select "Save link as"
 
-The download client you use might ask you for a user name and password. Select to collect as a guest, if you see that option.  Alternatively, enter "anonymous" for both the user name and the password. If you are having any trouble downloading a file, then email us at hipsci-info@ebi.ac.uk and we will help you with the download.
+The download client you use might ask you for a user name and password. Select to connect as a guest, if you see that option.  Alternatively, enter "anonymous" for both the user name and the password. If you are having any trouble downloading a file, then email us at hipsci-info@ebi.ac.uk and we will help you with the download.
