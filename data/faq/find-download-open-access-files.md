@@ -14,7 +14,7 @@ The "archive" column tells you where the data is archived.  Data are available f
 
 HipSci's open access data sets may be freely downloaded by anybody, so there is no requirement to register for access.  You can discover open access data by clicking on the "Open access" filter in the HipSci [files](/lines/#/files) table.
 
-<img src="/img/datafaq9.png" class="faqimage">
+<img src="/img/datafaq9.png" class="faqimage faqimage-sm">
 
 There are many different tools available to download data files by FTP - the computer you use probably has a download tool already installed. Some of HipSci's data files are very large - possibly several gigabytes.  If you have experience, then we recommend downloading large files from a command line tool, or with a FTP client such as [Filezilla](https://filezilla-project.org/).
 
