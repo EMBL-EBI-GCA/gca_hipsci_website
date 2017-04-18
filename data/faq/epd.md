@@ -8,7 +8,7 @@ All the resulting HipSci raw MS data are available for download from the [PRIDE]
 
 These data can be accessed as follows:
 
-* Navigate to peptracker.com/epd
+* Navigate to [peptracker.com/epd](http://peptrack.com/epd)
 * Enter Proteins dynamics viewer
 * On the graphical interface click on the circle labelled 'Stem Cells'
 * After Stem Cells is selected, the interactive navigation will update itself and display a bubble labelled 'HipSci'.
