@@ -3248,3 +3248,5 @@ div.participant-content {
     display: block;
   }
 }
+
+#newsbody ul ul {margin-left: 0; padding-left: 40px;}

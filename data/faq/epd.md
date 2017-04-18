@@ -30,7 +30,7 @@ These data can be accessed as follows:
 
 <img src="/img/datafaq12.png" class="faqimage">
 
-Additionally, the EPD allows users to search for specific proteins of interest, based on uniprot protein IDs, which displays results that highlight data for the selected protein in the HipSci cell lines. The navigation pane has a text box labelled 'Protein Search', as displayed bellow.
+Additionally, the EPD allows users to search for specific proteins of interest, based on uniprot protein IDs, which displays results that highlight data for the selected protein in the HipSci cell lines. The navigation pane has a text box labelled 'Protein Search', as displayed below.
 
 <img src="/img/datafaq13.png" class="faqimage">
 

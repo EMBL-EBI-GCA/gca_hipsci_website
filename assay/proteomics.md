@@ -68,7 +68,7 @@ These data can be accessed as follows:
 Additionally, the EPD allows users to search for specific proteins of interest,
 based on uniprot protein IDs, which displays results that highlight data for
 the selected protein in the HipSci cell lines. The navigation pane has a text
-box labelled ‘Protein Search’, as displayed bellow.
+box labelled ‘Protein Search’, as displayed below.
 
 ![peptracker epd]({{'/img/epd-3.png' | prepend: site.baseurl}} "Encyclopedia of Proteome Dynamics")
 

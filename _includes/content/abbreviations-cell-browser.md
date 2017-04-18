@@ -4,9 +4,9 @@
 
 **Selected for banking <span style="color:#FF0004;">(B)</span>:** Cell lines that have passed HipSci's QC standards, and will continue in the pipeline towards being frozen down and banked at EBiSC and/or ECACC
 
-**Banked at ECACC <span style="color:#004ABC;">(B)</span>:**  Cell lines that are currently available from the  [European Collection of Cell Cultures](https://www.phe-culturecollections.org.uk/products/celllines/hipsci/index.jsp)
+**Banked at ECACC <span style="color:#004ABC;">(B)</span>:**  Cell lines that are currently available from the  [European Collection of Authenticated Cell Cultures](https://www.phe-culturecollections.org.uk/products/celllines/hipsci/index.jsp)
 
-**Banked at ECACC and EBiSC <span style="color:#006C0C">(B)</span>:** Cell lines that are available from the  [European Collection of Cell Cultures](https://www.phe-culturecollections.org.uk/products/celllines/hipsci/index.jsp) and [European Bank for induced pluripotent stem cells](http://www.ebisc.org/)
+**Banked at ECACC and EBiSC <span style="color:#006C0C">(B)</span>:** Cell lines that are available from the  [European Collection of Authenticated Cell Cultures](https://www.phe-culturecollections.org.uk/products/celllines/hipsci/index.jsp) and [European Bank for induced pluripotent stem cells](http://www.ebisc.org/)
 
 **M (Managed access):** The consent agreement of some HipSci donors authorises release of individually unique data only for specific research use to bona fide researchers. Cell lines on this page are marked as 'Managed access' if the donor's individually unique data are bound by these restrictions.
 

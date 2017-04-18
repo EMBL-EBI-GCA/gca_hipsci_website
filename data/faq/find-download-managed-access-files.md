@@ -26,7 +26,7 @@ The HipSci website provides a [EGA datasets](/lines/#/datasets) table, which sho
 
 <img src="/img/datafaq10.png" class="faqimage">
 
-Option #1, Looking for data access if for anyone who has not yet applied for access to the data via [Electronic Data Access Management system (eDAM)](https://www.sanger.ac.uk/legal/DAA/MasterController).
+Option #1, Looking for data access is for anyone who has not yet applied for access to the data via [Electronic Data Access Management system (eDAM)](https://www.sanger.ac.uk/legal/DAA/MasterController).
 
 Option #2, “Want to download the data?”, if your application for data has been successful, and you are now ready to download the data. The link will take you to the dataset on the EGA website.  Log in to the website using your institutional email address and password.
 

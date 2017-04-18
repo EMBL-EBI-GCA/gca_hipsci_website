@@ -17,11 +17,11 @@ Data are submitted to various open access data archives, depending on the data t
 * [ArrayExpress](http://www.ebi.ac.uk/arrayexpress) for gene expression data
 * [PRIDE (PRoteomics IDEntifications)](http://www.ebi.ac.uk/pride) for proteomics mass spectrometry
 
-The cell lines and data browser will guide you to the correct archive and download link for your chosen data.  Start at the files table and enter a search term, or use the table filters to discover available data.
+The cell lines and data browser will guide you to the correct archive and download link for your chosen data.  Start at the [files](/lines/#/files) table and enter a search term, or use the table filters to discover available data.
 
 **Managed-access genetic and genomic data**
 
-This data is accessible upon the completion of a Data access agreement via the Wellcome Trust Sanger Institute’s [Electronic Data Access Mechanism](https://www.sanger.ac.uk/legal/DAA/MasterController).
+This data is accessible upon the completion of a Data Access Agreement via the Wellcome Trust Sanger Institute’s [Electronic Data Access Mechanism](https://www.sanger.ac.uk/legal/DAA/MasterController).
 
 **The eDAM website**
 

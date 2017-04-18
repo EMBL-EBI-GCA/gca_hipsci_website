@@ -19,7 +19,7 @@ The cohorts in which patients have been recruited into are:
 * Hypertrophic Cardiomyopathy
 * Usher syndrome and Congenital eye defects
 * Monogenic Diabetes
-* Batten’s disease
+* Batten disease
 * Hereditary Spastic Paraplegia
 * Retinitis Pigmentosa
 * Macular Dystrophy

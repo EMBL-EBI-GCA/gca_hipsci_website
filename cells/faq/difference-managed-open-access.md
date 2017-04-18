@@ -4,7 +4,7 @@ title: What is the difference between managed access and open access lines?
 permalink: /cells/faq/difference-managed-open-access/
 ---
 
-Lines from our normal healthy donors fall under either managed or open access, based on the ethics approval number they were collected under. All HipSci iPSC lines from donors with rare diseases fall under managed access.
+Lines from our healthy donors fall under either managed or open access, based on the consent agreement they were collected under. All HipSci iPSC lines from donors with rare diseases fall under managed access.
 
 **Managed access**
 

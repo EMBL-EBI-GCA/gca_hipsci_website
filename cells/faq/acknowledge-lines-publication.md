@@ -6,7 +6,7 @@ permalink: /cells/faq/acknowledge-lines-publication/
 
 For any form of publication using HipSci cell lines, the MTA you would have completed to obtain the line, details the terms of acknowledgment. We have shown the terms for each cohort below.
 
-**Normal healthy cohort** "XXX acknowledges Wellcome Trust Sanger Institute as the source of [u- cell line name] human induced pluripotent cell line which was generated under the Human Induced Pluripotent Stem Cell Initiative funded by a grant from the Wellcome Trust and Medical Research Council, supported by the Wellcome Trust (WT098051) and the NIHR/Wellcome Trust Clinical Research Facility, and acknowledges Life Science Technologies Corporation as the provider of Cytotune."
+**Healthy cohort** "XXX acknowledges Wellcome Trust Sanger Institute as the source of [u- cell line name] human induced pluripotent cell line which was generated under the Human Induced Pluripotent Stem Cell Initiative funded by a grant from the Wellcome Trust and Medical Research Council, supported by the Wellcome Trust (WT098051) and the NIHR/Wellcome Trust Clinical Research Facility, and acknowledges Life Science Technologies Corporation as the provider of Cytotune."
 
 **Bardet-Biedl syndrome** "XXX acknowledges Wellcome Trust Sanger Institute as the source of [cell line name] human induced pluripotent cell line which was generated under the Human Induced Pluripotent Stem Cell Initiative funded by a grant from the Wellcome Trust and Medical Research Council, supported by the Wellcome Trust  (WT098051), the NIHR Rare Diseases Translational Research Collaboration and the NIHR Great Ormond Street Hospital Biomedical Research Centre, and acknowledges Life Science Technologies Corporation as the provider of Cytotune."
 

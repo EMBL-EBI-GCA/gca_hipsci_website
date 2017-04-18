@@ -10,7 +10,7 @@ Transcription profiling by array is used to measure the activity of genes in the
 
 **Gtarray= <span class="blue">Genotyping array</span>**
 
-HipSci assays for genotypes in all iPS cell lines and and in the equivalent somatic cells. HipSci's QC procedure compares the called genotypes between the primary and derived cells of the same donor, to ensure genomic integrity in the derived lines.
+HipSci assays for genotypes in all iPS cell lines and in the equivalent somatic cells. HipSci's QC procedure compares the called genotypes between the primary and derived cells of the same donor, to ensure genomic integrity in the derived lines.
 
 **Exomeseq= <span class="blue">Exome sequencing</span>**
 

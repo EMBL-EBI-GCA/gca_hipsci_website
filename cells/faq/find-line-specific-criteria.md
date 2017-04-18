@@ -1,7 +1,7 @@
 ---
 layout: page
-title: How do I find a cell line with a specific criteria in mind?
-permalink: /cells/faq/find-line-specific-criterion/
+title: How do I find a cell line with specific criteria in mind?
+permalink: /cells/faq/find-line-specific-criteria/
 ---
 
 The HipSci [cell line and data browser](/lines/#/lines), allows you to filter and select a line with a number of different properties. 
