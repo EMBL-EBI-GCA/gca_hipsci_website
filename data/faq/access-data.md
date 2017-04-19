@@ -65,4 +65,4 @@ Later, once access is granted, you will receive an email stating:
 
 The [European Genome-phenome Archive](https://ega-archive.org/non-compat.php) (EGA) is a service for managed access distribution of individually unique data from biomedical research projects.
 
-If your application was successful, you will now have login details for the EGA. You can login, locate the hipsci data and begin to download the data for the cohort you selected. You will have access to any data that has been deposited already as well as any data we deposit for the cohort in the future.
+If your application was successful, you will now have login details for the EGA. You can login, locate the HipSci data and begin to download the data for the cohort you selected. You will have access to any data that has been deposited already as well as any data we deposit for the cohort in the future.

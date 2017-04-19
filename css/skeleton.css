@@ -442,7 +442,7 @@ min-width:125px;
 
 .element-item:hover {background:#000;}
 .element-item.g8:hover {background:#fff;color:#000;}
-.element-item.g8 .name:hover {
+.element-item.g8:hover .name {
 	color:#000;
 }
 

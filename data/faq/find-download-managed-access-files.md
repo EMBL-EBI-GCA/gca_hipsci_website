@@ -6,7 +6,7 @@ permalink: /data/faq/find-download-managed-access-files/
 
 **Download managed-access data**
 
-HipSci’s managed access data is stored at the EGA. You must have completed a [Data Access Agreement](documents/hipsci-daa.pdf) via the [eDAM page](https://www.sanger.ac.uk/legal/DAA/MasterController) and been sent aproval for access to the data you applied for. If you have not done this step, please refer to our video or document titled "Applying for managed access data".
+HipSci’s managed access data is stored at the EGA. You must have completed a [Data Access Agreement](documents/hipsci-daa.pdf) via the [eDAM page](https://www.sanger.ac.uk/legal/DAA/MasterController) and been sent approval for access to the data you applied for. If you have not done this step, please refer to our video or document titled "Applying for managed access data".
 
 Hipsci data is setup and structured in the following way within EGA. Understanding the structure will help you to hone in on the data you seek.
 

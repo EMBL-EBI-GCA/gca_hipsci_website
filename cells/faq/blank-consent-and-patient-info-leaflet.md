@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 
-Biological samples are collected by independent clinicians and sent to HipSci for the derivation of iPSCs. The HipSci project has not and does not collect personal identifiable data on any donor sample sent to us. We therefore do not have the actual patient consent forms - either blank or completed - or the patient information leaflets provided to the patients. What we do have is exemplar model ethics forms that have been used for the collection of samples. Clinical sample providers obtained ethics in alignment with the absolute core requirements we have for the HipSci project (e.g. Banking and sharing of iPSC lines with researchers, sharing of data, no further need for ethical approval for these research studies using the derived cell lines etc).
+Biological samples are collected by independent clinicians and sent to HipSci for the derivation of iPSCs. The HipSci project has not and does not collect personal identifiable data on any donor sample sent to us. We therefore do not have the actual patient consent forms - either blank or completed - or the patient information leaflets provided to the patients. What we do have is exemplar model ethics forms that have been used for the collection of samples. Clinical sample providers obtained ethics in alignment with the absolute core requirements we have for the HipSci project (e.g. Banking and sharing of iPSC lines with researchers, sharing of data, no further need for ethical approval for research studies using the derived cell lines etc).
 
 ### Model ethics forms
 
