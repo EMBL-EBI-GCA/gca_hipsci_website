@@ -13,8 +13,8 @@ HipSci data has been made available in a Track Hub for visualisation within the 
 
 The Track Hubs can be accessed directly using the following links:
 
-* Ensembl
-* UCSC
+* [Ensembl](http://grch37.ensembl.org/TrackHub?url=http://ftp.hipsci.ebi.ac.uk/vol1/ftp/track_hub//hipsci_hub/hub.txt;species=Homo_sapiens;name=hipsci_hub;registry=1)
+* [UCSC](http://genome.ucsc.edu/cgi-bin/hgHubConnect?db=hg19&hubUrl=http://ftp.hipsci.ebi.ac.uk/vol1/ftp/track_hub//hipsci_hub/hub.txt&hgHub_do_redirect=on&hgHubConnect.remakeTrackHub=on)
 
 HipSci Track Hubs are also registered in the Track Hub Registry to enable broad discovery and reuse. From the Track Hub Registry home page you can search for 'hipsci' to obtain information about the latest release of the HipSci Track Hub, this service also provides direct links to the UCSC and Ensembl genome browsers. The Track Hub text files are hosted from our FTP site.
 
