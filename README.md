@@ -19,4 +19,4 @@ It must contain the following front matter:
     title: Short snappy title
     ---
 
-The announcement will get pushed to the website and tweeted automatically.  The announcement title will form a significant part of the tween content.
+The announcement will get pushed to the website.
