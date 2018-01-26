@@ -8,7 +8,7 @@ The Centre for Stem Cells & Regenerative Medicine, London, is hosting a symposiu
 **[Register now for this free event](https://www.eventbrite.co.uk/e/hipsci-cells-data-and-tools-for-collaborative-stem-cell-research-tickets-34319005068)**
 
 * **Location:** Centre for Stem Cells & Regenerative Medicine, Guy's Tower, Great Maze Pond, London, SE1 9RT 
-* **Date and time:** Wed 5 July 2017, 14:00 – 17:00 BST
+**Date and time:** Wed 5 July 2017, 14:00 – 17:00 BST
 
 **2.30pm:** Welcome
 
