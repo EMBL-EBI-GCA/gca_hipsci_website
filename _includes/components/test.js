@@ -14,7 +14,7 @@ function ebiFrameworkCreateDataProtectionBanner() {
 
   banner.id = "data-protection-banner";
   banner.className = "data-protection-banner";
-  banner.style.cssText = "position: fixed; background: #111; width: 100%; padding: .75rem 1%; left: 0; top: 0; color: #eee; z-index: 10;";
+  banner.style.cssText = "position: fixed; background: #111; width: 100%; padding: .75rem 1%; left: 0; bottom: 10; color: #eee; z-index: 10;";
   wrapper.className = "row";
   wrapper.innerHTML = "" +
     "<div class='columns medium-8 large-9 white-color'>" +
