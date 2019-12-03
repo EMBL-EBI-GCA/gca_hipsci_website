@@ -40,11 +40,11 @@
   
   </script>
   <script>    
-         var localFrameworkVersion = '1.1'; // 1.1 or 1.2 or compliance or other
+        var localFrameworkVersion = '1.1'; // 1.1 or 1.2 or compliance or other
             // if you select compliance or other we will add some helpful
             // CSS styling, but you may need to add some CSS yourself
          var newDataProtectionNotificationBanner = document.createElement('script');
-           newDataProtectionNotificationBanner.src = 'test.js';
+           newDataProtectionNotificationBanner.src = 'scripts/test.js';
            document.head.appendChild(newDataProtectionNotificationBanner);
            newDataProtectionNotificationBanner.onload = function() {
            ebiFrameworkRunDataProtectionBanner(); // invoke the banner
