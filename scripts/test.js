@@ -141,7 +141,7 @@ function ebiFrameworkRunDataProtectionBanner(targetedFrameworkVersion) {
         text-decoration: none;
       }
       .data-protection-banner .medium-8 {
-        width: 75%; margin-left: 1%; float: left;
+        width: 35%; margin-left: 1%; float: left;
       }
       .data-protection-banner .medium-4 {
         width: 23%; margin-right: 1%; float: right; text-align: right;
