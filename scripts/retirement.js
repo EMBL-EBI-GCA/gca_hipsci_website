@@ -116,7 +116,7 @@ var dataProtectionSettings =  new Object();
  * Further documentation at https://www.ebi.ac.uk/style-lab/websites/patterns/banner-data-protection.html
  * @param {string} [targetedFrameworkVersion=generic] targeted Framework version; options: 1.1, 1.2, 1.3, compliance, other
  */
-function ebiFrameworkRunDataProtectionBanner(targetedFrameworkVersion) {
+function retirementBanner(targetedFrameworkVersion) {
   try {
 
     if (typeof newBaner !== "undefined") {
@@ -204,7 +204,7 @@ function ebiFrameworkRunDataProtectionBanner(targetedFrameworkVersion) {
       ebiFrameworkCreateDataProtectionBanner();
     }
 
-  } catch(err) { setTimeout(ebiFrameworkRunDataProtectionBanner, 100); }
+  } catch(err) { setTimeout(retirementBanner, 100); }
 }
 
 /**
@@ -212,7 +212,7 @@ function ebiFrameworkRunDataProtectionBanner(targetedFrameworkVersion) {
  */
 function resetDataProtectionBanner() {
   document.cookie = dataProtectionSettings.cookieName + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT;domain=" + document.domain + ";path=/";
-  ebiFrameworkRunDataProtectionBanner('1.3');
+  retirementBanner('1.3');
 }
 
 /**
@@ -220,9 +220,9 @@ function resetDataProtectionBanner() {
  * https://github.com/ebiwd/EBI-Framework/blob/6707eff40e15036f735637413deed0dcb7392818/js/ebi-global-includes/script/5_ebiFrameworkCookieBanner.js
  */
 function ebiFrameworkCookieBanner() {
-  console.warn('You are calling an old function name, update it to ebiFrameworkRunDataProtectionBanner();')
-  ebiFrameworkRunDataProtectionBanner('1.3');
+  console.warn('You are calling an old function name, update it to retirementBanner();')
+  retirementBanner('1.3');
 }
 
 // execute
-// ebiFrameworkRunDataProtectionBanner('1.3');
+// retirementBanner('1.3');
