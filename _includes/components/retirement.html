@@ -23,10 +23,10 @@
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="shortcut icon" href="/favicon.ico?ver=20151030" type="image/x-icon"/>
-  
+
   <link rel="stylesheet" href="/css/sequence-theme.modern-slide-in.css">
   <link rel="stylesheet" href="/css/featherlight.css">
-    
+
   {% unless page.is_mojo_template %}<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">{% endunless %}
 
   <!-- Google analytics -->
@@ -37,18 +37,18 @@
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     ga('create', 'UA-62861164-2', 'auto');
     ga('send', 'pageview');
-  
+
   </script>
   <script>
-        var localFrameworkVersion = '1.1'; // 1.1 or 1.2 or compliance or other
+         var localFrameworkVersion = '1.1'; // 1.1 or 1.2 or compliance or other
             // if you select compliance or other we will add some helpful
             // CSS styling, but you may need to add some CSS yourself
          var newDataProtectionNotificationBanner = document.createElement('script');
-           newDataProtectionNotificationBanner.src = 'https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/js/ebi-global-includes/script/5_ebiFrameworkNotificationBanner.js?legacyRequest='+localFrameworkVersion;
+           newDataProtectionNotificationBanner.src = 'scripts/retirement.js';
            document.head.appendChild(newDataProtectionNotificationBanner);
            newDataProtectionNotificationBanner.onload = function() {
            ebiFrameworkRunDataProtectionBanner(); // invoke the banner
            };
     </script>
-    <div id="data-protection-message-configuration" data-message="This website requires cookies, and the limited processing of your personal data in order to function. By using the site you are agreeing to this as outlined in our <a class='white-color' href='https://www.ebi.ac.uk/data-protection/privacy-notice/hipsci-data-portal'>Privacy Notice</a> and <a class='white-color' href='https://www.ebi.ac.uk/about/terms-of-use'>Terms Of Use</a>." data-service-id="hipsci-data-portal" data-data-protection-version="1"></div>
+    <div id="data-protection-message-configuration" data-message="The HipSci website will be decommissioned on 30th March 2020. All cell lines will remain purchasable from ECCAC and all generated 'omics data will be available direct from the EMBL-EBI public archives. For more information click here."></div>
 </head>
