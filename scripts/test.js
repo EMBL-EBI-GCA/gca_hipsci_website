@@ -12,9 +12,9 @@ function ebiFrameworkCreateDataProtectionBanner() {
     document.getElementById("data-protection-banner").remove();
   }
 
-  banner.id = "data-protection-banner";
-  banner.className = "data-protection-banner";
-  banner.style.cssText = "position: fixed; background: #111; width: 100%; padding: .75rem 1%; left: 0; bottom: 0; color: #eee; z-index: 10;";
+  banner.id = "data-";
+  banner.className = "data-pr";
+  banner.style.cssText = "position: fixed; background: #69F0AE; width: 100%; padding: .75rem 1%; left: 0; bottom: 0; color: #6A1B9A; z-index: 10;";
   wrapper.className = "row";
   wrapper.innerHTML = "" +
     "<div class='columns medium-8 large-9 white-color'>" +
@@ -134,14 +134,14 @@ function ebiFrameworkRunDataProtectionBanner(targetedFrameworkVersion) {
       .data-protection-banner a,
       .data-protection-banner a:hover {
         cursor: pointer;
-        color: #ee6a50;
-        border-bottom-width: 5px;
+        color: #fff;
+        border-bottom-width: 1px;
         border-bottom-style: dotted;
         border-bottom-color: inherit;
         text-decoration: none;
       }
       .data-protection-banner .medium-8 {
-        width: 35%; margin-left: 1%; float: left;
+        width: 75%; margin-left: 1%; float: left;
       }
       .data-protection-banner .medium-4 {
         width: 23%; margin-right: 1%; float: right; text-align: right;
