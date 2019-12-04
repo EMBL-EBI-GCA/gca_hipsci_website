@@ -12,9 +12,9 @@ function ebiFrameworkCreateDataProtectionBanner() {
     document.getElementById("data-protection-banner").remove();
   }
 
-  banner.id = "data-";
-  banner.className = "data-pr";
-  banner.style.cssText = "position: fixed; background: #69F0AE; width: 100%; padding: .75rem 1%; left: 0; bottom: 0; color: #6A1B9A; z-index: 10;";
+  banner.id = "data-protection-banner";
+  banner.className = "data-protection-banner";
+  banner.style.cssText = "position: fixed; background: #111; width: 100%; padding: .75rem 1%; left: 0; bottom: 0; color: #eee; z-index: 10;";
   wrapper.className = "row";
   wrapper.innerHTML = "" +
     "<div class='columns medium-8 large-9 white-color'>" +
