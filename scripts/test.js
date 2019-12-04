@@ -134,8 +134,8 @@ function ebiFrameworkRunDataProtectionBanner(targetedFrameworkVersion) {
       .data-protection-banner a,
       .data-protection-banner a:hover {
         cursor: pointer;
-        color: #fff;
-        border-bottom-width: 1px;
+        color: #ee6a50;
+        border-bottom-width: 5px;
         border-bottom-style: dotted;
         border-bottom-color: inherit;
         text-decoration: none;
