@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1ebe985d-f85e-47e1-a511-6f59ed69561a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/_layouts/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/blank.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/retirement.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/retirement.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,20 +30,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/retirement.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="114" selection-start-line="16" selection-start-column="114" selection-end-line="16" selection-end-column="114" />
+            <state relative-caret-position="435">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/blank.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -86,8 +85,8 @@
     <replaceStrings>
       <replace>newBanner</replace>
       <replace>newBaner</replace>
-      <replace>retirement_banner</replace>
       <replace>retirementBanner</replace>
+      <replace>retirement_banner</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -103,8 +102,8 @@
         <option value="$PROJECT_DIR$/scripts/test.js" />
         <option value="$PROJECT_DIR$/_includes/components/head.html" />
         <option value="$PROJECT_DIR$/_includes/components/retirement.html" />
-        <option value="$PROJECT_DIR$/_layouts/blank.html" />
         <option value="$PROJECT_DIR$/scripts/retirement.js" />
+        <option value="$PROJECT_DIR$/_layouts/blank.html" />
       </list>
     </option>
   </component>
@@ -199,7 +198,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30071000" />
+    <option name="totallyTimeSpent" value="30144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -555,17 +554,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/blank.html">
+    <entry file="file://$PROJECT_DIR$/scripts/retirement.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/retirement.js">
+    <entry file="file://$PROJECT_DIR$/_layouts/blank.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="114" selection-start-line="16" selection-start-column="114" selection-end-line="16" selection-end-column="114" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
