@@ -8,12 +8,12 @@ function ebiFrameworkCreateDataProtectionBanner() {
   var inner = document.createElement('div');
 
   // don't accidently create two banners
-  if (document.getElementById("data-protection-banner") != null) {
-    document.getElementById("data-protection-banner").remove();
+  if (document.getElementById("retirement_banner") != null) {
+    document.getElementById("retirement_banner").remove();
   }
 
-  banner.id = "data-protection-banner";
-  banner.className = "data-protection-banner";
+  banner.id = "retirement_banner";
+  banner.className = "retirement_banner";
   banner.style.cssText = "position: fixed; background: #111; width: 100%; padding: .75rem 1%; left: 0; bottom: 500; color: #eee; z-index: 10;";
   wrapper.className = "row";
   wrapper.innerHTML = "" +
@@ -40,7 +40,7 @@ function ebiFrameworkTrackDataProtectionBanner() {
   if ((typeof analyticsTrackInteraction == 'function') && (typeof jQuery == 'function')) {
     if (jQuery("body").hasClass("google-analytics-loaded")) {
       bannerTrackingEventLoaded = 1;
-      jQuery("body.google-analytics-loaded .data-protection-banner a").on('mousedown', function(e) {
+      jQuery("body.google-analytics-loaded .retirement_banner a").on('mousedown', function(e) {
         analyticsTrackInteraction(e.target,'Data protection banner');
       });
     } else {
@@ -67,8 +67,8 @@ function ebiFrameworkRetryTrackDataProtectionBanner(bannerTrackingEventLoaded) {
  * Shows the data protection banner on screen.
  */
 function openDataProtectionBanner() {
-  var height = document.getElementById('data-protection-banner').offsetHeight || 0;
-  document.getElementById('data-protection-banner').style.display = 'block';
+  var height = document.getElementById('retirement_banner').offsetHeight || 0;
+  document.getElementById('retirement_banner').style.display = 'block';
   document.body.style.paddingBottom = height+'px';
 
   document.getElementById('data-protection-agree').onclick = function() {
@@ -81,8 +81,8 @@ function openDataProtectionBanner() {
  * Hides the data protection banner from the screen.
  */
 function closeDataProtectionBanner() {
-  var height = document.getElementById('data-protection-banner').offsetHeight;
-  document.getElementById('data-protection-banner').style.display = 'none';
+  var height = document.getElementById('retirement_banner').offsetHeight;
+  document.getElementById('retirement_banner').style.display = 'none';
   document.body.style.paddingBottom = '0';
   ebiFrameworkSetCookie(dataProtectionSettings.cookieName, 'true', 90);
 }
@@ -128,11 +128,11 @@ function retirementBanner(targetedFrameworkVersion) {
       #cookie-banner {
         display: none;
       }
-      .data-protection-banner {
+      .retirement_banner {
         box-sizing: border-box;
       }
-      .data-protection-banner a,
-      .data-protection-banner a:hover {
+      .retirement_banner a,
+      .retirement_banner a:hover {
         cursor: pointer;
         color: #fff;
         border-bottom-width: 1px;
@@ -140,10 +140,10 @@ function retirementBanner(targetedFrameworkVersion) {
         border-bottom-color: inherit;
         text-decoration: none;
       }
-      .data-protection-banner .medium-8 {
+      .retirement_banner .medium-8 {
         width: 75%; margin-left: 1%; float: left;
       }
-      .data-protection-banner .medium-4 {
+      .retirement_banner .medium-4 {
         width: 23%; margin-right: 1%; float: right; text-align: right;
       }
     `;
