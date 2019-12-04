@@ -119,8 +119,8 @@ var dataProtectionSettings =  new Object();
 function ebiFrameworkRunDataProtectionBanner(targetedFrameworkVersion) {
   try {
 
-    if (typeof newDataProtectionNotificationBanner !== "undefined") {
-      targetedFrameworkVersion = newDataProtectionNotificationBanner.src.split('legacyRequest=')[1] || 'generic';
+    if (typeof newBaner !== "undefined") {
+      targetedFrameworkVersion = newBaner.src.split('legacyRequest=')[1] || 'generic';
     }
 
     var compatibilityStyles = document.createElement('style');
