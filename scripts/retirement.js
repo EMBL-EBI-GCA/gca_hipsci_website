@@ -16,7 +16,7 @@ function createRetirementBanner() {
   banner.className = "retirement_banner";
   // banner.style.cssText = "position: fixed; background: #111; width: 100%; padding: .75rem 1%; left: 0; bottom: 0; color: #eee; z-index: 10;";
   // banner.style.cssText = "width: 70%; margin-left: auto; margin-right: auto; top: 100px; background: #FFFF00;";
-  banner.style.cssText = "position: relative, width: 70%; margin-left: auto; margin-right: auto; top: 100px; background: #FFFF00;";
+  banner.style.cssText = "position: relative, width: 70%; margin-left: auto; margin-right: auto; top: 100px; background: #006400;";
   wrapper.className = "row";
   wrapper.innerHTML = "" +
     "<div class='columns medium-8 large-9 white-color'>" +
