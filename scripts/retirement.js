@@ -14,7 +14,7 @@ function createRetirementBanner() {
 
   banner.id = "retirement_banner";
   banner.className = "retirement_banner";
-  banner.style.cssText = "position: fixed; background: #111; width: 100%; padding: .75rem 1%; left: 0; bottom: 0; color: #eee; z-index: 1000000;";
+  banner.style.cssText = "position: fixed; background: #111; width: 100%; padding: .75rem 1%; left: 0; bottom: 0; color: #eee; z-index: 10;";
   wrapper.className = "row";
   wrapper.innerHTML = "" +
     "<div class='columns medium-8 large-9 white-color'>" +
@@ -84,7 +84,7 @@ function closeRetirementBanner() {
   var height = document.getElementById('retirement_banner').offsetHeight;
   document.getElementById('retirement_banner').style.display = 'none';
   document.body.style.paddingBottom = '0';
-  retirmentFrameworkSetCookie(retirementSettings.cookieName, 'true', 90);
+  retirmentFrameworkSetCookie(retirementSettings.cookieName, 'true', 7);
 }
 
 function retirmentFrameworkSetCookie(c_name, value, exdays) {
