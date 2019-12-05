@@ -19,7 +19,9 @@ function createRetirementBanner() {
   wrapper.innerHTML = "" +
     "<div class='columns medium-8 large-9 white-color'>" +
     retirementSettings.message +
-    "</div>";
+    "</div>" +
+    "<div class='columns medium-4 large-3 text-right white-color'><a id='retirement-agree' class='' href='http://test.hipsci.org/about#news'>here</a></div>" +
+    ".";
 
   document.body.appendChild(banner);
   banner.appendChild(wrapper);
