@@ -2,7 +2,7 @@
  * Injects the Data Protection notice onto sites
  * For guidance on using: https://www.ebi.ac.uk/style-lab/websites/patterns/banner-data-protection.html
  */
-function ebiFrameworkCreateDataProtectionBanner() {
+function createRetirementBanner() {
   var banner = document.createElement('div');
   var wrapper = document.createElement('div');
   var inner = document.createElement('div');
@@ -18,36 +18,36 @@ function ebiFrameworkCreateDataProtectionBanner() {
   wrapper.className = "row";
   wrapper.innerHTML = "" +
     "<div class='columns medium-8 large-9 white-color'>" +
-    dataProtectionSettings.message +
+    retirementSettings.message +
     "</div>" +
-    "<div class='columns medium-4 large-3 text-right white-color'><a id='data-protection-agree' class=''>I agree, dismiss this banner</a></div>" +
+    "<div class='columns medium-4 large-3 text-right white-color'><a id='retirement-agree' class=''>I agree, dismiss this banner</a></div>" +
     "";
 
   document.body.appendChild(banner);
   banner.appendChild(wrapper);
 
-  ebiFrameworkTrackDataProtectionBanner();
+  trackRetirementBanner();
 
-  openDataProtectionBanner();
+  openRetirementBanner();
 }
 
 /**
  * Log acceptance of banner, if GA is set and using EBIFoundationExtend
  *
  */
-function ebiFrameworkTrackDataProtectionBanner() {
-  var bannerTrackingEventLoaded = 0; // has the tracking coad loaded?
-  if ((typeof analyticsTrackInteraction == 'function') && (typeof jQuery == 'function')) {
+function trackRetirementBanner() {
+  var bannerTrackingEventLoadNum = 0; // has the tracking coad loaded?
+  if ((typeof analyticsTrackInteractions == 'function') && (typeof jQuery == 'function')) {
     if (jQuery("body").hasClass("google-analytics-loaded")) {
-      bannerTrackingEventLoaded = 1;
+      bannerTrackingEventLoadNum = 1;
       jQuery("body.google-analytics-loaded .retirement_banner a").on('mousedown', function(e) {
-        analyticsTrackInteraction(e.target,'Data protection banner');
+        analyticsTrackInteractions(e.target,'Retirement banner');
       });
     } else {
-      bannerTrackingEventLoaded = ebiFrameworkRetryTrackDataProtectionBanner(bannerTrackingEventLoaded);
+      bannerTrackingEventLoadNum = frameworkRetryTrackRetirementBanner(bannerTrackingEventLoadNum);
     }
   } else {
-    bannerTrackingEventLoaded = ebiFrameworkRetryTrackDataProtectionBanner(bannerTrackingEventLoaded);
+    bannerTrackingEventLoadNum = frameworkRetryTrackRetirementBanner(bannerTrackingEventLoadNum);
   }
 }
 
@@ -55,39 +55,39 @@ function ebiFrameworkTrackDataProtectionBanner() {
  * Give a second for banner checking if GA was slow to load
  *
  */
-function ebiFrameworkRetryTrackDataProtectionBanner(bannerTrackingEventLoaded) {
-  bannerTrackingEventLoaded --;
-  if (bannerTrackingEventLoaded > -3) { // try up to 3 fails
-    setTimeout(ebiFrameworkTrackDataProtectionBanner, 900);
+function frameworkRetryTrackRetirementBanner(bannerTrackingEventLoadNum) {
+  bannerTrackingEventLoadNum --;
+  if (bannerTrackingEventLoadNum > -3) { // try up to 3 fails
+    setTimeout(trackRetirementBanner, 900);
   }
-  return bannerTrackingEventLoaded;
+  return bannerTrackingEventLoadNum;
 }
 
 /**
- * Shows the data protection banner on screen.
+ * Shows the Retirement banner on screen.
  */
-function openDataProtectionBanner() {
+function openRetirementBanner() {
   var height = document.getElementById('retirement_banner').offsetHeight || 0;
   document.getElementById('retirement_banner').style.display = 'block';
   document.body.style.paddingBottom = height+'px';
 
-  document.getElementById('data-protection-agree').onclick = function() {
-    closeDataProtectionBanner();
+  document.getElementById('retirement-agree').onclick = function() {
+    closeRetirementBanner();
     return false;
   };
 }
 
 /**
- * Hides the data protection banner from the screen.
+ * Hides the Retirement banner from the screen.
  */
-function closeDataProtectionBanner() {
+function closeRetirementBanner() {
   var height = document.getElementById('retirement_banner').offsetHeight;
   document.getElementById('retirement_banner').style.display = 'none';
   document.body.style.paddingBottom = '0';
-  ebiFrameworkSetCookie(dataProtectionSettings.cookieName, 'true', 90);
+  retirmentFrameworkSetCookie(retirementSettings.cookieName, 'true', 90);
 }
 
-function ebiFrameworkSetCookie(c_name, value, exdays) {
+function retirmentFrameworkSetCookie(c_name, value, exdays) {
   var exdate = new Date();
   var c_value;
   exdate.setDate(exdate.getDate() + exdays);
@@ -97,7 +97,7 @@ function ebiFrameworkSetCookie(c_name, value, exdays) {
   document.cookie = c_name + "=" + c_value;
 }
 
-function ebiFrameworkGetCookie(c_name) {
+function retirmentFrameworkGetCookie(c_name) {
   var i, x, y, ARRcookies=document.cookie.split(";");
   for (i=0; i<ARRcookies.length; i++) {
     x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
@@ -109,23 +109,23 @@ function ebiFrameworkGetCookie(c_name) {
   }
 }
 
-var dataProtectionSettings =  new Object();
+var retirementSettings =  new Object();
 
 /**
- * The main 'brain' of the EBI Data Protection banner.
+ * The main 'brain' of the EBI Retirement banner.
  * Further documentation at https://www.ebi.ac.uk/style-lab/websites/patterns/banner-data-protection.html
- * @param {string} [targetedFrameworkVersion=generic] targeted Framework version; options: 1.1, 1.2, 1.3, compliance, other
+ * @param {string} [targetFrameworkVersion=generic] targeted Framework version; options: 1.1, 1.2, 1.3, compliance, other
  */
-function retirementBanner(targetedFrameworkVersion) {
+function retirementBanner(targetFrameworkVersion) {
   try {
 
     if (typeof newBaner !== "undefined") {
-      targetedFrameworkVersion = newBaner.src.split('legacyRequest=')[1] || 'generic';
+      targetFrameworkVersion = newBaner.src.split('legacyRequest=')[1] || 'generic';
     }
 
     var compatibilityStyles = document.createElement('style');
     compatibilityStyles.innerHTML = `
-      #cookie-banner {
+      #ret_cookie-banner {
         display: none;
       }
       .retirement_banner {
@@ -149,23 +149,23 @@ function retirementBanner(targetedFrameworkVersion) {
     `;
 
     // remove any old style cookie banner
-    switch (targetedFrameworkVersion) {
+    switch (targetFrameworkVersion) {
       case '1.1':
       case '1.2':
-        if (document.getElementById("cookie-banner") != null) {
-          document.getElementById("cookie-banner").remove();
+        if (document.getElementById("ret_cookie-banner") != null) {
+          document.getElementById("ret_cookie-banner").remove();
         }
         document.body.style.paddingBottom = 0;
         break;
       case '1.3':
         // cookie banner really shouldn't be here, but just in case
-        if (document.getElementById("cookie-banner") != null) {
-          document.getElementById("cookie-banner").remove();
+        if (document.getElementById("ret_cookie-banner") != null) {
+          document.getElementById("ret_cookie-banner").remove();
         }
         break;
       case 'compliance':
-        if (document.getElementById("cookie-banner") != null) {
-          document.getElementById("cookie-banner").remove();
+        if (document.getElementById("ret_cookie-banner") != null) {
+          document.getElementById("ret_cookie-banner").remove();
         }
         document.body.style.paddingTop = 0;
         document.body.appendChild(compatibilityStyles);
@@ -175,33 +175,33 @@ function retirementBanner(targetedFrameworkVersion) {
         document.body.appendChild(compatibilityStyles);
         break;
       default:
-        console.warn('You should specify the targeted FrameworkVersion (allowed values: 1.1, 1.2, 1.3, compliance, other). You sent: ' + targetedFrameworkVersion);
+        console.warn('You should specify the targeted FrameworkVersion (allowed values: 1.1, 1.2, 1.3, compliance, other). You sent: ' + targetFrameworkVersion);
     }
 
     // Default global values
-    dataProtectionSettings.message = 'This website requires cookies, and the limited processing of your personal data in order to function. By using the site you are agreeing to this as outlined in our <a target="_blank" href="https://www.ebi.ac.uk/data-protection/privacy-notice/embl-ebi-public-website">Privacy Notice</a> and <a target="_blank" href="https://www.ebi.ac.uk/about/terms-of-use">Terms of Use</a>.';
-    dataProtectionSettings.serviceId = 'embl-ebi-public-website'; // use the URL stub from your DP record at http://content.ebi.ac.uk/list-data-protection-records
-    dataProtectionSettings.dataProtectionVersion = '1.0';
+    retirementSettings.message = 'The HipSci website will be decommissioned on 30th March 2020.';
+    retirementSettings.serviceId = 'embl-ebi-public-website'; // use the URL stub from your DP record at http://content.ebi.ac.uk/list-data-protection-records
+    retirementSettings.dataProtectionVersion = '1.0';
 
-    // If there's a div#data-protection-message-configuration, override defaults
-    var divDataProtectionBanner = document.getElementById('data-protection-message-configuration');
-    if (divDataProtectionBanner !== null) {
-      if (typeof divDataProtectionBanner.dataset.message !== "undefined") {
-        dataProtectionSettings.message = divDataProtectionBanner.dataset.message;
+    // If there's a div#retirment-message-configuration, override defaults
+    var divRetirementBanner = document.getElementById('retirment-message-configuration');
+    if (divRetirementBanner !== null) {
+      if (typeof divRetirementBanner.dataset.message !== "undefined") {
+        retirementSettings.message = divRetirementBanner.dataset.message;
       }
-      if (typeof divDataProtectionBanner.dataset.serviceId !== "undefined") {
-        dataProtectionSettings.serviceId = divDataProtectionBanner.dataset.serviceId;
+      if (typeof divRetirementBanner.dataset.serviceId !== "undefined") {
+        retirementSettings.serviceId = divRetirementBanner.dataset.serviceId;
       }
-      if (typeof divDataProtectionBanner.dataset.dataProtectionVersion !== "undefined") {
-        dataProtectionSettings.dataProtectionVersion = divDataProtectionBanner.dataset.dataProtectionVersion;
+      if (typeof divRetirementBanner.dataset.dataProtectionVersion !== "undefined") {
+        retirementSettings.dataProtectionVersion = divRetirementBanner.dataset.dataProtectionVersion;
       }
     }
 
-    dataProtectionSettings.cookieName = dataProtectionSettings.serviceId + "-v" + dataProtectionSettings.dataProtectionVersion + "-data-protection-accepted";
+    retirementSettings.cookieName = retirementSettings.serviceId + "-v" + retirementSettings.dataProtectionVersion + "-data-protection-accepted";
 
     // If this version of banner not accpeted, show it:
-    if (ebiFrameworkGetCookie(dataProtectionSettings.cookieName) != "true") {
-      ebiFrameworkCreateDataProtectionBanner();
+    if (retirmentFrameworkGetCookie(retirementSettings.cookieName) != "true") {
+      createRetirementBanner();
     }
 
   } catch(err) { setTimeout(retirementBanner, 100); }
@@ -210,16 +210,16 @@ function retirementBanner(targetedFrameworkVersion) {
 /**
  * Clear the cooke. This is mostly a development tool.
  */
-function resetDataProtectionBanner() {
-  document.cookie = dataProtectionSettings.cookieName + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT;domain=" + document.domain + ";path=/";
+function resetRetirementBanner() {
+  document.cookie = retirementSettings.cookieName + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT;domain=" + document.domain + ";path=/";
   retirementBanner('1.3');
 }
 
 /**
  * Fallback for any code that was directly calling the old cookie banner:
- * https://github.com/ebiwd/EBI-Framework/blob/6707eff40e15036f735637413deed0dcb7392818/js/ebi-global-includes/script/5_ebiFrameworkCookieBanner.js
+ * https://github.com/ebiwd/EBI-Framework/blob/6707eff40e15036f735637413deed0dcb7392818/js/ebi-global-includes/script/5_retirementCookieBanner.js
  */
-function ebiFrameworkCookieBanner() {
+function retirementCookieBanner() {
   console.warn('You are calling an old function name, update it to retirementBanner();')
   retirementBanner('1.3');
 }

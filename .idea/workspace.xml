@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ebe985d-f85e-47e1-a511-6f59ed69561a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/_includes/components/retirement.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/components/retirement.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/blank.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/retirement.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/retirement.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/components/retirement.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="527">
+              <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -24,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/components/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="780">
+              <caret line="52" column="449" selection-start-line="52" selection-start-column="445" selection-end-line="52" selection-end-column="449" />
             </state>
           </provider>
         </entry>
@@ -33,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/retirement.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="111" selection-start-line="16" selection-start-column="111" selection-end-line="16" selection-end-column="111" />
+            <state relative-caret-position="261">
+              <caret line="188" column="71" lean-forward="true" selection-start-line="188" selection-start-column="71" selection-end-line="188" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -42,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/blank.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -59,16 +61,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>proteo</find>
-      <find>pro</find>
-      <find>element-item2 b1</find>
-      <find>prot</find>
-      <find>prote</find>
-      <find>hi</find>
-      <find>div class=&quot;containerwide&quot; id=&quot;cohorts</find>
       <find>data-protection</find>
       <find>include</find>
-      <find>data</find>
       <find>message</find>
       <find>row</find>
       <find>medium</find>
@@ -81,11 +75,36 @@
       <find>ebiFrameworkRunDataProtectionBanner</find>
       <find>two</find>
       <find>data-protection-banner</find>
+      <find>ebiFrameworkCreateDataProtectionBanner</find>
+      <find>ebiFrameworkTrackDataProtectionBanner</find>
+      <find>openDataProtectionBanner</find>
+      <find>trackRetirementBanner</find>
+      <find>bannerTra</find>
+      <find>bannerTrackingEventLoaded</find>
+      <find>Data protection banner</find>
+      <find>data-protection-agree</find>
+      <find>framew</find>
+      <find>targetedFrameworkVersion</find>
+      <find>cookie-banner</find>
+      <find>data-protection-message-configuration</find>
+      <find>ebiFrameworkCookieBanner</find>
+      <find>analyticsTrackInteraction</find>
+      <find>div#</find>
+      <find>data</find>
     </findStrings>
     <replaceStrings>
       <replace>newBanner</replace>
       <replace>newBaner</replace>
       <replace>retirement_banner</replace>
+      <replace>createRetirementBanner</replace>
+      <replace>trackRetirementBanner</replace>
+      <replace>openRetirementBanner</replace>
+      <replace>bannerTrackingEventLoadNum</replace>
+      <replace>analyticsTrackInteractions</replace>
+      <replace>retirementSettings</replace>
+      <replace>ret_cookie-banner</replace>
+      <replace>retirment-message-configuration</replace>
+      <replace>retirementCookieBanner</replace>
       <replace>retirementBanner</replace>
     </replaceStrings>
   </component>
@@ -101,8 +120,8 @@
         <option value="$PROJECT_DIR$/css/main.scss" />
         <option value="$PROJECT_DIR$/scripts/test.js" />
         <option value="$PROJECT_DIR$/_includes/components/head.html" />
-        <option value="$PROJECT_DIR$/_includes/components/retirement.html" />
         <option value="$PROJECT_DIR$/_layouts/blank.html" />
+        <option value="$PROJECT_DIR$/_includes/components/retirement.html" />
         <option value="$PROJECT_DIR$/scripts/retirement.js" />
       </list>
     </option>
@@ -141,11 +160,6 @@
               <item name="hipsci.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="hipsci.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hipsci.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hipsci.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hipsci.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -198,7 +212,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30242000" />
+    <option name="totallyTimeSpent" value="33425000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -233,27 +247,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1356" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workflow/cellular-phenotyping.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/panel.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/_data/publications.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -340,16 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/hammer.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/videos/applying-for-managed-access-data.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -385,9 +368,6 @@
           <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cells.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -540,31 +520,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/blank.html">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_index.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/hammer.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="90">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/components/head.html">
+    <entry file="file://$PROJECT_DIR$/scripts/imagesloaded.pkgd.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/blank.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/components/retirement.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        <state relative-caret-position="527">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/components/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="449" selection-start-line="52" selection-start-column="445" selection-end-line="52" selection-end-column="449" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/retirement.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="111" selection-start-line="16" selection-start-column="111" selection-end-line="16" selection-end-column="111" />
+        <state relative-caret-position="261">
+          <caret line="188" column="71" lean-forward="true" selection-start-line="188" selection-start-column="71" selection-end-line="188" selection-end-column="71" />
         </state>
       </provider>
     </entry>
