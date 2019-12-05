@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ebe985d-f85e-47e1-a511-6f59ed69561a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/components/retirement.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/components/retirement.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/retirement.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/retirement.js" afterDir="false" />
     </list>
@@ -16,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/components/retirement.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="52" column="289" selection-start-line="52" selection-start-column="289" selection-end-line="52" selection-end-column="289" />
+            <state relative-caret-position="587">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -25,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/components/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="52" column="350" lean-forward="true" selection-start-line="52" selection-start-column="230" selection-end-line="52" selection-end-column="350" />
+            <state relative-caret-position="465">
+              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -34,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/retirement.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            <state relative-caret-position="366">
+              <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -60,8 +61,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>banner-color</find>
-      <find>color: r</find>
       <find>banner</find>
       <find>This</find>
       <find>newDataProtectionNotificationBanner</find>
@@ -88,8 +87,10 @@
       <find>retirement</find>
       <find>data</find>
       <find>retirment-message-configuration</find>
-      <find>agree</find>
+      <find>message</find>
       <find>retirement-agree</find>
+      <find>exdays</find>
+      <find>agree</find>
     </findStrings>
     <replaceStrings>
       <replace>newBanner</replace>
@@ -211,7 +212,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36436000" />
+    <option name="totallyTimeSpent" value="37812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -574,22 +575,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/components/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="52" column="350" lean-forward="true" selection-start-line="52" selection-start-column="230" selection-end-line="52" selection-end-column="350" />
+        <state relative-caret-position="465">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/retirement.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        <state relative-caret-position="366">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/components/retirement.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="52" column="289" selection-start-line="52" selection-start-column="289" selection-end-line="52" selection-end-column="289" />
+        <state relative-caret-position="587">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
