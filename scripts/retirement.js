@@ -11,13 +11,13 @@ function createRetirementBanner() {
   banner.id = "retirement_banner";
   banner.className = "retirement_banner";
   // banner.style.cssText = "position: fixed; background: #111; width: 100%; padding: .75rem 1%; left: 0; bottom: 0; color: #eee; z-index: 10;";
-  banner.style.cssText = "position: absolute; width: 100%; top: 90px; background: #c7c7c7; color:#111; padding: 5px 10px 5px 10px;";
+  banner.style.cssText = "position: absolute; width: 100%; top: 75px; background: #c7c7c7; color:#111; padding: 5px 10px 5px 10px;";
   wrapper.className = "row";
   wrapper.innerHTML = "" +
     "<div class='columns medium-8 large-9 white-color'>" +
     retirementSettings.message +
     "</div>" +
-    "<div class='columns medium-4 large-3 text-right white-color' style='color:#111'><a id='retirement-agree' class=''>Dismiss this notification.</a></div>" +
+    "<div class='columns medium-4 large-3 text-right white-color'><a id='retirement-agree' class=''>Dismiss this notification.</a></div>" +
     "";
 
   document.body.appendChild(banner);
