@@ -1,13 +1,9 @@
-/**
- * Injects the Data Protection notice onto sites
- * For guidance on using: https://www.ebi.ac.uk/style-lab/websites/patterns/banner-data-protection.html
- */
+
 function createRetirementBanner() {
   var banner = document.createElement('div');
   var wrapper = document.createElement('div');
   var inner = document.createElement('div');
 
-  // don't accidently create two banners
   if (document.getElementById("retirement_banner") != null) {
     document.getElementById("retirement_banner").remove();
   }
@@ -32,10 +28,7 @@ function createRetirementBanner() {
   openRetirementBanner();
 }
 
-/**
- * Log acceptance of banner, if GA is set and using EBIFoundationExtend
- *
- */
+
 function trackRetirementBanner() {
   var bannerTrackingEventLoadNum = 0; // has the tracking coad loaded?
   if ((typeof analyticsTrackInteractions == 'function') && (typeof jQuery == 'function')) {
@@ -150,34 +143,34 @@ function retirementBanner(targetFrameworkVersion) {
     `;
 
     // remove any old style cookie banner
-    switch (targetFrameworkVersion) {
-      case '1.1':
-      case '1.2':
-        if (document.getElementById("ret_cookie-banner") != null) {
-          document.getElementById("ret_cookie-banner").remove();
-        }
-        document.body.style.paddingBottom = 0;
-        break;
-      case '1.3':
-        // cookie banner really shouldn't be here, but just in case
-        if (document.getElementById("ret_cookie-banner") != null) {
-          document.getElementById("ret_cookie-banner").remove();
-        }
-        break;
-      case 'compliance':
-        if (document.getElementById("ret_cookie-banner") != null) {
-          document.getElementById("ret_cookie-banner").remove();
-        }
-        document.body.style.paddingTop = 0;
-        document.body.appendChild(compatibilityStyles);
-        break;
-      case 'other':
-        // If you're not using any fomally supported framework, we'll do our best to help out
-        document.body.appendChild(compatibilityStyles);
-        break;
-      default:
-        console.warn('You should specify the targeted FrameworkVersion (allowed values: 1.1, 1.2, 1.3, compliance, other). You sent: ' + targetFrameworkVersion);
-    }
+    // switch (targetFrameworkVersion) {
+    //   case '1.1':
+    //   case '1.2':
+    //     if (document.getElementById("ret_cookie-banner") != null) {
+    //       document.getElementById("ret_cookie-banner").remove();
+    //     }
+    //     document.body.style.paddingBottom = 0;
+    //     break;
+    //   case '1.3':
+    //     // cookie banner really shouldn't be here, but just in case
+    //     if (document.getElementById("ret_cookie-banner") != null) {
+    //       document.getElementById("ret_cookie-banner").remove();
+    //     }
+    //     break;
+    //   case 'compliance':
+    //     if (document.getElementById("ret_cookie-banner") != null) {
+    //       document.getElementById("ret_cookie-banner").remove();
+    //     }
+    //     document.body.style.paddingTop = 0;
+    //     document.body.appendChild(compatibilityStyles);
+    //     break;
+    //   case 'other':
+    //     // If you're not using any fomally supported framework, we'll do our best to help out
+    //     document.body.appendChild(compatibilityStyles);
+    //     break;
+    //   default:
+    //     console.warn('You should specify the targeted FrameworkVersion (allowed values: 1.1, 1.2, 1.3, compliance, other). You sent: ' + targetFrameworkVersion);
+    // }
 
     // Default global values
     retirementSettings.message = 'The HipSci website will be decommissioned on 30th March 2020.';
