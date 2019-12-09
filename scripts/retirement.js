@@ -132,7 +132,7 @@ function retirementBanner(targetFrameworkVersion) {
 
 
     retirementSettings.message = 'The HipSci website will be decommissioned on 30th March 2020.';
-    retirementSettings.serviceId = 'embl-ebi-public-website'; // change this
+    retirementSettings.serviceId = 'Hipsci-website'; // change this
     retirementSettings.dataProtectionVersion = '1.0';
 
     var divRetirementBanner = document.getElementById('retirment-message-configuration');
