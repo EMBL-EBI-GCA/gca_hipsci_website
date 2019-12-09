@@ -30,7 +30,7 @@ function createRetirementBanner() {
 
 
 function trackRetirementBanner() {
-  var bannerTrackingEventLoadNum = 0; // has the tracking coad loaded?
+  var bannerTrackingEventLoadNum = 0;
   if ((typeof analyticsTrackInteractions == 'function') && (typeof jQuery == 'function')) {
     if (jQuery("body").hasClass("google-analytics-loaded")) {
       bannerTrackingEventLoadNum = 1;
@@ -45,21 +45,16 @@ function trackRetirementBanner() {
   }
 }
 
-/**
- * Give a second for banner checking if GA was slow to load
- *
- */
+
 function frameworkRetryTrackRetirementBanner(bannerTrackingEventLoadNum) {
   bannerTrackingEventLoadNum --;
-  if (bannerTrackingEventLoadNum > -3) { // try up to 3 fails
+  if (bannerTrackingEventLoadNum > -3) {
     setTimeout(trackRetirementBanner, 900);
   }
   return bannerTrackingEventLoadNum;
 }
 
-/**
- * Shows the Retirement banner on screen.
- */
+
 function openRetirementBanner() {
   var height = document.getElementById('retirement_banner').offsetHeight || 0;
   document.getElementById('retirement_banner').style.display = 'block';
@@ -71,9 +66,7 @@ function openRetirementBanner() {
   };
 }
 
-/**
- * Hides the Retirement banner from the screen.
- */
+
 function closeRetirementBanner() {
   var height = document.getElementById('retirement_banner').offsetHeight;
   document.getElementById('retirement_banner').style.display = 'none';
@@ -81,12 +74,11 @@ function closeRetirementBanner() {
   retirmentFrameworkSetCookie(retirementSettings.cookieName, 'true', 7);
 }
 
+
 function retirmentFrameworkSetCookie(c_name, value, exdays) {
   var exdate = new Date();
   var c_value;
   exdate.setDate(exdate.getDate() + exdays);
-  // c_value = escape(value) + ((exdays===null) ? "" : ";expires=" + exdate.toUTCString()) + ";domain=.ebi.ac.uk;path=/";
-  // document.cookie = c_name + "=" + c_value;
   c_value = escape(value) + ((exdays===null) ? "" : ";expires=" + exdate.toUTCString()) + ";domain=" + document.domain + ";path=/";
   document.cookie = c_name + "=" + c_value;
 }
@@ -105,11 +97,7 @@ function retirmentFrameworkGetCookie(c_name) {
 
 var retirementSettings =  new Object();
 
-/**
- * The main 'brain' of the EBI Retirement banner.
- * Further documentation at https://www.ebi.ac.uk/style-lab/websites/patterns/banner-data-protection.html
- * @param {string} [targetFrameworkVersion=generic] targeted Framework version; options: 1.1, 1.2, 1.3, compliance, other
- */
+
 function retirementBanner(targetFrameworkVersion) {
   try {
 
@@ -142,42 +130,11 @@ function retirementBanner(targetFrameworkVersion) {
       }
     `;
 
-    // remove any old style cookie banner
-    // switch (targetFrameworkVersion) {
-    //   case '1.1':
-    //   case '1.2':
-    //     if (document.getElementById("ret_cookie-banner") != null) {
-    //       document.getElementById("ret_cookie-banner").remove();
-    //     }
-    //     document.body.style.paddingBottom = 0;
-    //     break;
-    //   case '1.3':
-    //     // cookie banner really shouldn't be here, but just in case
-    //     if (document.getElementById("ret_cookie-banner") != null) {
-    //       document.getElementById("ret_cookie-banner").remove();
-    //     }
-    //     break;
-    //   case 'compliance':
-    //     if (document.getElementById("ret_cookie-banner") != null) {
-    //       document.getElementById("ret_cookie-banner").remove();
-    //     }
-    //     document.body.style.paddingTop = 0;
-    //     document.body.appendChild(compatibilityStyles);
-    //     break;
-    //   case 'other':
-    //     // If you're not using any fomally supported framework, we'll do our best to help out
-    //     document.body.appendChild(compatibilityStyles);
-    //     break;
-    //   default:
-    //     console.warn('You should specify the targeted FrameworkVersion (allowed values: 1.1, 1.2, 1.3, compliance, other). You sent: ' + targetFrameworkVersion);
-    // }
 
-    // Default global values
     retirementSettings.message = 'The HipSci website will be decommissioned on 30th March 2020.';
-    retirementSettings.serviceId = 'embl-ebi-public-website'; // use the URL stub from your DP record at http://content.ebi.ac.uk/list-data-protection-records
+    retirementSettings.serviceId = 'embl-ebi-public-website'; // change this
     retirementSettings.dataProtectionVersion = '1.0';
 
-    // If there's a div#retirment-message-configuration, override defaults
     var divRetirementBanner = document.getElementById('retirment-message-configuration');
     if (divRetirementBanner !== null) {
       if (typeof divRetirementBanner.dataset.message !== "undefined") {
@@ -193,7 +150,6 @@ function retirementBanner(targetFrameworkVersion) {
 
     retirementSettings.cookieName = retirementSettings.serviceId + "-v" + retirementSettings.dataProtectionVersion + "-data-protection-accepted";
 
-    // If this version of banner not accpeted, show it:
     if (retirmentFrameworkGetCookie(retirementSettings.cookieName) != "true") {
       createRetirementBanner();
     }
@@ -201,22 +157,14 @@ function retirementBanner(targetFrameworkVersion) {
   } catch(err) { setTimeout(retirementBanner, 100); }
 }
 
-/**
- * Clear the cooke. This is mostly a development tool.
- */
+
 function resetRetirementBanner() {
   document.cookie = retirementSettings.cookieName + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT;domain=" + document.domain + ";path=/";
   retirementBanner('1.3');
 }
 
-/**
- * Fallback for any code that was directly calling the old cookie banner:
- * https://github.com/ebiwd/EBI-Framework/blob/6707eff40e15036f735637413deed0dcb7392818/js/ebi-global-includes/script/5_retirementCookieBanner.js
- */
+
 function retirementCookieBanner() {
   console.warn('You are calling an old function name, update it to retirementBanner();')
   retirementBanner('1.3');
 }
-
-// execute
-// retirementBanner('1.3');
