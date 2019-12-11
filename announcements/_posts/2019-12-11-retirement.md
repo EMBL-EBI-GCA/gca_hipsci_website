@@ -2,7 +2,6 @@
 layout: page
 title: "HipSci website retirement"
 ---
-# HipSci Website Retirement
 
 The HipSci website and data portal will be decommissioned on 30th March 2020, as it has unfortunately not been possible to secure a long-term hosting solution for the site.
 
